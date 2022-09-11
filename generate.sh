@@ -8,27 +8,25 @@ output_mobile_file=generated/mobile.txt
 output_hosts_file=generated/hosts
 vpn_conf_file=generated/ovpn.conf
 
-join() {
-  local IFS="$1"
-  shift
-  echo "$*"
+join_arr() {
+  local IFS="$1"; shift; echo "$*";
 }
 
 exclude_from_duckduckgo() {
   local domains=("$@")
-  local squashed_domains=$(join "|" "'${domains[@]}'")
+  local squashed_domains=$(join_arr "|" "${domains[@]}")
   echo "duckduckgo.com##span:has-text(/${squashed_domains}/ig):upward(article)" >> $output_file
 }
 
 exclude_from_yandex() {
   local domains=("$@")
-  local squashed_domains=$(join "|" "'${domains[@]}'")
+  local squashed_domains=$(join_arr "|" "${domains[@]}")
   echo "yandex.ru##span:has-text(/${squashed_domains}/ig):upward(.serp-item)" >> $output_file
 }
 
 exclude_from_music() {
   local keywords=("$@")
-  local squashed_keywords=$(join "|" "${keywords[@]}")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
   
   echo "music.yandex.ru##.d-track:has-text(/${squashed_keywords}/i)" >> $output_file
   echo "music.yandex.ru##.playlist:has-text(/${squashed_keywords}/i)" >> $output_file
@@ -38,7 +36,7 @@ exclude_from_music() {
 
 exclude_from_youtube() {
   local keywords=("$@")
-  local squashed_keywords=$(join "|" "${keywords[@]}")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
   echo "youtube.com##ytd-channel-name:has-text(/${squashed_keywords}/i):upward(12)" >> $output_file
   echo "youtube.com##h1:has-text(/${squashed_keywords}/i):upward(4)" >> $output_file
   echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(10)" >> $output_file
@@ -46,7 +44,7 @@ exclude_from_youtube() {
 
 exclude_from_vk() {
   local keywords=("$@")
-  local squashed_keywords=$(join "|" "${keywords[@]}")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
   
   echo "vk.com##body:has-text(/${squashed_keywords}/i)" >> $output_file
 }
@@ -68,7 +66,7 @@ jq -r '.domains[]' $config_file | {
     domains+=($domain)
   done
 
-  squashed_domains=$(join , "${domains[@]}")
+  squashed_domains=$(join_arr , "${domains[@]}")
 
   exclude_from_duckduckgo "${domains[@]}"
   exclude_from_yandex "${domains[@]}"
@@ -82,7 +80,7 @@ jq -r '.domains_only_desktop[]' $config_file | {
     domains+=($domain)
   done
 
-  squashed_domains=$(join , "${domains[@]}")
+  squashed_domains=$(join_arr , "${domains[@]}")
   echo "${squashed_domains}##*" >> $output_desktop_file
 }
 
@@ -91,13 +89,13 @@ jq -r '.domains_only_mobile[]' $config_file | {
     domains+=($domain)
   done
 
-  squashed_domains=$(join , "${domains[@]}")
+  squashed_domains=$(join_arr , "${domains[@]}")
   echo "${squashed_domains}##*" >> $output_mobile_file
 }
 
 jq -r '.keywords[]' $config_file | {
   while read -r keyword; do
-    keywords+=($keyword)
+    keywords+=("$keyword")
   done
 
   exclude_from_duckduckgo "${keywords[@]}"
@@ -151,6 +149,6 @@ jq -r '.unlocked_domains[]' $config_file | {
 
 echo "\n"
 
-git add .
-git commit -m 'Update filters'
-git push
+# git add .
+# git commit -m 'Update filters'
+# git push
