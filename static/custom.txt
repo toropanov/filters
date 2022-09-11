@@ -601,6 +601,7 @@ yandex.ru##.HeaderPhoneNavigation
 yandex.ru##.HeaderPhoneActions
 yandex.ru##.entity-search__list
 yandex.ru##.content__informers-bg
+yandex.ru##.serp-item .SocialSnippet
 yandex.ru##.infinity-zen
 yandex.ru##.DistrSmartbannerOverlay
 yandex.ru##.DistrSmartbanner
