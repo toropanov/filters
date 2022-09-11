@@ -9,7 +9,6 @@ output_file=generated/rules.txt
 output_desktop_file=generated/desktop.txt
 output_mobile_file=generated/mobile.txt
 output_hosts_file=generated/hosts
-output_duck_file=generated/duck.txt
 vpn_conf_file=generated/ovpn.conf
 
 join_arr() {
@@ -19,7 +18,7 @@ join_arr() {
 exclude_from_duckduckgo() {
   local domains=("$@")
   local squashed_domains=$(join_arr "|" "${domains[@]}")
-  echo "duckduckgo.com##span:has-text(/${squashed_domains}/ig):upward(article)" >> $output_duck_file
+  echo "duckduckgo.com##span:has-text(/${squashed_domains}/ig):upward(article)" >> $output_file
 }
 
 exclude_from_yandex() {
