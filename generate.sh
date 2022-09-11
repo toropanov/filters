@@ -21,7 +21,7 @@ exclude_from_duckduckgo() {
 exclude_from_yandex() {
   local domains=("$@")
   local squashed_domains=$(join_arr "|" "${domains[@]}")
-  echo "yandex.ru##span:has-text(/${squashed_domains}/ig):upward(.serp-item)" >> $output_file
+  echo "yandex.ru##.serp-item:has-text(/${squashed_domains}/ig)" >> $output_file
 }
 
 exclude_from_music() {
@@ -149,6 +149,6 @@ jq -r '.unlocked_domains[]' $config_file | {
 
 echo "\n"
 
-# git add .
-# git commit -m 'Update filters'
-# git push
+git add .
+git commit -m 'Update filters'
+git push
