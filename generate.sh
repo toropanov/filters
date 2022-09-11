@@ -1,0 +1,154 @@
+# #!/bin/sh
+echo 'TOTAL GENERATED'
+
+config_file=blocked.json
+output_file=generated/rules.txt
+output_desktop_file=generated/desktop.txt
+output_mobile_file=generated/mobile.txt
+output_hosts_file=generated/hosts
+vpn_conf_file=generated/ovpn.conf
+
+join() {
+  local IFS="$1"
+  shift
+  echo "$*"
+}
+
+exclude_from_duckduckgo() {
+  local upward="$1"
+  shift
+  local domains=("$@")
+  local squashed_domains=$(join "|" "${domains[@]}")
+  echo "duckduckgo.com##article:has-text(/${squashed_domains}/i):upward(${upward})" >> $output_file
+}
+
+exclude_from_yandex() {
+  local upward="$1"
+  shift
+  local domains=("$@")
+  local squashed_domains=$(join "|" "${domains[@]}")
+  echo "yandex.ru##.serp-item:has-text(/${squashed_domains}/i):upward(${upward})" >> $output_file
+}
+
+exclude_from_music() {
+  local keywords=("$@")
+  local squashed_keywords=$(join "|" "${keywords[@]}")
+  
+  echo "music.yandex.ru##.d-track:has-text(/${squashed_keywords}/i)" >> $output_file
+  echo "music.yandex.ru##.playlist:has-text(/${squashed_keywords}/i)" >> $output_file
+  echo "music.yandex.ru##.album:has-text(/${squashed_keywords}/i)" >> $output_file
+  echo "music.yandex.ru##.artist:has-text(/${squashed_keywords}/i)" >> $output_file
+}
+
+exclude_from_youtube() {
+  local keywords=("$@")
+  local squashed_keywords=$(join "|" "${keywords[@]}")
+  echo "youtube.com##ytd-channel-name:has-text(/${squashed_keywords}/i):upward(12)" >> $output_file
+  echo "youtube.com##h1:has-text(/${squashed_keywords}/i):upward(4)" >> $output_file
+  echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(10)" >> $output_file
+}
+
+exclude_from_vk() {
+  local keywords=("$@")
+  local squashed_keywords=$(join "|" "${keywords[@]}")
+  
+  echo "vk.com##body:has-text(/${squashed_keywords}/i)" >> $output_file
+}
+
+domains=()
+keywords=()
+music=()
+youtube=()
+
+> $output_file
+> $output_desktop_file
+> $output_mobile_file
+> $output_hosts_file
+> $vpn_conf_file
+
+jq -r '.domains[]' $config_file | {
+  while read -r domain; do
+    echo "0.0.0.0 ${domain} www.${domain}" >> $output_hosts_file
+    domains+=($domain)
+  done
+
+  squashed_domains=$(join , "${domains[@]}")
+
+  exclude_from_duckduckgo 0 "${domains[@]}"
+  exclude_from_yandex 0 "${domains[@]}"
+  echo "${squashed_domains}##*" >> $output_file
+
+  echo "Domains: ${#domains[@]}"
+}
+
+jq -r '.domains_only_desktop[]' $config_file | {
+  while read -r domain; do
+    domains+=($domain)
+  done
+
+  squashed_domains=$(join , "${domains[@]}")
+  echo "${squashed_domains}##*" >> $output_desktop_file
+}
+
+jq -r '.domains_only_mobile[]' $config_file | {
+  while read -r domain; do
+    domains+=($domain)
+  done
+
+  squashed_domains=$(join , "${domains[@]}")
+  echo "${squashed_domains}##*" >> $output_mobile_file
+}
+
+jq -r '.keywords[]' $config_file | {
+  while read -r keyword; do
+    keywords+=($keyword)
+  done
+
+  exclude_from_duckduckgo 6 "${keywords[@]}"
+  exclude_from_yandex 5 "${keywords[@]}"
+  exclude_from_vk "${keywords[@]}"
+  exclude_from_youtube "${keywords[@]}"
+  exclude_from_music "${keywords[@]}"
+
+  echo "Keywords: ${#keywords[@]}"
+}
+
+jq -r '.vk[]' $config_file | {
+  while read -r keyword; do
+    keywords+=($keyword)
+  done
+
+  exclude_from_vk "${keywords[@]}"
+
+  echo "VK: ${#keywords[@]}"
+}
+
+jq -r '.music[]' $config_file | {
+  while read -r keyword; do
+    keywords+=($keyword)
+  done
+
+  exclude_from_music "${keywords[@]}"
+
+  echo "Music: ${#keywords[@]}"
+}
+
+jq -r '.youtube[]' $config_file | {
+  while read -r keyword; do
+    keywords+=($keyword)
+  done
+
+  exclude_from_youtube "${keywords[@]}"
+
+  echo "YouTube: ${#keywords[@]}"
+}
+
+jq -r '.unlocked_domains[]' $config_file | {
+  while read -r domain; do
+    route_domains+=($domain)
+    echo "route ${domain}" >> $vpn_conf_file
+    echo "route www.${domain}" >> $vpn_conf_file
+  done
+
+  echo "Unlocked domains: ${#route_domains[@]}"
+}

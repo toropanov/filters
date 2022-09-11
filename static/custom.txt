@@ -1,0 +1,1061 @@
+jsbin.com###toppanel
+jsbin.com###panels
+jsbin.com##.help
+jsbin.com##.meta
+jsbin.com##.toppanel-logo
+jsbin.com##.toppanel-love
+jsbin.com##.menu:has-text(File)
+
+google.com##.logo
+google.com###footcnt
+google.com###bres
+google.com##.hdtb-mitem:has-text(/News|More/)
+google.com##a[aria-label="Google apps"]
+google.com##ddfddfiv[aria-label="Show side panel"]
+
+imdb.com##.swiper-wrapper:upward(3)
+imdb.com##a[aria-label="Go To IMDb Pro"]
+imdb.com##label[aria-label="Open Navigation Drawer"]
+imdb.com##.watchlistButtonCount
+imdb.com##.ipc-page-grid:has-text(/Featured today|Recently viewed|More to watch|Exclusive videos|Explore what’s streaming|Explore Movies & TV shows|Coming soon to theaters|Born today|Top news/)
+imdb.com##section.recently-viewed-items
+imdb.com##.recently-viewed
+
+youtube.com##ytd-mini-guide-renderer
+youtube.com###guide-wrapper
+youtube.com###guide-button
+youtube.com###masthead-skeleton-icons
+youtube.com###home-page-skeleton
+youtube.com##ytd-rich-grid-renderer
+youtube.com###owner-sub-count
+youtube.com###notification-preference-button
+youtube.com###related
+youtube.com##ytd-video-primary-info-renderer #info-text
+youtube.com##button.slim-video-metadata-header
+youtube.com###top-level-buttons-computed ytd-toggle-button-renderer
+youtube.com###subscriber-count
+youtube.com###chat
+youtube.com##ytd-video-primary-info-renderer .title
+youtube.com###endpoint[title="Home"]
+youtube.com###endpoint[title="Trending"]
+youtube.com###endpoint[title="Originals"]
+youtube.com###endpoint[title="Purchases"]
+youtube.com###endpoint[title="History"]
+youtube.com###endpoint[title="Watch later"]
+youtube.com###endpoint[title="Liked videos"]
+youtube.com###endpoint[title="Report history"]
+youtube.com###endpoint[title="Send feedback"]
+youtube.com###endpoint[title="Library"]
+youtube.com###endpoint[title="Help"]
+youtube.com##button[aria-label="Search YouTube"]
+youtube.com##button[aria-label="Create a video or post"]
+youtube.com##button[aria-label="Guide"]
+youtube.com##button[aria-label="Upload"]
+youtube.com##button[aria-label="YouTube apps"]
+youtube.com##button[aria-label="Notifications"]
+youtube.com##ytd-notification-topbar-button-renderer
+youtube.com##button[aria-label="More options"]
+youtube.com##ytm-item-section-renderer[data-content-type="related"]
+youtube.com##ytm-comments-entry-point-header-renderer
+youtube.com##ytm-pivot-bar-renderer
+youtube.com##ytm-channel-featured-video-renderer
+youtube.com##ytm-feed-filter-chip-bar-renderer
+youtube.com##div[tab-identifier="FEwhat_to_watch"]
+youtube.com##ytm-slim-video-action-bar-renderer ytm-slim-metadata-toggle-button-renderer
+youtube.com##ytd-searchbox
+youtube.com###metadata-line
+youtube.com###hover-overlays
+youtube.com###mouseover-overlay
+youtube.com###country-code
+youtube.com###hover-overlays
+youtube.com###voice-search-button
+youtube.com###description > yt-formatted-string
+youtube.com##ytd-badge-supported-renderer
+youtube.com##button[aria-label="Autoplay is off"]
+youtube.com##.banner-visible-area
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytd-live-chat-frame
+youtube.com##.compact-media-item-stats
+youtube.com##ytm-paid-content-overlay-renderer
+youtube.com##.ytp-paid-content-overlay
+youtube.com##a.ytp-next-button
+youtube.com##tp-yt-paper-tab:has-text(/Community|Channels|About/)
+youtube.com##tp-yt-paper-button:has-text(/Play all/)
+youtube.com#$#ytd-page-manager { margin-left: 0!important; }
+youtube.com##tp-yt-app-drawer:remove()
+youtube.com##tp-yt-paper-button:has-text(/Subscribe/):upward(ytd-item-section-renderer)
+youtube.com##ytd-video-renderer #description-text
+youtube.com##span[class*="header-subscriber-count"]
+
+duckduckgo.com###powered_by
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.badge-link
+duckduckgo.com##.header__logo
+duckduckgo.com##ul#duckbar_static
+duckduckgo.com###bottom_spacing2
+duckduckgo.com##.feedback-prompt
+duckduckgo.com##.header--aside__item.showcase
+duckduckgo.com##.header--aside__social
+duckduckgo.com##.dropdown--safe-search
+duckduckgo.com##.dropdown--date
+duckduckgo.com##.logo-wrap--home
+duckduckgo.com##.js-sidebar-ads
+duckduckgo.com##.tag-home
+duckduckgo.com##.footer_homepage
+duckduckgo.com##.footer
+duckduckgo.com##.js-sidebar-ads
+duckduckgo.com##.search__autocomplete
+duckduckgo.com##a.header__button--menu
+duckduckgo.com##.js-module--news
+duckduckgo.com##.js-module--videos
+duckduckgo.com##.js-module--maps_places
+duckduckgo.com##.feedback-btn
+duckduckgo.com##.related-searches
+duckduckgo.com##.module--images
+duckduckgo.com##.tile--img__sub
+duckduckgo.com##.footer--mobile
+duckduckgo.com###zci-images
+duckduckgo.com###zci-videos
+duckduckgo.com##.vertical--news
+duckduckgo.com##.vertical--map
+duckduckgo.com##a[href*="b17.ru/forum/"]:upward(article)
+duckduckgo.com##a[href*="zen.yandex.ru/video/"]:upward(article)
+duckduckgo.com##a[href*="play.google.com/store/apps/"]:upward(article)
+duckduckgo.com##a[href*="tiktok.com"]:upward(article)
+duckduckgo.com##a[href*="instagram.com"]:upward(article)
+duckduckgo.com##a[href*="facebook.com"]:upward(article)
+duckduckgo.com##a[href*="bing.com"]:upward(article)
+duckduckgo.com##a[href*="vk.com/video"]:upward(article)
+duckduckgo.com##a[href*="apps.apple.com/"]:upward(article)
+
+raindrop.io##a[href="https://raindrop.io/pro/buy"]
+
+b17.ru###article-buttons
+b17.ru###main_menu
+b17.ru###mobile_menuX
+b17.ru###share42
+b17.ru###art_prev_next_list
+b17.ru###wrapper-body-right-fly
+b17.ru###wrapper-title
+b17.ru###rkl_place_b
+b17.ru##.wrapper-bottom
+b17.ru##.h1_razdel
+b17.ru##.avt_box_bottom
+b17.ru##.other_art_h
+b17.ru##.article-avt-top
+b17.ru##h1
+b17.ru##.stick_block_layer
+b17.ru##.stick_container
+b17.ru##.mobile_bottom
+b17.ru##video
+b17.ru##img
+b17.ru##a
+
+4pda.to###navstrip
+4pda.to###logostrip
+4pda.to###submenu
+4pda.to###userlinks .home
+4pda.to###gfooter
+4pda.to##.menu-main-mobile
+4pda.to##.makepost_link
+4pda.to##.copyright
+4pda.to##.social-icons
+4pda.to##.ipbtable .postdetails
+4pda.to##.ipbtable span.edit
+4pda.to##li.menu-main-item
+4pda.to##.events-wrapper
+4pda.to##.formbuttonrow a:contains(/ЖАЛОБА|ПЛОХО|ХОРОШО|FAQ/)
+4pda.to##noindex .borderwrap:contains(/Правилами раздела|Информационная панель|Новые темы необходимо создавать/)
+
+github.com###feature-enrollment-toggle
+github.com##.feature-preview-indicator
+github.com##.user-status-container
+github.com##.js-feature-preview-indicator
+github.com##.dropdown-caret
+github.com##.footer
+github.com##img.avatar
+github.com##a:has-text(/Add a README/):upward(.flash)
+github.com##a[href="/account/choose?action=upgrade"]
+github.com##a[href="/toropanov/adguard-filter"]:upward(li.source)
+github.com###jump-to-suggestion-repository-462241140
+github.com##notification-indicator
+github.com##a[href^="/github/feedback/"]
+
+lichess.org###notify-toggle
+
+reactjs.org##header a[href*="fb.com"]:upward(3)
+
+avito.ru##.main-page-flex-container
+avito.ru##.footer-extended
+avito.ru##.js-promo-sticky-container
+avito.ru##.serp-vips
+avito.ru##.js-footer-app
+avito.ru##.fraud-alert
+avito.ru##.seller-safety
+avito.ru##.category-map
+avito.ru##div[class^="index-logo"]
+avito.ru##div[class^="index-social"]
+avito.ru##li[class*="index-nav-item"]
+avito.ru##div[class^="index-center"]:has([data-marker="bx-recommendations-block-item"])
+avito.ru##div[class*="delivery-banner"]
+avito.ru##div[class*="header-navigation-logo"]
+avito.ru##div[data-marker="new-section/list"]
+avito.ru##div[data-marker="stories"]
+avito.ru##div[data-marker="geo-location"]
+avito.ru##h2[data-marker="bx-recommendations-block-title"]
+avito.ru##div[data-marker="bx-recommendations-block-item"]
+avito.ru##div[data-marker="story-previewer"]
+avito.ru##div[class*="category-with-counters"]
+avito.ru##div[data-marker="footer"]
+avito.ru##div[class*="items-vip"]
+avito.ru##a[data-marker="navigation/link"]
+avito.ru##a[data-marker="search-form/save"]
+avito.ru##a[href="https://m.avito.ru/promo/card-landing"]
+avito.ru##a[data-marker="more-link"]
+avito.ru##button[data-marker="navigation/more-button"]
+avito.ru##a[data-marker="menu/nc"]
+avito.ru##a[data-marker="menu/business"]
+avito.ru##a[href="/paid-services/listing-fees"]
+avito.ru##a[href="/profile/notifications"]
+avito.ru##a[href="/shops/moskva"]
+avito.ru##a[href="/favorites"] i
+avito.ru##a[href="/profile/safety?srcRef=lk"]
+avito.ru##div[data-marker="header/notifications"]
+avito.ru##div[data-marker="header/username-tooltip/favorites/count"]
+avito.ru##div[data-marker="linked-info-banner"]
+avito.ru##button[data-marker="bx-recommendations-block-show-more"]
+avito.ru##div[data-marker="float-add-button"]
+avito.ru##div[data-marker="catalog-section"]
+avito.ru##i[data-marker="header/favorites-counter"]
+avito.ru##div[data-marker="header/notifications"]
+avito.ru##div[data-banner-id="profile/apps-banner"]
+avito.ru##section[aria-label="Рекомендованные объявления"]
+avito.ru##a[data-marker="channels/channelLink"]:has-text(Поддержка Авито)
+avito.ru###messenger-channels-list div[data-marker="avatar"]
+avito.ru##ul[data-marker="suggest/list"]
+avito.ru##li[class*="index-profile-nav-item"]:has-text(Заказы)
+avito.ru##div[class*="index-profile-nav-group"]:has-text(Кошелёк)
+avito.ru##li[class*="index-profile-nav-item"]:has-text(Управление профилем)
+avito.ru##li[class*="index-profile-nav-item"]:has-text(Защита профиля)
+avito.ru##li[class*="index-profile-nav-item"]:has-text(Мои отзывы)
+avito.ru##li[class*="profile-sidebar-navigation-item"]:has-text(Кошелёк)
+avito.ru##li[class*="profile-sidebar-navigation-item"]:has-text(Заказы)
+avito.ru##li[class*="profile-sidebar-navigation-item"]:has-text(Мои отзывы)
+avito.ru##li[class*="profile-sidebar-navigation-item"]:has-text(Управление профилем)
+avito.ru##a[data-marker="menu/save-search"] span
+avito.ru##div[class*="index-info"]
+avito.ru##div[class*="favoriteSellersGallery"]
+avito.ru##div[data-marker="icebreaker"]
+avito.ru##div[class*="iitem-view-search-info"]
+avito.ru##div[class*="SnippetBar"]
+avito.ru##ul[class*="index-nav-inner"]
+avito.ru##span[class*="index-nav-tab-notify"]
+avito.ru##a[href="/business"]
+avito.ru##a[href="/shops/moskva_i_mo"]
+avito.ru##a[href="//support.avito.ru"]
+avito.ru##div[data-marker="item-user-logo"]:upward(div[data-marker="item"])
+avito.ru##div[class*="item-sellerInfo"]:has-text(/([A-Za-z]+)|([()]+)/):upward(div[data-marker="item"])
+avito.ru##div[class*="item-sellerInfo"]:has-text(/магазин|тц|маркет| в |телефон|компани|электро|айфон|не |комисс|мастер/i):upward(div[data-marker="item"])
+avito.ru##div[data-marker="item-line"]:has-text(/Предложение услуг/):upward(div[data-marker="item"])
+avito.ru##div[data-marker="messagesHistory"] a[data-marker="avatar"]
+
+tinkoff.ru##div[class*="Pulse"]
+tinkoff.ru##div[class*="pulse"]
+tinkoff.ru##div[class*="Stories"]
+tinkoff.ru##div[class*="footer"]
+tinkoff.ru##div[class*="feedback"]
+tinkoff.ru##a[href="/invest/pulse/"]:upward(1)
+tinkoff.ru##div[class*="Tabs-module__tabItem"]:has-text(Пульс)
+tinkoff.ru##div[class*="SecurityBlockHeader"]:has-text(Интересное в Пульсе)
+
+youla.ru##h2
+youla.ru##div[data-test-component="BannerRotator"]
+youla.ru##div[data-test-component="CategoryRotator"]
+youla.ru##div[data-test-block="IndexContainerPanel"]
+youla.ru##div[data-test-block="IndexContainerSidebar"]
+youla.ru##footer[data-test-component="Footer"]
+
+ivi.ru##.nbl-ageBadge_value_18:upward(a)
+ivi.ru##.watchParams__paramsList:has-text(/18+/):upward(body)
+
+drive2.ru##div[data-target="drom_main_view"]
+drive2.ru##button[data-action="notifications.toggle"]
+drive2.ru##button[data-role="subscribe"]
+drive2.ru##footer
+drive2.ru##.l-top
+drive2.ru##.l-nav
+drive2.ru##.c-share
+drive2.ru##.c-comments-counter
+drive2.ru##.c-like
+drive2.ru##.c-car-card
+drive2.ru##.c-user-card
+drive2.ru##.c-subscribe-container
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(4)
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(5)
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(6)
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(7)
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(8)
+drive2.ru##h1:has-text(Лента):upward(3)
+drive2.ru##div[class*="preview__comments"]
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)
+drive2.ru##.l-container > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)
+drive2.ru##a[data-ym-target="drom_car_click"]:upward(1)
+drive2.ru##div[data-target="drom_catalog_view"]
+drive2.ru##.c-slideshow
+drive2.ru##.c-car-info
+drive2.ru##.c-car-desc:upward(1)
+drive2.ru###comments:upward(2)
+drive2.ru##div script:upward(1)
+drive2.ru##.c-lb-card__comments
+drive2.ru##.c-lb-card__likes
+drive2.ru##.c-lb-card__date
+drive2.ru##span.c-counter
+drive2.ru##div[data-tt="Записей в бортжурнале"]
+drive2.ru##div[title="Драйв"]
+drive2.ru##.js-market-indexmode
+drive2.ru##.c-top-nav
+drive2.ru##.c-top__userpic
+drive2.ru##.c-radiogroup
+drive2.ru##a[data-action="msgr.show"]
+
+aliexpress.*###home-firstscreen
+aliexpress.*###middle-promotion-container
+aliexpress.*###j-multi-sidebar-outer
+aliexpress.*###J_xiaomi_dialog
+aliexpress.*##.festival-container
+aliexpress.*##.fight-russian
+aliexpress.*##.topselection-newforyou
+aliexpress.*##.featuredbrand-store
+aliexpress.*##.featured-category
+aliexpress.*##.tmall-container
+aliexpress.*##.just-for-you-entrance
+aliexpress.*##.title-main
+aliexpress.*##.site-server-box
+aliexpress.*##.user-helper-footer
+aliexpress.*##.site-footer
+aliexpress.*##.footer-copywrite
+aliexpress.*##.hot-words
+aliexpress.*##.mobile-app
+aliexpress.*##.rus-mall-img
+
+aliexpress.*##a[class*="TopBanner"]
+aliexpress.*##a[class*="PseudoSmartBanner"]
+aliexpress.*##div[class*="SnowDiamondMenu"]
+aliexpress.*##div[class*="Header_Logo"]
+aliexpress.*##div[class*="MobileSnowNavigation"]
+aliexpress.*##div[class*="SearchHeader_CategoriesWithToggleButton"]
+aliexpress.*##div[class*="SnowPrivacyPolicyBanner"]
+aliexpress.*##div[class*="MultiSidebarTab"]
+aliexpress.*##div[class*="IntroductionCarousel"]
+aliexpress.*##div[class*="SearchProductRecommendation"]
+aliexpress.*##div[class*="SearchPool"]
+aliexpress.*##div[class*="HotSearch"]
+aliexpress.*##a[class*="IntroductionBannerV2"]
+aliexpress.*##div[class*="CampaignEntrance"]
+aliexpress.*##div[class*="HotProducts"]
+aliexpress.*##div[class*="TopProducts"]
+aliexpress.*##div[class*="HomepageGrid"]
+aliexpress.*##div[class*="IntroductionBanner"]
+aliexpress.*##div[class*="DiscountProductBanner"]
+aliexpress.*##div[class*="InfoBanner"]
+aliexpress.*##div[class*="SharePanel"]
+aliexpress.*##div[class*="Waterfall"]
+aliexpress.*##div[class*="Footer"]
+aliexpress.*##div[class*="ChannelEntrance"]
+aliexpress.*##div[class*="CategoriesMenu"]
+aliexpress.*##div[class*="FestivalVenue"]
+aliexpress.*##div[class*="DiscountsByCategoriesList"]
+aliexpress.*##div[class*="IntroductionEntrance"]
+aliexpress.*##div[class*="ShoppingcartRecommendWrapper"]
+aliexpress.*##div[class*="ShoppingcartPaymentBanner"]
+aliexpress.*##div[class*="SearchHeader_HotWords"]
+aliexpress.*##i[class*="Header_ShopCart__counter"]
+aliexpress.*##span[class*="unreadMessageCount"]
+aliexpress.*##div[class*="over-18"]
+aliexpress.*##h2[class*="RecommendationFeed"]
+aliexpress.*##div[class*="SimilarSuggestions"]
+aliexpress.*##div[class*="QuestionsAndAnswers"]
+aliexpress.*##div[class*="SearchHeader_ShopCart__counter"]
+aliexpress.*##div[exp_page_area="recommended_for_you"]
+aliexpress.*##div[exp_page_area="Top_Selling"]
+aliexpress.*##div[ae_button_type="Seller_Recommendations"]
+aliexpress.*##div[ae_button_type="More_to_love"]
+aliexpress.ru##[class*="RecommendationFeed__title"]:upward(div[class*="SnowContainer"])
+aliexpress.ru##h2[class*="RecommendationFeed__title"] ~ div
+aliexpress.ru##[class*="SnowHeaderItem__amount"]
+aliexpress.*##div[class*="TopHeadV2_TopHeadV2__topBarItem"]:has-text(Продавайте на AliExpress)
+aliexpress.*##div[class*="TopHeadV2_TopHeadV2__topBarItemsWrap"]:has-text(Защита Покупателя)
+
+stock.adobe.com###fmf-promo
+javascript.ru##.buy-book-button
+javascript.ru##.main__header-title
+javascript.ru##.page-footer
+w3schools.com###right
+w3schools.com##a[title="Go Pro"]
+w3schools.com##a[title="Courses"]
+w3schools.com##a[title="Get Your Own Website With W3Schools Spaces"]
+
+ebay.com###hlGlobalFooter
+ebay.com##.hl-banner-carousel
+ebay.com##.hl-popular-destinations
+ebay.com##.hl-color-block-banner
+ebay.com##.hl-atf-module-js
+ebay.com##.hl-cat-nav
+
+reddit.com###COIN_PURCHASE_DROPDOWN_ID
+reddit.com###SHORTCUT_FOCUSABLE_DIV:has-text(Sorry, we couldn't load posts for this page.)
+reddit.com##.scrollerItem:has-text("Top livestream")
+reddit.com##div[data-testid="frontpage-sidebar"]
+reddit.com##.XPromoPopup:remove()
+reddit.com###SearchDropdown
+reddit.com##.TopNav__promoButton
+reddit.com##div[aria-modal="true"]:upward(1)
+reddit.com##header a[href="/r/popular/"]:upward(2)
+reddit.com##header a[href="https://www.reddit.com/chat"]:upward(2)
+reddit.com##i.icon-karma_fill:upward(1)
+reddit.com##div[aria-label="Start typing to filter your communities or use up and down to select."]
+reddit.com##h2:has-text(/Moderators|Rules|Related Communities|General information|Filter by flair|About Community/):upward(4)
+reddit.com##div[id*="vote-arrows"]
+reddit.com##span:has-text(Log in or sign up to leave a comment):upward(1)
+reddit.com##a[aria-label="Advertise"]
+reddit.com##img[alt="User avatar"]
+
+lucidchart.com##lucid-message-bar
+lucidchart.com##.integration-buttons
+lucidchart.com##.component-growl-container
+
+forum.adguard.com###header
+forum.adguard.com##.p-body-sidebar
+forum.adguard.com##.node-extra
+
+rutracker.org###logo
+
+kino.pub##img
+kino.pub###content[role="main"] .app-body:has-text(Новые фильмы)
+kino.pub##a[href="/selection/my"]:upward(1)
+kino.pub##a[href="/subtitle"]
+kino.pub##a[href*="?genre="]:upward(1)
+kino.pub##a[href*="?age="]:upward(1)
+kino.pub##a[href*="/selection/view?"]:upward(1)
+kino.pub##a[href*="/item/search?query="]
+kino.pub##a[href*="?country="]
+kino.pub##a[href*="?years="]
+kino.pub##a[href*="/subtitle/"]
+kino.pub###items
+kino.pub###carousel-similar:upward(1)
+kino.pub###aside
+kino.pub###aside:remove()
+kino.pub##.carousel-index:upward(1)
+kino.pub##h3.index
+kino.pub##.rating
+kino.pub##td a[href="/movie?age=18"]:upward(.page-content)
+
+behance.net##.Popup-popup-Hub
+behance.net##.project-module__actions
+behance.net##button:has-text(/Sign Up/)
+behance.net##.InfinityFooter__global-selector
+behance.net##a[title="Adobe Creative Cloud"]
+behance.net##.js-vue-mobile-app-upsell
+behance.net##a:has-text(/Use App/)
+behance.net##div[class*="CoverStats-container"]
+behance.net##div[modaltitle="Work in Progress"]
+behance.net##li[class*="NotificationBadge"]
+behance.net##[class*="ProjectCoverNeue-feature"]
+behance.net##[class*="ProjectCoverNeue-details"]
+behance.net##[class*="ProjectCoverNeue-topRight"]
+behance.net##[class*="SubscriptionRow"]
+behance.net##[class*="TabMenu-tabContainer"]
+behance.net#$#.mobile-banner-visible { position: relative !important; }
+
+music.yandex.ru##.notify
+music.yandex.ru##a[data-name="kids"]
+music.yandex.ru##a[data-name="non-music"]
+music.yandex.ru##div[data-tab-id="kids"]
+music.yandex.ru##.page-radio__station:has-text(/Rap and Hip-Hop|R'n'B|Children’s Music|Soviet music|Russian Chanson|Retro Pop/)
+music.yandex.ru##.deco-teaser
+music.yandex.ru##.page-main__line
+music.yandex.ru##.footer
+music.yandex.ru##.teaser
+music.yandex.ru##.plus-points
+music.yandex.ru##.rup__content-description
+music.yandex.ru##.rup__content-button-caption
+music.yandex.ru##span.playlist-notification
+music.yandex.ru##.rup__animation
+music.yandex.ru##.page-album__top
+music.yandex.ru##.page-album__other-artist-albums
+music.yandex.ru##.page-album__related-content
+music.yandex.ru##.page-users .d-generic-page-head
+music.yandex.ru##.entity-cover
+music.yandex.ru##.d-tabs
+music.yandex.ru##.nav-kids__tab[data-name="radio"]
+music.yandex.ru##.button-radio-slider:has-text(By language)
+music.yandex.ru##.player-controls__btn_seq
+music.yandex.ru##.volume
+music.yandex.ru##.d-share-popup
+music.yandex.ru##.user__userpic
+music.yandex.ru##.playlist_type_new
+music.yandex.ru##.playlist:has-text(Favorites)
+music.yandex.ru##.playlist:has-text(Liked on Radio)
+music.yandex.ru##.playlist .d-like
+music.yandex.ru##.progress__left:remove()
+music.yandex.ru##.progress__right:remove()
+music.yandex.ru##.d-track:has-text(/[а-я]/ig)
+music.yandex.ru##.d-suggest__item:has-text(/[а-я]/ig)
+music.yandex.ru##button[title*="Add this artist to"]
+music.yandex.ru##button[title*="Add this playlist to"]
+music.yandex.ru##div[class*="video"]
+music.yandex.ru##.page-artist__subhead
+music.yandex.ru##.page-artist__artists
+music.yandex.ru##.page-artist__concerts
+music.yandex.ru##.page-artist__videos
+music.yandex.ru##.page-artist__playlists
+music.yandex.ru##.artist-pics
+music.yandex.ru##.d-suggest__popup-content
+
+passport.yandex.ru##.passp-bg
+
+drive.google.com##div[data-target="upgrade-storage"]:upward(2)
+drive.google.com##a[data-target="quota"]
+drive.google.com##a[aria-label="Support"]
+drive.google.com##div[aria-label="Show side panel"]
+drive.google.com##div[aria-label="Grid view"]
+
+radio.yandex.ru##a.station[href^="/genre/"]
+radio.yandex.ru##.nav__banner
+
+iguides.ru###topLine
+iguides.ru##.label
+iguides.ru##.coment_count
+iguides.ru##.newsTapes
+iguides.ru##.tags-wrapper
+iguides.ru##.author
+iguides.ru##.LINKS_AFTER_ARTICLE
+iguides.ru##.top-popular-news-in-detail
+iguides.ru##.bottom_beta_in_news_detail
+iguides.ru##.ratingVote
+iguides.ru##.social__subscribe_text
+iguides.ru##.post_foot
+iguides.ru###footer
+
+vedomosti.ru##.box-inset-media
+
+goodreads.com##.siteHeader__topFullImageContainer
+goodreads.com##.siteAnnouncement
+
+beru.ru##div[data-zone-name="headerPromo"]
+beru.ru##div[data-zone-name="MediaCarousel"]
+
+instagram.com##a[href^="/explore/"]
+instagram.com##div:contains("Suggestions For You")
+
+twitter.com##div[aria-label="Timeline: Trending now"]
+twitter.com##aside[aria-label="Who to follow"]
+  
+zeplin.io##.socketBanner.warn
+
+zen.yandex.ru##header
+zen.yandex.ru##.article-left-block__cropped
+zen.yandex.ru##.sticky-container
+zen.yandex.ru##.article__title
+zen.yandex.ru##.article__bottom-embed
+zen.yandex.ru##.socials-block__leftBlock-3D
+zen.yandex.ru##.article-subscribe-banner
+zen.yandex.ru##.theme-tags
+zen.yandex.ru##.article-recommender
+zen.yandex.ru##div[class*="subscribe"]
+zen.yandex.ru##div[class*="socials-block"]
+
+journal.tinkoff.ru##.article-header 
+journal.tinkoff.ru##[data-id="header-app"]
+journal.tinkoff.ru##.article-author
+journal.tinkoff.ru##.recommender-showcase
+journal.tinkoff.ru##a[href="https://t.me/tinkoffjournal"]:upward(.panel)
+
+yandex.ru###search-result-aside
+yandex.ru##.mn__first_up
+yandex.ru##.mn__services
+yandex.ru##.SerpFooter
+yandex.ru##.serp-navigation
+yandex.ru##.ECommerceCarousel
+yandex.ru##.RelatedAbove
+yandex.ru##.RelatedBottom
+yandex.ru##.services-new
+yandex.ru##.desk-notif-card
+yandex.ru##.headline__bar
+yandex.ru##.headline__datetime
+yandex.ru##.home-link
+yandex.ru##.market-cart__wrapper
+yandex.ru##.media-grid
+yandex.ru##.mini-suggest__popup
+yandex.ru##.voice-search-button
+yandex.ru##li.serp-item[data-fast-name="ecommerce_constr"]
+yandex.ru##a[href="https://passport.yandex.ru"]
+yandex.ru##a.logo
+yandex.ru##.serp-user__registration-button
+yandex.ru##.yaplus_available_yes
+yandex.ru##.serp-item .Warning
+yandex.ru##.serp-item[data-video]
+yandex.ru##.tabs-navigation__tab
+yandex.ru##.HeaderPhoneNavigation
+yandex.ru##.HeaderPhoneActions
+yandex.ru##.entity-search__list
+yandex.ru##.content__informers-bg
+yandex.ru##.infinity-zen
+yandex.ru##.DistrSmartbannerOverlay
+yandex.ru##.DistrSmartbanner
+yandex.ru##.main__carousel.serp 
+yandex.ru##.serp-item[data-fast-name="entity_search"]
+yandex.ru##.serp-item[data-fast-name="video-unisearch"]
+yandex.ru##.serp-item[data-fast-name="images"]
+yandex.ru##.serp-item[data-fast-name="multiusurveys"]
+yandex.ru##[data-fast-name="misspell"]
+yandex.ru##.Reviews
+yandex.ru##.dialog__overlay
+yandex.ru##.serp-item .IconDots
+
+ya.ru##.home-link2
+ya.ru##.headline
+ya.ru##.theader__search-icon
+ya.ru##.lite-switcher-touch
+ya.ru##.footer3
+ya.ru##.search3__logo > svg
+ya.ru##.search3__voice
+yandex.ru#$#.document:not(.document_dark_yes) .rows:after { height: 100vh !important; }
+
+music.yandex.ru##.deco-teaser
+market.yandex.ru##.n-review-poll
+market.yandex.ru##.b-notifier
+market.yandex.ru##div[data-zone-name="footerSubscription"]
+market.yandex.ru##div[data-apiary-widget-name="@MarketNode/FooterHistory"]
+market.yandex.ru##div[data-zone-name="Banner"]
+market.yandex.ru##div[data-zone-name="HeadBanner"]
+market.yandex.ru##div[data-zone-name="IndexPage"]
+market.yandex.ru##div[data-zone-name="index-page"]
+market.yandex.ru##div[data-zone-name="category-link"]
+market.yandex.ru##div[data-zone-name="footer"]
+market.yandex.ru##div[data-zone-name="thematic-entrypoint"]
+market.yandex.ru##div[data-zone-name="review-poll-popup"]
+market.yandex.ru##div[data-apiary-widget-name="@mobile/Footer"]
+market.yandex.ru##div[data-apiary-widget-name="@MarketNode/HeaderNav"]
+market.yandex.ru##div[data-apiary-widget-name="@MarketNode/HeaderPlusBalance"]
+market.yandex.ru###catalogPopupButton
+market.yandex.ru##div[data-apiary-widget-name="@marketfront/VisibilityLoaderMarket"]:has-text(/История просмотров|Подобрали для вас|Вы это заказывали|Может пригодиться|Популярные категории|Популярные бренды/)
+market.yandex.ru##a[href="/live"]
+market.yandex.ru##a[href="/deals"]
+
+wylsa.com##.marketWidgetWrapper
+wylsa.com##.relatedPosts
+jsfiddle.net###hello-bar
+
+lifehacker.ru##.widgets-renderer-item_taxonomy-posts
+lifehacker.ru##.nav-menu-below-header__container
+lifehacker.ru##.primary-menu
+lifehacker.ru##.article-card-container__widgets
+lifehacker.ru##.widgets-renderer
+lifehacker.ru##.lh-large-article-card__controls-and-meta
+lifehacker.ru##.lh-middle-article-card__controls-and-meta
+lifehacker.ru##.lh-small-article-card__controls-and-meta
+lifehacker.ru##.article-card-actions
+
+vc.ru###notify
+
+habr.com##header
+habr.com##.layout__row_services
+habr.com##.layout__row_navbar
+habr.com##.layout__row_footer
+habr.com##.post__title-text
+habr.com##.post-additionals
+habr.com##.layout__row_promo-blocks
+habr.com##.layout__row_footer-links
+habr.com##.layout__row_footer
+habr.com##.sidebar
+habr.com##.tm-page__sidebar
+habr.com##.tm-page__header
+habr.com##.tm-company-profile-card
+habr.com##.tm-article-sticky-panel
+habr.com##.tm-article-presenter__header
+habr.com##.tm-base-layout__header
+habr.com##.tm-article-presenter__footer
+habr.com##.tm-footer-menu
+habr.com##.tm-footer
+
+tproger.ru##.single__header
+tproger.ru##.container-header
+tproger.ru##aside
+tproger.ru###top-post-widget-container
+tproger.ru###post-widget-container
+tproger.ru###tp-recommended-posts
+tproger.ru##.single__thumbnail
+tproger.ru##.float-widget-container
+tproger.ru##.footer-meta
+
+glassdoor.com###ContentWallHardsell
+glassdoor.com#$#body { overflow: scroll !important; }
+
+leetcode.com##img[alt="logo"]
+leetcode.com##div[class*="notification-btn-container"]:upward(1)
+leetcode.com##div[class*="nav-item-container"]:has-text(Store)
+leetcode.com##a[href^="/subscribe/"]
+leetcode.com##button[aria-label="notification"]
+leetcode.com###subscribe
+leetcode.com###interview-nav-item
+leetcode.com##a[href="/discuss/"]
+leetcode.com##a[class*="notification-icon"]
+leetcode.com##.ant-notification
+leetcode.com##button:has-text(/Store/)
+
+linkedin.com###msg-overlay
+linkedin.com##.share-box-feed-entry__closed-share-box
+linkedin.com##.avatar
+linkedin.com##.premium-upsell-link
+linkedin.com##.ad-banner-container
+linkedin.com##img[class*="avatar"]
+linkedin.com##img[class*="entity-image"]
+linkedin.com##img[class*="EntityPhoto"]
+linkedin.com##a[data-link-to="notifications"]
+linkedin.com##a[href^="https://www.linkedin.com/notifications/"]
+linkedin.com##footer
+
+pinterest.com##.AggregatedCloseupCard
+pinterest.com##.richPinInformation
+pinterest.com##div[aria-label="Notifications"]
+pinterest.com##div[aria-label="Messages"]
+pinterest.com##div[aria-label="Footer"]
+pinterest.com##div[data-test-id="pointer-events-wrapper"]
+pinterest.com##div[data-test-id="closeup-title"]
+pinterest.com##div[data-test-id="canonical-card"]
+pinterest.com##div[data-test-id="maybe-clickthrough-link"]
+pinterest.com##div[data-test-id="gestalt-avatar-svg"]
+pinterest.com##div[data-test-id="creator-card-profile"]
+pinterest.com##a:has-text(/Home|Today/)
+pinterest.com##a[href="/notifications/"]:upward(1)
+pinterest.com##[data-test-id="nav-bar-profile"]
+
+ozon.ru##div[data-widget="topBar"]
+ozon.ru##div[data-widget="catalogMenu"]
+ozon.ru##ul[data-widget="horizontalMenu"]
+ozon.ru##div[data-widget="footer"]
+ozon.ru##div[data-widget*="banner"]
+ozon.ru##div[data-widget="webCurrentSeller"]
+ozon.ru##div[data-widget="webMarketingMarks"]
+ozon.ru##div[data-widget="advVideoBanner"]
+ozon.ru##div[data-widget="hammers"]
+ozon.ru##div[data-widget="advVideoBannerMobile"]
+ozon.ru##div[data-widget="objectCloud"]
+ozon.ru##div[data-widget="listReviewsDesktop"]
+ozon.ru##div[data-widget="tagList"]
+ozon.ru##div[data-widget="webNotificationsCounter"]
+ozon.ru##div[data-widget="mobileEntryPoints"]
+ozon.ru##div[data-widget="setOfPreviews"]
+ozon.ru##div[data-widget="blackFridayCounter"]
+ozon.ru##div[data-widget*="objectGrid"]
+ozon.ru##div[data-widget="profileRecommendations"]
+ozon.ru##div[data-widget*="skuGrid"]:upward(div[data-widget="paginator"])
+ozon.ru##div[data-widget="profileMenu"]:upward(4)
+ozon.ru##div[data-widget="container"]:has-text(Все магазины)
+ozon.ru##div[data-widget^="sku"]:has-text(/Похожие товары|Спонсорские товары|Покупают вместе|Рекомендуем|Вы смотрели|Рекомендации/)
+ozon.ru##div[data-widget="column"]:has-text(/Вы смотрели/)
+ozon.ru##a[data-widget="webToAppBanner"]
+ozon.ru##div[data-widget="profile"]
+ozon.ru##a[href="/my/favorites/"] span span
+ozon.ru##a[href="/live"]
+ozon.ru##a[href^="/highlight/"]
+ozon.ru##a[href^="/seller/"]
+ozon.ru##a[href="/my/questions-waiting-answers"]
+ozon.ru##a[href="/my/chat"]
+ozon.ru##a[href="/modal/currencySelector"]
+ozon.ru##a[href="/my/legaldetails"]
+ozon.ru##a[href^="/category/elektronnye-sigarety-i-tovary-dlya-kureniya"]
+ozon.ru##a[href^="/category/tovary-dlya-vzroslyh"]
+ozon.ru##a[href^="/category/alkogol"]
+ozon.ru##a[href="/my/notifications"]
+ozon.ru##li:has-text(/Вопросы, ожидающие ответа|Premium|Рассрочка/)
+ozon.ru##section[data-widget="searchSuggestions"]
+ozon.ru##section[data-widget="searchHistory"]
+ozon.ru##section[data-widget="promoBanner"]
+ozon.ru##section[data-widget="rateBoughtItems"]
+ozon.ru##form:has-text(Не нашли, что искали?)
+ozon.ru##video
+ozon.ru##a[href*="advert="]
+ozon.ru##.tsCaptionBold
+ozon.ru##a[href="/my/main"] > span:nth-child(1)
+ozon.ru##a[href="/my/favorites"] > span:nth-child(1)
+ozon.ru##a[href="/cart"] > span:nth-child(1)
+ozon.ru##.vue-portal-target:has-text(Оцените ваши покупки)
+ozon.ru##nav[data-widget="mobileHeader"] a[href="/cart/"] span span
+ozon.ru##header img[alt="Ozon"]
+ozon.ru##p:has-text(Уведомления):upward(1)
+ozon.ru##span:has-text(Уведомления):upward(1)
+ozon.ru##a[href="/social/"]
+ozon.ru##div[data-widget="objectBannerList"]
+ozon.ru##nav[data-widget="mobileHeader"] a[href="/category/"]
+ozon.ru#$#nav[data-widget="mobileHeader"] > div { display: flex!important; }
+ozon.ru#$#nav[data-widget="mobileHeader"] a { flex: 1!important; }
+ozon.ru##span:has-text(/Подтвердите, что вы старше 18 лет./i):upward(div[data-widget="blockVertical"])
+ozon.ru##div[data-widget="categoryLogos"]
+ozon.ru##div[data-widget="paginator"] div[data-test-id="18-placeholder"]:upward(5)
+ozon.ru##div[data-widget="megaPaginator"] div[data-test-id="18-placeholder"]:upward(6)
+ozon.ru##div[data-widget="suggestedTapTags"]
+ozon.ru##a[href^="/product/kupalnik"]:upward(1)
+
+spormaster.ru##.up-header-banner
+
+vk.com###fastchat-reforged
+vk.com##.left_count_wrap
+vk.com##.like_wrap
+vk.com##.replies
+vk.com##.post_replies_header
+vk.com##.header__title
+vk.com##h1[aria-labelledby="header__title"]
+vk.com###page_avatar
+vk.com##.post_img
+vk.com##.ui_ownblock_img
+vk.com##.TopNavBtn__profileImg
+vk.com##.ReactionsPreview
+vk.com##.Avatar
+vk.com##.copy_post_img
+vk.com##.friends_photo_img
+vk.com###public_videos
+vk.com###profile_albums
+vk.com###profile_media_narrow_block
+vk.com###top_audio
+vk.com###side_bar
+vk.com###search_menu
+vk.com###filter_form
+vk.com##.page_cover
+vk.com##.search_results
+vk.com###group_topics
+vk.com##.mention_tt_img
+vk.com##.wall_signed
+vk.com##div[class*="Reply"]
+vk.com##div[class*="Replies"]
+vk.com##div[class*="reply"]
+vk.com##div[class*="replies"]
+vk.com##.page_actions_more
+vk.com###react_rootEcosystemServicesNavigationEntry
+vk.com##aside[aria-label="Contacts"]
+vk.com##aside[aria-label="Links"]
+vk.com##aside[aria-label="Gifts"]
+vk.com##aside[aria-label="Friends "]
+vk.com##aside[aria-label="Following"]
+vk.com##aside[aria-label="Photo albums"]
+vk.com##aside[aria-label="Videos"]
+vk.com##aside[aria-label="Music"]
+vk.com##aside[aria-label="Attending"]
+vk.com##aside[aria-label="May attend"]
+vk.com##aside[aria-label="Articles"]
+vk.com##aside[aria-label="Photos"]
+vk.com##aside[aria-label="Products"]
+vk.com##aside[aria-label="Files"]
+vk.com##aside[aria-label="Organizers"]
+vk.com##aside[aria-label="Discussion board"]
+vk.com##aside[aria-label="Services"]
+vk.com##aside[aria-label="Members"]
+vk.com##.group_counters_wrap
+vk.com##.people_cell_img
+vk.com##.pic_header
+vk.com##.pi_signed
+vk.com##.NarrativesBlock
+vk.com##.MarketBlock
+vk.com##.HeaderSearch
+vk.com##.OwnerPhotoGallery
+vk.com##.wi_head
+vk.com##.WallSearchBtn__wrapper
+vk.com##.profile_info_custom
+vk.com##h3.slim_header
+vk.com##Pad:has-text(/Games|Mini Apps/)
+vk.com##.search_item_img
+vk.com##.PostHeader
+vk.com###wall_tabs
+vk.com##.copy_post_header
+vk.com##.TopSearch
+vk.com###feed_recommends
+vk.com###stories_feed_wrap
+vk.com###feed_rmenu
+vk.com###feed_filters
+vk.com###groups_donut_module
+vk.com##.right_list_img
+vk.com###group_events
+vk.com###group_section_menu
+vk.com##.profile_rate_warning
+vk.com###profile_photos_module
+vk.com###profile_friends_recomm
+vk.com###submit_post_box
+vk.com###public_followers
+vk.com###friends_possible_block
+vk.com##.BottomMenu
+vk.com##.notify_panel
+vk.com##.feedAssistance
+vk.com##.post_withExtraHeader
+vk.com##.PostRowBottomButtons
+vk.com##.new_post_container
+vk.com##.recommends_link
+vk.com##.mmi_ads
+vk.com##.mmi_apps
+vk.com##.ModalMenu
+vk.com##.Popup
+vk.com##.mmi_likes
+vk.com##.audioPlaylistSnippet__list
+vk.com##.audioPlaylistSnippet__footer
+vk.com###box_layer_bg
+vk.com###box_layer_wrap
+vk.com##.PageBottomBanner
+vk.com#$#body { overflow: scroll !important; top: 0 !important; position: relative !important; }
+vk.com##a.header__back
+vk.com##a.pp_auth_link
+vk.com##a[href="/mail"]
+vk.com##a[href="/im"]
+vk.com##a[href="/feed"]
+vk.com##a[href="/search"]
+vk.com##a[href="/feed?section=recommended"]
+vk.com##a[href="/feed?section=notifications"]
+vk.com##a[href="/friends"]
+vk.com##a[href="/docs"]
+vk.com##a[data-header="Photos"]
+
+stackoverflow.com###sidebar
+stackoverflow.com##.s-user-card--info
+stackoverflow.com##.s-sidebarwidget__yellow
+stackoverflow.com##.votecell
+stackoverflow.com##.post-signature
+stackoverflow.com##ol.s-topbar--content
+stackoverflow.com##a.s-topbar--menu-btn
+stackoverflow.com##a[aria-controls="products-popover"]
+
+w.level.*##.v-navigation-drawer:remove()
+w.level.*#$#.v-main { padding-left: 0 !important; }
+w.level.*##.v-speed-dial
+
+||*porn*.tumblr.com^
+||*porn*.blogspot.com^
+||*sex*.blogspot.com^
+||*ero-advertising.com^
+||*fuck.com^
+||*porn.com^
+||*porno.com^
+||*virgins.com^
+||*xxx.com^
+||*.porn^
+||*.sex^
+||*.sexy^
+||*.xxx^
+||*pornhub*
+||*youporn*
+||*hentai*
+||*bongacam*
+||*erotica*
+||*porntube*
+||*gaytube*
+||*xhamster*
+||*pornmovies*
+||*xxxmovies*
+||*sexfilms*
+||*prykoly*
+||*dosug*
+
+slack.com###morePages
+slack.com###C6QL61SLV
+slack.com###CGRJXN55H
+slack.com###CP9RH2H0W
+slack.com###CUSSNT4R3
+slack.com###C010L001K51
+slack.com###C6HHVHK98
+slack.com###C6U3FJ1HN
+slack.com###CLZ4N01BM
+slack.com###C02A3EKNV6G
+slack.com###CESTX4GE6
+slack.com###CCYFFMK37
+slack.com###G7PPH0KD1
+slack.com###CA6CPE2LS
+slack.com###GMCPEGU3H
+slack.com###GG9L0FRMH
+slack.com###G01MY6UGVHQ
+slack.com###C52L32NV7
+slack.com###G6H2TUEJD
+slack.com###CB0U45DQB
+slack.com##li[data-id="C6QL61SLV"]
+slack.com###sectionHeading-L01JBDP0LDC
+slack.com###sectionHeading-LT7P0GRDF
+slack.com###sectionHeading-L031P8A3NCX
+slack.com##.c-presence
+slack.com##.c-reaction_bar
+slack.com##.c-custom_status
+slack.com##.p-bookmarks_bar_container
+slack.com##.c-search_autocomplete__footer_feeedback_help_container
+slack.com##.p-ia__sidebar_header__user__status
+slack.com##button[aria-label="New message"]
+slack.com##button[aria-label="Help"]
+slack.com##div[aria-label="Hidden"]
+slack.com##button[aria-label="Show history"]
+slack.com##button[data-qa="avatar_stack"]
+slack.com#$#.p-channel_sidebar__static_list__item { position: initial!important; }
+slack.com#$#.c-virtual_list__scroll_container { height: auto!important; }
+
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^aff(iliat(es?|ion))?[_.-]/
+/^analytics?[_.-]/
+/^banners?[_.-]/
+/^beacons?[0-9]*[_.-]/
+/^count(ers?)?[0-9]*[_.-]/
+/^mads\./
+/^pixels?[-.]/
+/^stat(s|istics)?[0-9]*[_.-]/
+
+feedly.com##button[-ext-contains="Upgrade"]
+facebook.com##div[role="navigation"]
+facebook.com##div[role="complementary"]
+facebook.com##div[data-pagelet="Stories"]
+facebook.com##div[aria-label="Stories"]
+facebook.com##div[aria-label="Reels tray"]
+facebook.com##div[aria-label="Create a post"]
+facebook.com##div[aria-label*="Reply"]
+facebook.com##div[aria-label*="Like"]
+facebook.com##div[data-pagelet="VideoChatHomeUnit"]
+facebook.com##img[alt*="Profile Photo"]
+facebook.com##div[data-pagelet*="FeedUnit"]:has-text(Reels)
+facebook.com##div[data-pagelet*="FeedUnit"]:has-text(People You May Know)
+facebook.com##div[role="feed"]
+facebook.com##div[aria-label^=Notifications]
+facebook.com##a[aria-label^=Watch]
+facebook.com##img[data-imgperflogname="profileCoverPhoto"]
+
+facebook.com##div[data-visualcompletion="ignore-dynamic"]
+
+
+telegram.org#%#if(location.pathname=='/'){ setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 750); setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 1000); }
+
+telegram.org##.input-search
+telegram.org##.connection-status:remove()
+telegram.org##.bubble use[href="#message-tail-filled"]
+telegram.org##.chat use[href="#message-tail-filled"]
+telegram.org##.sidebar-header__btn-container
+telegram.org##avatar-element
+telegram.org##.name:has-text('Forwarded from')
+telegram.org##reactions-element
+telegram.org##.verified-icon
+telegram.org##.chat-info .bottom:has-text(/subscribers/)
+telegram.org##.chatlist-chat:contains(/Telegram/)
+telegram.org##.sidebar-header
+telegram.org##.bubble-hover-reaction
+telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
+telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
+
+leetcode.com##a[aria-label="feedback"]
+leetcode.com##svg[class*="account-icon"]
+leetcode.com##.content-title
+leetcode.com##a[href^="https://leetcode.com/contest/"]
+leetcode.com##a[href^="/contest/"]
+leetcode.com#$#div[role="dialog"] footer { display: block!important }
+leetcode.com##path[d="M7 8v2H6a3 3 0 00-3 3v6a3 3 0 003 3h12a3 3 0 003-3v-6a3 3 0 00-3-3h-1V8A5 5 0 007 8zm8 0v2H9V8a3 3 0 116 0zm-3 6a2 2 0 100 4 2 2 0 000-4z"]:upward(div[role="cell"])
+leetcode.com##div[role="columnheader"]:has-text(Frequency)
+
+##footer
+###footer
+
+###banner
