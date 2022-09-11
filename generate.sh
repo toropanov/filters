@@ -149,6 +149,8 @@ jq -r '.unlocked_domains[]' $config_file | {
   echo "Unlocked domains: ${#route_domains[@]}"
 }
 
+echo "\n"
+
 git add .
 git commit -m 'Update filters'
 git push
