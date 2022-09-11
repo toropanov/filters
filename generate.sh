@@ -15,19 +15,15 @@ join() {
 }
 
 exclude_from_duckduckgo() {
-  local upward="$1"
-  shift
   local domains=("$@")
   local squashed_domains=$(join "|" "${domains[@]}")
-  echo "duckduckgo.com##article:has-text(/${squashed_domains}/i):upward(${upward})" >> $output_file
+  echo "duckduckgo.com##span:has-text(/${squashed_domains}/ig):upward(article)" >> $output_file
 }
 
 exclude_from_yandex() {
-  local upward="$1"
-  shift
   local domains=("$@")
   local squashed_domains=$(join "|" "${domains[@]}")
-  echo "yandex.ru##.serp-item:has-text(/${squashed_domains}/i):upward(${upward})" >> $output_file
+  echo "yandex.ru##span:has-text(/${squashed_domains}/ig):upward(.serp-item)" >> $output_file
 }
 
 exclude_from_music() {
@@ -74,8 +70,8 @@ jq -r '.domains[]' $config_file | {
 
   squashed_domains=$(join , "${domains[@]}")
 
-  exclude_from_duckduckgo 0 "${domains[@]}"
-  exclude_from_yandex 0 "${domains[@]}"
+  exclude_from_duckduckgo "${domains[@]}"
+  exclude_from_yandex "${domains[@]}"
   echo "${squashed_domains}##*" >> $output_file
 
   echo "Domains: ${#domains[@]}"
@@ -104,8 +100,8 @@ jq -r '.keywords[]' $config_file | {
     keywords+=($keyword)
   done
 
-  exclude_from_duckduckgo 0 "${keywords[@]}"
-  exclude_from_yandex 0 "${keywords[@]}"
+  exclude_from_duckduckgo "${keywords[@]}"
+  exclude_from_yandex "${keywords[@]}"
   exclude_from_vk "${keywords[@]}"
   exclude_from_youtube "${keywords[@]}"
   exclude_from_music "${keywords[@]}"
