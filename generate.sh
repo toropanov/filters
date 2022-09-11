@@ -16,13 +16,13 @@ join() {
 
 exclude_from_duckduckgo() {
   local domains=("$@")
-  local squashed_domains=$(join "|" "${domains[@]}")
+  local squashed_domains=$(join "|" "'${domains[@]}'")
   echo "duckduckgo.com##span:has-text(/${squashed_domains}/ig):upward(article)" >> $output_file
 }
 
 exclude_from_yandex() {
   local domains=("$@")
-  local squashed_domains=$(join "|" "${domains[@]}")
+  local squashed_domains=$(join "|" "'${domains[@]}'")
   echo "yandex.ru##span:has-text(/${squashed_domains}/ig):upward(.serp-item)" >> $output_file
 }
 
