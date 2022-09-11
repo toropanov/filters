@@ -104,8 +104,8 @@ jq -r '.keywords[]' $config_file | {
     keywords+=($keyword)
   done
 
-  exclude_from_duckduckgo 6 "${keywords[@]}"
-  exclude_from_yandex 5 "${keywords[@]}"
+  exclude_from_duckduckgo 0 "${keywords[@]}"
+  exclude_from_yandex 0 "${keywords[@]}"
   exclude_from_vk "${keywords[@]}"
   exclude_from_youtube "${keywords[@]}"
   exclude_from_music "${keywords[@]}"
