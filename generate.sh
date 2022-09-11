@@ -1,4 +1,7 @@
 # #!/bin/sh
+
+git pull origin master
+
 echo 'TOTAL GENERATED'
 
 config_file=blocked.json
