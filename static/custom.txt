@@ -182,6 +182,7 @@ github.com###jump-to-suggestion-repository-462241140
 github.com##notification-indicator
 github.com##a[href^="/github/feedback/"]
 
+chess.com###main-banner
 lichess.org###notify-toggle
 
 reactjs.org##header a[href*="fb.com"]:upward(3)
