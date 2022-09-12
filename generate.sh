@@ -41,9 +41,10 @@ exclude_from_music() {
 exclude_from_youtube() {
   local keywords=("$@")
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
-  echo "youtube.com##ytd-channel-name:has-text(/${squashed_keywords}/i):upward(12)" >> $output_file
-  echo "youtube.com##h1:has-text(/${squashed_keywords}/i):upward(4)" >> $output_file
-  echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(10)" >> $output_file
+  echo "youtube.com##ytd-channel-name:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+  echo "youtube.com##h1:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+  echo "youtube.com##h2:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+  echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
 }
 
 exclude_from_vk() {
