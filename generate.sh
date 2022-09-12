@@ -44,7 +44,9 @@ exclude_from_youtube() {
   echo "youtube.com##ytd-channel-name:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
   echo "youtube.com##h1:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
   echo "youtube.com##h2:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
-  echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+  echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(ytd-grid-video-renderer)" >> $output_file
+  echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(ytm-video-with-context-renderer)" >> $output_file
+  echo "youtube.com##h4:has-text(/${squashed_keywords}/i):upward(ytm-compact-video-renderer)" >> $output_file
 }
 
 exclude_from_vk() {
