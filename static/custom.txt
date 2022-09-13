@@ -268,7 +268,7 @@ tinkoff.ru##div[class*="footer"]
 tinkoff.ru##div[class*="feedback"]
 tinkoff.ru##a[href="/invest/pulse/"]:upward(1)
 tinkoff.ru##div[class*="Tabs-module__tabItem"]:has-text(Пульс)
-tinkoff.ru##div[class*="SecurityBlockHeader"]:has-text(Интересное в Пульсе)
+tinkoff.ru##div[class*="SecurityBlockHeadelr"]:has-text(Интересное в Пульсе)
 
 youla.ru##h2
 youla.ru##div[data-test-component="BannerRotator"]
@@ -718,6 +718,13 @@ linkedin.com##img[class*="EntityPhoto"]
 linkedin.com##a[data-link-to="notifications"]
 linkedin.com##a[href^="https://www.linkedin.com/notifications/"]
 linkedin.com##footer
+linkedin.com##main[aria-label="Main Feed"]
+linkedin.com##aside[aria-label="Add to your feed"]
+linkedin.com##section.feeds
+linkedin.com##.badge-with-no-count
+linkedin.com##li[data-nav-type="POST"]
+linkedin.com##.notification-badge
+linkedin.com##section.discover-entity-type-card
 
 pinterest.com##.AggregatedCloseupCard
 pinterest.com##.richPinInformation
