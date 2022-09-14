@@ -1,5 +1,6 @@
 youtube.com#%#if(location.pathname=='/' || location.pathname.includes('/shorts')){location.pathname='/feed/subscriptions'}
 zen.yandex.ru#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
+apple.com#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 yandex.ru#%#if(location.pathname=='/images/' || location.pathname=='/video/'){location.href='https://safe.duckduckgo.com'}
 google.com#%#if(location.pathname=='/' && location.host == 'www.google.com'){location.href='https://safe.duckduckgo.com'}
 journal.tinkoff.ru#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
@@ -28,4 +29,3 @@ music.yandex.ru#%#if(location.pathname=='/'){location.pathname='/users/toropanov
 javascript.ru#%#if(location.host=='javascript.ru'){location.href='https://learn.javascript.ru/'}
 reddit.com#%#if(location.pathname=='/' || location.pathname=='/r/all/' || location.pathname=='/r/popular/'){location.pathname='/user/umEyGBccsNqt2/submitted/'}
 aliexpress.com#%#if(true){location.host = 'aliexpress.ru'}
-htmlpreview.github.io%#if(true){location.href = 'https://safe.duckduckgo.com/'}
