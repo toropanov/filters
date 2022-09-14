@@ -100,11 +100,10 @@ duckduckgo.com##.header--aside__social
 duckduckgo.com##.dropdown--safe-search
 duckduckgo.com##.dropdown--date
 duckduckgo.com##.logo-wrap--home
-duckduckgo.com##.js-sidebar-ads
+duckduckgo.com##.js-sidebar-ads:remove()
 duckduckgo.com##.tag-home
 duckduckgo.com##.footer_homepage
 duckduckgo.com##.footer
-duckduckgo.com##.js-sidebar-ads
 duckduckgo.com##.search__autocomplete
 duckduckgo.com##a.header__button--menu
 duckduckgo.com##.js-module--news
