@@ -29,6 +29,7 @@ vk.com##.wcomments_wrap
 ##[id~=comment_list]
 ##[class~=commentslist]
 ##[class~=commentsList]
+##[class*=CommonComment]
 ##[id~=commentslist]
 ##[id~=commentsList]
 ##[class~=comments-list]

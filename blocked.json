@@ -140,11 +140,13 @@
     "euronews.com",
     "pinterest.com",
     "ru.pinterest.com",
+    "macworld.com",
     "vk.ru",
     "girls-art.ru",
     "vk.com",
     "facebook.com",
     "instagram.com",
+    "tomsguide.com",
     "ferra.ru",
     "sliv-foto.ru",
     "dezinfo.net",
@@ -152,16 +154,12 @@
     "politico.com",
     "engadget.com",
     "mesu.apple.com",
-    "theverge.com",
-    "appldnld.apple.com"
+    "theverge.com"
   ],
   "domains_only_desktop": [
-    "9to5mac.com"
+    "appldnld.apple.com"
   ],
   "domains_only_mobile": [
-    "macworld.com",
-    "macrumors.com",
-    "tomsguide.com",
     "aliexpress.ru",
     "aliexpress.com",
     "bitbucket.org"

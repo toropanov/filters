@@ -138,11 +138,13 @@
 0.0.0.0 euronews.com www.euronews.com
 0.0.0.0 pinterest.com www.pinterest.com
 0.0.0.0 ru.pinterest.com www.ru.pinterest.com
+0.0.0.0 macworld.com www.macworld.com
 0.0.0.0 vk.ru www.vk.ru
 0.0.0.0 girls-art.ru www.girls-art.ru
 0.0.0.0 vk.com www.vk.com
 0.0.0.0 facebook.com www.facebook.com
 0.0.0.0 instagram.com www.instagram.com
+0.0.0.0 tomsguide.com www.tomsguide.com
 0.0.0.0 ferra.ru www.ferra.ru
 0.0.0.0 sliv-foto.ru www.sliv-foto.ru
 0.0.0.0 dezinfo.net www.dezinfo.net
@@ -151,4 +153,3 @@
 0.0.0.0 engadget.com www.engadget.com
 0.0.0.0 mesu.apple.com www.mesu.apple.com
 0.0.0.0 theverge.com www.theverge.com
-0.0.0.0 appldnld.apple.com www.appldnld.apple.com

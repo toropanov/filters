@@ -1,1 +1,1 @@
-macworld.com,macrumors.com,tomsguide.com,aliexpress.ru,aliexpress.com,bitbucket.org##*
+aliexpress.ru,aliexpress.com,bitbucket.org##*
