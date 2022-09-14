@@ -57,6 +57,7 @@
     "gbstore.ru",
     "avito.ru",
     "pnp.ru",
+    "wired.com",
     "vm.ru",
     "appleinsider.ru",
     "coub.com",
@@ -147,6 +148,7 @@
     "ferra.ru",
     "sliv-foto.ru",
     "dezinfo.net",
+    "appleinsider.com",
     "politico.com",
     "engadget.com",
     "mesu.apple.com",
@@ -157,7 +159,6 @@
     "9to5mac.com"
   ],
   "domains_only_mobile": [
-    "appleinsider.com",
     "macworld.com",
     "macrumors.com",
     "tomsguide.com",
