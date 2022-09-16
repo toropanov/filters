@@ -622,6 +622,8 @@ ya.ru##.lite-switcher-touch
 ya.ru##.footer3
 ya.ru##.search3__logo > svg
 ya.ru##.search3__voice
+ya.ru##.alice-promo
+ya.ru##.services-pinned
 yandex.ru#$#.document:not(.document_dark_yes) .rows:after { height: 100vh !important; }
 
 music.yandex.ru##.deco-teaser
