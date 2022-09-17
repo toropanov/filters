@@ -253,6 +253,11 @@ avito.ru##ul[class*="index-nav-inner"]
 avito.ru##span[class*="index-nav-tab-notify"]
 avito.ru##a[href="/business"]
 avito.ru##a[href="/shops/moskva_i_mo"]
+avito.ru##div[data-marker="header/navbar"]
+avito.ru##.l-footer
+avito.ru##div[class*="index-suggest_background"]
+avito.ru##div[data-marker="rubricator"]
+avito.ru##span[class*="price-highlight"]:upward(div[data-marker="item"])
 avito.ru##a[href="//support.avito.ru"]
 avito.ru##div[data-marker="item-user-logo"]:upward(div[data-marker="item"])
 avito.ru##div[class*="item-sellerInfo"]:has-text(/([A-Za-z]+)|([()]+)/):upward(div[data-marker="item"])
