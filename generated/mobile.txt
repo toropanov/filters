@@ -1,1 +1,1 @@
-aliexpress.ru,aliexpress.com,bitbucket.org##*
+aliexpress.ru,aliexpress.com,bitbucket.org,avito.ru##*

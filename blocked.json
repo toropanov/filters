@@ -58,7 +58,6 @@
     "most-beauty.ru",
     "fishki.net",
     "gbstore.ru",
-    "avito.ru",
     "pnp.ru",
     "wired.com",
     "vm.ru",
@@ -168,7 +167,8 @@
   "domains_only_mobile": [
     "aliexpress.ru",
     "aliexpress.com",
-    "bitbucket.org"
+    "bitbucket.org",
+    "avito.ru"
   ],
   "keywords": [
     "Тукитук",
