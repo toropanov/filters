@@ -18,14 +18,16 @@ join_arr() {
 exclude_from_duckduckgo() {
   local domains=("$@")
   local squashed_domains=$(join_arr "|" "${domains[@]}")
-  echo "duckduckgo.com##span:has-text(/${squashed_domains}/ig):upward(article)" >> $output_file
+
+  echo "duckduckgo.com##span:has-text(/${squashed_domains}/i):upward(article)" >> $output_file
 }
 
 exclude_from_yandex() {
   local domains=("$@")
   local squashed_domains=$(join_arr "|" "${domains[@]}")
-  echo "yandex.ru##b:has-text(/${squashed_domains}/ig):upward(.serp-item)" >> $output_file
-  echo "yandex.ru##.serp-item:has-text(/${squashed_domains}/ig)" >> $output_file
+
+  echo "yandex.ru##b:has-text(/${squashed_domains}/i):upward(.serp-item)" >> $output_file
+  echo "yandex.ru##.serp-item:has-text(/${squashed_domains}/i)" >> $output_file
 }
 
 exclude_from_music() {
@@ -42,11 +44,19 @@ exclude_from_youtube() {
   local keywords=("$@")
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
   echo "youtube.com##ytd-channel-name:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+
   echo "youtube.com##h1:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
   echo "youtube.com##h2:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
   echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(ytd-grid-video-renderer)" >> $output_file
   echo "youtube.com##h3:has-text(/${squashed_keywords}/i):upward(ytm-video-with-context-renderer)" >> $output_file
   echo "youtube.com##h4:has-text(/${squashed_keywords}/i):upward(ytm-compact-video-renderer)" >> $output_file
+}
+
+exclude_from_avito() {
+  local keywords=("$@")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
+
+  echo "avito.ru##div[data-marker='item']:has-text(/${squashed_keywords}/i)" >> $output_file
 }
 
 exclude_from_vk() {
@@ -110,6 +120,7 @@ jq -r '.keywords[]' $config_file | {
   exclude_from_vk "${keywords[@]}"
   exclude_from_youtube "${keywords[@]}"
   exclude_from_music "${keywords[@]}"
+  exclude_from_avito "${keywords[@]}"
 
   echo "Keywords: ${#keywords[@]}"
 }
@@ -142,6 +153,16 @@ jq -r '.youtube[]' $config_file | {
   exclude_from_youtube "${keywords[@]}"
 
   echo "YouTube: ${#keywords[@]}"
+}
+
+jq -r '.avito[]' $config_file | {
+  while read -r keyword; do
+    keywords+=($keyword)
+  done
+
+  exclude_from_avito "${keywords[@]}"
+
+  echo "Avito: ${#keywords[@]}"
 }
 
 jq -r '.unlocked_domains[]' $config_file | {
