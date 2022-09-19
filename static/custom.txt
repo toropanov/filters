@@ -320,7 +320,7 @@ drive2.ru##span.c-counter
 drive2.ru##div[data-tt="Записей в бортжурнале"]
 drive2.ru##div[title="Драйв"]
 drive2.ru##.js-market-indexmode
-drive2.ru##.c-top-nav
+drive2.ru##button[data-role="notifications-status"]
 drive2.ru##.c-top__userpic
 drive2.ru##.c-radiogroup
 drive2.ru##a[data-action="msgr.show"]
