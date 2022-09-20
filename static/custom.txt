@@ -312,6 +312,7 @@ drive2.ru##.c-slideshow
 drive2.ru##.c-car-info
 drive2.ru##.c-car-desc:upward(1)
 drive2.ru###comments:upward(2)
+drive2.ru##div script:remove()
 drive2.ru##.c-lb-card__comments
 drive2.ru##.c-lb-card__likes
 drive2.ru##.c-lb-card__date
