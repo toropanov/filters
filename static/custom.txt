@@ -324,6 +324,16 @@ drive2.ru##button[data-role="notifications-status"]
 drive2.ru##.c-top__userpic
 drive2.ru##.c-radiogroup
 drive2.ru##a[data-action="msgr.show"]
+drive2.ru##div[data-target="promocar_view"]
+drive2.ru##a[href="/cars/"]
+drive2.ru##a[href="/my/all-notifications/"]
+drive2.ru##button[data-slot="top-menu.button"]
+drive2.ru##a[data-ym-target="menu_logo"]
+drive2.ru##div.c-logbook-card__pic
+drive2.ru##.c-gallery
+drive2.ru##a[href*="drom.ru"]
+drive2.ru##div.c-cp-post-card-m__pic-container
+drive2.ru##div:has-text(/Смотрите также/):upward(1)
 
 aliexpress.*###home-firstscreen
 aliexpress.*###middle-promotion-container
