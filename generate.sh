@@ -45,7 +45,7 @@ exclude_from_youtube() {
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
 
   echo "youtube.com###channel-header-container:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Channel page
-  echo "youtube.com##.watch-active-metadata:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Video page
+  echo "youtube.com##.watch-active-metadata h1.title:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Video page
 
   echo "youtube.com##ytd-grid-video-renderer:has-text(/${squashed_keywords}/i)" >> $output_file # Subscription page item
 
