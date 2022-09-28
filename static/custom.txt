@@ -333,7 +333,9 @@ drive2.ru##div.c-logbook-card__pic
 drive2.ru##.c-gallery
 drive2.ru##a[href*="drom.ru"]
 drive2.ru##div.c-cp-post-card-m__pic-container
-drive2.ru##div:has-text(/Смотрите также/):upward(1)
+drive2.ru##a.c-serp-item[href^="https://yabs.yandex.ru/"]
+drive2.ru##div[data-track]
+drive2.ru##.c-sitesearch-header
 
 aliexpress.*###home-firstscreen
 aliexpress.*###middle-promotion-container
