@@ -1071,6 +1071,7 @@ telegram.org##.verified-icon
 telegram.org##.chat-info .bottom:has-text(/subscribers/)
 telegram.org##.chatlist-chat:contains(/Telegram/)
 telegram.org##.sidebar-header
+telegram.org##replies-element
 telegram.org##.bubble-hover-reaction
 telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
 telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
