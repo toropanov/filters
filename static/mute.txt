@@ -18,6 +18,7 @@ stackoverflow.com##.bottom-notice
 stackoverflow.com##.s-anchors
 vk.com##.wcomments_wrap
 ##iframe[src*=vk\.com\/widget_comments]
+telegram.org##replies-element
 
 ##[class~=commentlist]
 ##[class~=commentList]
