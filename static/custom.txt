@@ -342,6 +342,7 @@ drive2.ru##a[href^="/experience/"]
 drive2.ru##a[href^="/cars/"]
 drive2.ru##.c-dv-p
 drive2.ru##div[data-block-name]
+drive2.ru##div[lang]
 
 aliexpress.*###home-firstscreen
 aliexpress.*###middle-promotion-container
