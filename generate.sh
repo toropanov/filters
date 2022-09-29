@@ -44,14 +44,15 @@ exclude_from_youtube() {
   local keywords=("$@")
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
 
-  echo "youtube.com###channel-header-container:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Channel page
-  echo "youtube.com##.watch-active-metadata h1.title:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Video page
+  echo "youtube.com###channel-header-container:has-text(/${squashed_keywords}/i):upward(body):remove()" >> $output_file # Channel page
+  echo "youtube.com##.watch-active-metadata h1.title:has-text(/${squashed_keywords}/i):upward(body):remove()" >> $output_file # Video page
+  echo "youtube.com##.watch-active-metadata ytd-channel-name:has-text(/${squashed_keywords}/i):upward(body):remove()" >> $output_file # Video page
 
   echo "youtube.com##ytd-grid-video-renderer:has-text(/${squashed_keywords}/i)" >> $output_file # Subscription page item
 
   #Mobile
   echo "youtube.com##h1.c4-tabbed-header-title:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Channel page
-  echo "youtube.com##ytm-slim-video-metadata-section-renderer:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file # Video page
+  echo "youtube.com##ytm-slim-video-metadata-section-renderer:has-text(/${squashed_keywords}/i):upward(body):remove()" >> $output_file # Video page
 
   echo "youtube.com##ytm-item-section-renderer:has-text(/${squashed_keywords}/i)" >> $output_file # Subscription page item
 }
