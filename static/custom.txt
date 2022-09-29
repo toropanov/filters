@@ -1082,7 +1082,9 @@ telegram.org##.sidebar-header
 telegram.org##.bubble-hover-reaction
 telegram.org###new-menu
 telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
+telegram.org##.chatlist-parts[data-filter-id="193"] .chatlist
 telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
+telegram.org##div[data-filter-id="193"]
 
 leetcode.com##a[aria-label="feedback"]
 leetcode.com##svg[class*="account-icon"]
