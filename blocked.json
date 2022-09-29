@@ -310,6 +310,11 @@
   "vk": [
     "Rap"
   ],
+  "unblockable_domains": [
+    "drive2.ru",
+    "avito.ru",
+    "webk.telegram.org"
+  ],
   "unlocked_domains": [
     "adguard.com",
     "linkedin.com",
