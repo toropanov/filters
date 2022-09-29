@@ -344,7 +344,7 @@ drive2.ru##.c-dv-p
 drive2.ru##div[data-block-name]
 drive2.ru##div[lang]
 drive2.ru##div style:remove()
-drive2.ru##a img
+drive2.ru##a img[href^="https://"]
 
 aliexpress.*###home-firstscreen
 aliexpress.*###middle-promotion-container
