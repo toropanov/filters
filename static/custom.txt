@@ -338,6 +338,9 @@ drive2.ru##div[data-track]
 drive2.ru##.c-sitesearch-header
 drive2.ru##.c-serp-item__pic
 drive2.ru##.c-serp-item__meta
+drive2.ru##a[href^="/experience/"]
+drive2.ru##a[href^="/cars/"]
+drive2.ru##.c-dv-p
 
 aliexpress.*###home-firstscreen
 aliexpress.*###middle-promotion-container
