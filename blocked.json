@@ -313,6 +313,7 @@
   "unblockable_domains": [
     "drive2.ru",
     "avito.ru",
+    "youtube.com",
     "webk.telegram.org"
   ],
   "unlocked_domains": [
