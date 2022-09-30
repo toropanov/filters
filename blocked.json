@@ -328,23 +328,5 @@
     "preply.com",
     "bitbucket.org",
     "chrome.google.com"
-  ],
-  "redirects": [
-    {
-      "domain": "reddit.com",
-      "from": [
-        "/",
-        "/r/all/",
-        "/r/popular/"
-      ],
-      "to": "/user/umEyGBccsNqt2/submitted/"
-    },
-    {
-      "domain": "leetcode.com",
-      "from": [
-        "/"
-      ],
-      "to": "/explore/user/favorite/all/"
-    }
   ]
 }
