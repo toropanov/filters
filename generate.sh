@@ -9,7 +9,6 @@ output_file=generated/rules.txt
 output_desktop_file=generated/desktop.txt
 output_mobile_file=generated/mobile.txt
 output_hosts_file=generated/hosts
-vpn_conf_file=generated/ovpn.conf
 
 join_arr() {
   local IFS="$1"; shift; echo "$*";
@@ -80,7 +79,6 @@ youtube=()
 > $output_desktop_file
 > $output_mobile_file
 > $output_hosts_file
-> $vpn_conf_file
 
 jq -r '.domains[]' $config_file | {
   while read -r domain; do
@@ -168,16 +166,6 @@ jq -r '.avito[]' $config_file | {
   exclude_from_avito "${keywords[@]}"
 
   echo "Avito: ${#keywords[@]}"
-}
-
-jq -r '.unlocked_domains[]' $config_file | {
-  while read -r domain; do
-    route_domains+=($domain)
-    echo "route ${domain}" >> $vpn_conf_file
-    echo "route www.${domain}" >> $vpn_conf_file
-  done
-
-  echo "Unlocked domains: ${#route_domains[@]}"
 }
 
 echo "\n"
