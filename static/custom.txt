@@ -1087,6 +1087,14 @@ telegram.org##.chatlist-parts[data-filter-id="193"] .chatlist
 telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
 telegram.org##div[data-filter-id="193"]
 
+t.me##.tgme_background_wrap
+t.me##.tgme_widget_message_user
+t.me##header
+t.me##.tgme_widget_message_bubble_tail
+t.me##.tgme_widget_message_author
+t.me##.tgme_widget_message_reply
+t.me##.tgme_widget_message_footer
+
 leetcode.com##a[aria-label="feedback"]
 leetcode.com##svg[class*="account-icon"]
 leetcode.com##.content-title
