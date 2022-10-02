@@ -439,7 +439,6 @@ reddit.com##div[data-testid="frontpage-sidebar"]
 reddit.com##.XPromoPopup:remove()
 reddit.com###SearchDropdown
 reddit.com##.TopNav__promoButton
-reddit.com##div[aria-modal="true"]:upward(1)
 reddit.com##header a[href="/r/popular/"]:upward(1)
 reddit.com##header a[href="https://www.reddit.com/chat"]:upward(1)
 reddit.com##i.icon-karma_fill:upward(1)
