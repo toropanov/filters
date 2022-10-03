@@ -541,6 +541,9 @@ music.yandex.ru##.page-artist__playlists
 music.yandex.ru##.artist-pics
 music.yandex.ru##.d-suggest__popup-content
 
+disk.yandex.ru##a.InfoSpace
+disk.yandex.ru##a.PSHeaderService
+
 passport.yandex.ru##.passp-bg
 
 drive.google.com##div[data-target="upgrade-storage"]:upward(2)
