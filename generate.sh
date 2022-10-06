@@ -128,16 +128,6 @@ jq -r '.keywords[]' $config_file | {
   echo "Keywords: ${#keywords[@]}"
 }
 
-jq -r '.vk[]' $config_file | {
-  while read -r keyword; do
-    keywords+=($keyword)
-  done
-
-  exclude_from_vk "${keywords[@]}"
-
-  echo "VK: ${#keywords[@]}"
-}
-
 jq -r '.music[]' $config_file | {
   while read -r keyword; do
     keywords+=($keyword)
@@ -147,26 +137,6 @@ jq -r '.music[]' $config_file | {
 
   echo "Music: ${#keywords[@]}"
 }
-
-jq -r '.youtube[]' $config_file | {
-  while read -r keyword; do
-    keywords+=($keyword)
-  done
-
-  exclude_from_youtube "${keywords[@]}"
-
-  echo "YouTube: ${#keywords[@]}"
-}
-
-# jq -r '.avito[]' $config_file | {
-#   while read -r keyword; do
-#     keywords+=($keyword)
-#   done
-
-#   exclude_from_avito "${keywords[@]}"
-
-#   echo "Avito: ${#keywords[@]}"
-# }
 
 echo "\n"
 
