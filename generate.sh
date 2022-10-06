@@ -123,7 +123,7 @@ jq -r '.keywords[]' $config_file | {
   exclude_from_vk "${keywords[@]}"
   exclude_from_youtube "${keywords[@]}"
   exclude_from_music "${keywords[@]}"
-  exclude_from_avito "${keywords[@]}"
+  # exclude_from_avito "${keywords[@]}"
 
   echo "Keywords: ${#keywords[@]}"
 }
