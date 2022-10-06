@@ -18,6 +18,7 @@ vk.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 market.yandex.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 mail.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 yandex.ru#%#if(location.href=='https://yandex.ru/'){location.hostname='ya.ru'}
+dzen.ru#%#if(location.pathname=='/'){location.hostname='ya.ru'}
 leetcode.com#%#if(location.pathname=='/'){location.pathname='/explore/user/favorite/all/'}
 slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){location.href='https://app.slack.com/client/T53592GTV/CDF0CHQ03/thread/CAY8UCEDU-1653652958.032059'}
 manage.voximplant.com#%#if(location.pathname=='/auth'){location.pathname='/auth/subuser/1714349'}
