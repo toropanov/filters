@@ -300,7 +300,13 @@
     "Yanix"
   ],
   "avito": [
-    "барбершоп"
+    "чехол",
+    "case",
+    "ipad pro 11",
+    "ipad pro 12.9",
+    "iphone 12",
+    "iphone 13",
+    "iphone 14"
   ],
   "music": [
     "Leningrad",
@@ -316,6 +322,7 @@
   "unblockable_domains": [
     "drive2.ru",
     "avito.ru",
+    "yandex.ru",
     "webk.telegram.org"
   ]
 }
