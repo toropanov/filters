@@ -48,9 +48,7 @@
     "badoo.com",
     "twitter.com",
     "gazeta.ru",
-    "news.yandex.ru",
     "external-content.duckduckgo.com",
-    "zen.yandex.ru",
     "fotovmire.ru",
     "vev.ru",
     "pexels.com",
@@ -167,7 +165,9 @@
     "theverge.com"
   ],
   "domains_only_desktop": [
-    "appldnld.apple.com"
+    "appldnld.apple.com",
+    "news.yandex.ru",
+    "zen.yandex.ru"
   ],
   "domains_only_mobile": [
     "aliexpress.ru",
