@@ -158,15 +158,15 @@ jq -r '.youtube[]' $config_file | {
   echo "YouTube: ${#keywords[@]}"
 }
 
-jq -r '.avito[]' $config_file | {
-  while read -r keyword; do
-    keywords+=($keyword)
-  done
+# jq -r '.avito[]' $config_file | {
+#   while read -r keyword; do
+#     keywords+=($keyword)
+#   done
 
-  exclude_from_avito "${keywords[@]}"
+#   exclude_from_avito "${keywords[@]}"
 
-  echo "Avito: ${#keywords[@]}"
-}
+#   echo "Avito: ${#keywords[@]}"
+# }
 
 echo "\n"
 
