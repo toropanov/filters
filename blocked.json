@@ -36,6 +36,13 @@
     "lafoy.ru",
     "news.ru",
     "tiktok.ru",
+    "avatars.dzeninfra.ru",
+    "dzeninfra.ru",
+    "zen-video-preview.s3.dzeninfra.ru",
+    "cold.cdn.dzeninfra.ru",
+    "clck.dzen.ru",
+    "log.dzen.ru",
+    "dzen.ru",
     "tiktok.com",
     "interfax.ru",
     "0225.ru",
@@ -166,8 +173,7 @@
   ],
   "domains_only_desktop": [
     "appldnld.apple.com",
-    "ya.ru",
-    "dzen.ru"
+    "ya.ru"
   ],
   "domains_only_mobile": [
     "aliexpress.ru",
