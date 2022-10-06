@@ -1,1 +1,1 @@
-appldnld.apple.com,news.yandex.ru,zen.yandex.ru##*
+appldnld.apple.com##*
