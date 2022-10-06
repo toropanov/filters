@@ -1,1 +1,1 @@
-appldnld.apple.com##*
+appldnld.apple.com,ya.ru,dzen.ru##*

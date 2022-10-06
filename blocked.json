@@ -165,7 +165,9 @@
     "theverge.com"
   ],
   "domains_only_desktop": [
-    "appldnld.apple.com"
+    "appldnld.apple.com",
+    "ya.ru",
+    "dzen.ru"
   ],
   "domains_only_mobile": [
     "aliexpress.ru",
