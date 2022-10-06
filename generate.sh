@@ -129,7 +129,7 @@ jq -r '.keywords[]' $config_file | {
 
 jq -r '.music[]' $config_file | {
   while read -r keyword; do
-    keywords+=($keyword)
+    keywords+=("$keyword")
   done
 
   exclude_from_music "${keywords[@]}"
@@ -139,7 +139,7 @@ jq -r '.music[]' $config_file | {
 
 jq -r '.avito[]' $config_file | {
   while read -r keyword; do
-    keywords+=($keyword)
+    keywords+=("$keyword")
   done
 
   exclude_from_avito "${keywords[@]}"

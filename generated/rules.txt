@@ -21,4 +21,4 @@ music.yandex.ru##.d-track:has-text(/Leningrad|Ленинград|Хаски|Russ
 music.yandex.ru##.playlist:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
 music.yandex.ru##.album:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
 music.yandex.ru##.artist:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
-avito.ru##div[data-marker='item']:has-text(/mac|mini|mac|pro|iphone|14|iphone|13|iphone|12|iphone|11|массаж/i)
+avito.ru##div[data-marker='item']:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|массаж/i)
