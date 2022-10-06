@@ -163,9 +163,9 @@ jq -r '.avito[]' $config_file | {
     keywords+=($keyword)
   done
 
-  exclude_from_avito "${keywords[@]}"
+  # exclude_from_avito "${keywords[@]}"
 
-  echo "Avito: ${#keywords[@]}"
+  # echo "Avito: ${#keywords[@]}"
 }
 
 echo "\n"
