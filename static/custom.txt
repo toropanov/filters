@@ -347,6 +347,7 @@ drive2.ru##div[lang]
 drive2.ru##div style:remove()
 drive2.ru##a img[href^="https://"]
 drive2.ru##h3:has-text(/Машины в продаже/)
+drive2.ru##.ac-renderer--search
 drive2.ru##h2.x-header:has-text(/Недавние запросы/):upward(.x-form)
 
 aliexpress.*###home-firstscreen
