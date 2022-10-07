@@ -450,6 +450,7 @@ reddit.com##div[id*="vote-arrows"]
 reddit.com##span:has-text(Log in or sign up to leave a comment):upward(1)
 reddit.com##a[aria-label="Advertise"]
 reddit.com##img[alt="User avatar"]
+reddit.com##img
 
 lucidchart.com##lucid-message-bar
 lucidchart.com##.integration-buttons
