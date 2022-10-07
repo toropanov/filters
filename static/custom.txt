@@ -1095,6 +1095,8 @@ telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
 telegram.org##.chatlist-parts[data-filter-id="193"] .chatlist
 telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
 telegram.org##div[data-filter-id="193"]
+telegram.org##.media-sticker-wrapper:upward(.bubble)
+telegram.org##button.emoji-tabs-stickers
 
 t.me##.tgme_background_wrap
 t.me##.tgme_widget_message_user
