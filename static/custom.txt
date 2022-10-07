@@ -128,6 +128,7 @@ duckduckgo.com##a[href*="bing.com"]:upward(article)
 duckduckgo.com##a[href*="vk.com/video"]:upward(article)
 duckduckgo.com##a[href*="apps.apple.com/"]:upward(article)
 duckduckgo.com##img[src*="external-content.duckduckgo.com"]
+duckduckgo.com##img
 
 raindrop.io##a[href="https://raindrop.io/pro/buy"]
 
@@ -649,6 +650,7 @@ yandex.ru##[data-fast-name="misspell"]
 yandex.ru##.Reviews
 yandex.ru##.dialog__overlay
 yandex.ru##.serp-item .IconDots
+yandex.ru##img
 
 ya.ru##.home-link2
 ya.ru##.headline
