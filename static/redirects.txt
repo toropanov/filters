@@ -15,7 +15,6 @@ toggl.com#%#if(location.pathname=='/'){location.href='https://track.toggl.com/ti
 kino.pub#%#if(location.pathname=='/' || location.pathname=='/movie' || location.pathname=='/popular' || location.pathname=='/serial' || location.pathname=='/sport' || location.pathname=='/selection'){location.pathname='/favorites'}
 bing.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 vk.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
-market.yandex.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 mail.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 ya.ru#%#if(location.pathname=='/'){location.href='https://yandex.ru/search/?text='}
 dzen.ru#%#if(location.pathname=='/'){location.href='https://yandex.ru/search/?text='}
