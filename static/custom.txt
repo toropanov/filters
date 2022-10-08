@@ -626,7 +626,7 @@ yandex.ru##.mini-suggest__popup
 yandex.ru##.voice-search-button
 yandex.ru##li.serp-item[data-fast-name="ecommerce_constr"]
 yandex.ru##a[href="https://passport.yandex.ru"]
-yandex.ru##a.logo
+yandex.ru##a.logo 
 yandex.ru##.serp-user__registration-button
 yandex.ru##.yaplus_available_yes
 yandex.ru##.serp-item .Warning
