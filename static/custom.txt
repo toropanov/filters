@@ -650,7 +650,6 @@ yandex.ru##[data-fast-name="misspell"]
 yandex.ru##.Reviews
 yandex.ru##.dialog__overlay
 yandex.ru##.serp-item .IconDots
-~yandex.ru##img
 
 ya.ru##.home-link2
 ya.ru##.headline
