@@ -16,8 +16,8 @@ kino.pub#%#if(location.pathname=='/' || location.pathname=='/movie' || location.
 bing.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 vk.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 mail.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
-ya.ru#%#if(location.pathname=='/'){location.href='https://yandex.ru/search/?text='}
-dzen.ru#%#if(location.pathname=='/'){location.href='https://yandex.ru/search/?text='}
+ya.ru#%#if(true){location.href='https://yandex.ru/search/?text='}
+dzen.ru#%#if(true){location.href='https://yandex.ru/search/?text='}
 leetcode.com#%#if(location.pathname=='/'){location.pathname='/explore/user/favorite/all/'}
 slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){location.href='https://app.slack.com/client/T53592GTV/CDF0CHQ03/thread/CAY8UCEDU-1653652958.032059'}
 manage.voximplant.com#%#if(location.pathname=='/auth'){location.pathname='/auth/subuser/1714349'}

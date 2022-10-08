@@ -42,7 +42,6 @@
     "cold.cdn.dzeninfra.ru",
     "clck.dzen.ru",
     "log.dzen.ru",
-    "dzen.ru",
     "tiktok.com",
     "interfax.ru",
     "0225.ru",
@@ -62,6 +61,7 @@
     "mk.ru",
     "most-beauty.ru",
     "fishki.net",
+    "gbstore.ru",
     "pnp.ru",
     "wired.com",
     "vm.ru",
@@ -178,7 +178,8 @@
   "domains_only_mobile": [
     "aliexpress.ru",
     "aliexpress.com",
-    "avito.ru"
+    "avito.ru",
+    "dzen.ru"
   ],
   "keywords": [
     "Тукитук",

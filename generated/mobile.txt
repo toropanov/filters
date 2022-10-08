@@ -1,1 +1,1 @@
-aliexpress.ru,aliexpress.com,avito.ru##*
+aliexpress.ru,aliexpress.com,avito.ru,dzen.ru##*
