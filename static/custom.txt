@@ -1077,7 +1077,7 @@ facebook.com##div[data-visualcompletion="ignore-dynamic"]
 
 telegram.org#%#if(location.pathname=='/'){ setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 750); setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 1000); }
 
-telegram.org##.input-search
+telegram.org##.input-search:upward(.sidebar-header).remove()
 telegram.org##.connection-status:remove()
 telegram.org##.bubble use[href="#message-tail-filled"]
 telegram.org##.chat use[href="#message-tail-filled"]
