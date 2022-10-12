@@ -330,7 +330,6 @@
   "unblockable_domains": [
     "drive2.ru",
     "avito.ru",
-    "yandex.ru",
-    "webk.telegram.org"
+    "yandex.ru"
   ]
 }
