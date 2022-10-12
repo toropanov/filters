@@ -1081,7 +1081,6 @@ telegram.org##.input-search:upward(.sidebar-header).remove()
 telegram.org##.connection-status:remove()
 telegram.org##.bubble use[href="#message-tail-filled"]
 telegram.org##.chat use[href="#message-tail-filled"]
-telegram.org##.sidebar-header__btn-container
 telegram.org##avatar-element
 telegram.org##.name:has-text('Forwarded from')
 telegram.org##reactions-element
@@ -1091,6 +1090,7 @@ telegram.org##.chatlist-chat:contains(/Telegram/)
 telegram.org##.bubble-hover-reaction
 telegram.org###new-menu
 telegram.org##.premium-icon
+telegram.org##.input-search
 telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
 telegram.org##.chatlist-parts[data-filter-id="193"] .chatlist
 telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
