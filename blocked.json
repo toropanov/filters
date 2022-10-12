@@ -175,6 +175,8 @@
   ],
   "domains_only_desktop": [
     "appldnld.apple.com",
+    "webk.telegram.org",
+    "webz.telegram.org",
     "ya.ru"
   ],
   "domains_only_mobile": [
