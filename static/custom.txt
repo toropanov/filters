@@ -561,6 +561,9 @@ drive.google.com##div[aria-label="Grid view"]
 radio.yandex.ru##a.station[href^="/genre/"]
 radio.yandex.ru##.nav__banner
 
+dribbble.com##.shot-details-container
+dribbble.com##a[rel="contact"]
+
 iguides.ru###topLine
 iguides.ru##.label
 iguides.ru##.coment_count
