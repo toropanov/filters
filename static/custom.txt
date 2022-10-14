@@ -1085,11 +1085,11 @@ telegram.org##.connection-status:remove()
 telegram.org##.bubble use[href="#message-tail-filled"]
 telegram.org##.chat use[href="#message-tail-filled"]
 telegram.org##avatar-element
-telegram.org##.name:has-text(/Forwarded/i)
+telegram.org##.i18n:has-text(/Forwarded/i):upward(.name)
 telegram.org##reactions-element
 telegram.org##.verified-icon
 telegram.org##.chat-info .bottom:has-text(/subscribers/)
-telegram.org##.chatlist-chat:contains(/Telegram/)
+telegram.org##.chatlist-chat:contains(/Telegram|Meduza|Истра/)
 telegram.org##.bubble-hover-reaction
 telegram.org###new-menu
 telegram.org##.premium-icon
