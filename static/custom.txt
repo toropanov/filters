@@ -1092,6 +1092,7 @@ telegram.org##.chat-info .bottom:has-text(/subscribers/)
 telegram.org##.chatlist-chat:contains(/Telegram/)
 telegram.org##.bubble-hover-reaction
 telegram.org###new-menu
+telegram.org##.forward
 telegram.org##.premium-icon
 telegram.org##.input-search
 telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
