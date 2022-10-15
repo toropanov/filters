@@ -97,6 +97,7 @@ jq -r '.domains[]' $config_file | {
 
 jq -r '.domains_only_desktop[]' $config_file | {
   while read -r domain; do
+    echo "0.0.0.0         ${domain} www.${domain}" >> $output_hosts_file
     domains+=($domain)
   done
 
