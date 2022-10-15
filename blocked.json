@@ -197,7 +197,9 @@
     "ok.ru"
   ],
   "domains_only_mobile": [
-    "dzen.ru"
+    "dzen.ru",
+    "avito.ru",
+    "aliexpress.ru"
   ],
   "keywords": [
     "Тукитук",
