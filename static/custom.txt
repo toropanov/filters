@@ -1085,7 +1085,6 @@ telegram.org##.connection-status:remove()
 telegram.org##.bubble use[href="#message-tail-filled"]
 telegram.org##.chat use[href="#message-tail-filled"]
 telegram.org##avatar-element
-telegram.org##.bubble .i18n
 telegram.org##.bubble .name
 telegram.org##reactions-element
 telegram.org##.verified-icon
