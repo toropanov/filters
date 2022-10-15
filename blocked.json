@@ -159,7 +159,6 @@
     "ura.news",
     "favoritka.online",
     "mamba.ru",
-    "aliexpress.ru",
     "aliexpress.com",
     "topkin.ru",
     "click-or-die.ru",
@@ -356,6 +355,7 @@
   "unblockable_domains": [
     "drive2.ru",
     "yandex.ru",
-    "avito.ru"
+    "avito.ru",
+    "aliexpress.ru"
   ]
 }
