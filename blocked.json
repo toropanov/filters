@@ -188,7 +188,6 @@
     "politico.com",
     "engadget.com",
     "mesu.apple.com",
-    "avito.ru",
     "theverge.com"
   ],
   "domains_only_desktop": [
@@ -198,7 +197,8 @@
     "ya.ru"
   ],
   "domains_only_mobile": [
-    "dzen.ru"
+    "dzen.ru",
+    "avito.ru"
   ],
   "keywords": [
     "Тукитук",
