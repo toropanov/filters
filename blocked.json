@@ -162,8 +162,6 @@
     "ura.news",
     "favoritka.online",
     "mamba.ru",
-    "aliexpress.ru",
-    "aliexpress.com",
     "topkin.ru",
     "click-or-die.ru",
     "ng.ru",
@@ -191,17 +189,19 @@
     "politico.com",
     "engadget.com",
     "mesu.apple.com",
-    "avito.ru",
     "theverge.com"
   ],
   "domains_only_desktop": [
     "appldnld.apple.com",
     "webk.telegram.org",
     "webz.telegram.org",
-    "ya.ru"
+    "ya.ru",
+    "ok.ru"
   ],
   "domains_only_mobile": [
-    "dzen.ru"
+    "dzen.ru",
+    "avito.ru",
+    "aliexpress.ru"
   ],
   "keywords": [
     "Тукитук",
@@ -358,6 +358,7 @@
   "vk": [],
   "unblockable_domains": [
     "drive2.ru",
-    "yandex.ru"
+    "yandex.ru",
+    "avito.ru"
   ]
 }

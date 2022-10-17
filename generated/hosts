@@ -160,8 +160,6 @@
 0.0.0.0         ura.news www.ura.news
 0.0.0.0         favoritka.online www.favoritka.online
 0.0.0.0         mamba.ru www.mamba.ru
-0.0.0.0         aliexpress.ru www.aliexpress.ru
-0.0.0.0         aliexpress.com www.aliexpress.com
 0.0.0.0         topkin.ru www.topkin.ru
 0.0.0.0         click-or-die.ru www.click-or-die.ru
 0.0.0.0         ng.ru www.ng.ru
@@ -189,5 +187,9 @@
 0.0.0.0         politico.com www.politico.com
 0.0.0.0         engadget.com www.engadget.com
 0.0.0.0         mesu.apple.com www.mesu.apple.com
-0.0.0.0         avito.ru www.avito.ru
 0.0.0.0         theverge.com www.theverge.com
+0.0.0.0         appldnld.apple.com www.appldnld.apple.com
+0.0.0.0         webk.telegram.org www.webk.telegram.org
+0.0.0.0         webz.telegram.org www.webz.telegram.org
+0.0.0.0         ya.ru www.ya.ru
+0.0.0.0         ok.ru www.ok.ru
