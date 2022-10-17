@@ -354,6 +354,7 @@ drive2.ru##.ac-renderer--search
 drive2.ru##h2.x-header:has-text(/Недавние запросы/):upward(.x-form)
 drive2.ru##img
 drive2.ru##img[src*="d-cd.net"]:upward(.c-post__pic)
+drive2.ru##img[data-src*="d-cd.net"]:upward(.c-post__pic)
 
 aliexpress.*###home-firstscreen
 aliexpress.*###middle-promotion-container
