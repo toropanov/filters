@@ -173,6 +173,8 @@ jq -r '.market[]' $config_file | {
 
   exclude_from_avito "${keywords[@]}"
   exclude_from_yandex_market "${keywords[@]}"
+  exclude_from_aliexpress "${keywords[@]}"
+  exclude_from_ozon "${keywords[@]}"
 
   echo "Market: ${#keywords[@]}"
 }
