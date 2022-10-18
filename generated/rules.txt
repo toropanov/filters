@@ -18,4 +18,6 @@ music.yandex.ru##.album:has-text(/Leningrad|Ленинград|Хаски|Russia
 music.yandex.ru##.artist:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
 avito.ru##div[data-marker='item']:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23|массаж|платье/i)
 market.yandex.ru##article:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23|массаж|платье/i)
+market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23|массаж|платье/i):upward(div[data-zone-name=product-page])
 market.yandex.ru##div[data-schema=productShowPlace]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23|массаж|платье/i)
+market.yandex.ru##h1[data-additional-zone=title]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23|массаж|платье/i):upward(div[data-apiary-widget-name=@mobile/ProductPage])

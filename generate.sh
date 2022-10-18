@@ -68,7 +68,10 @@ exclude_from_yandex_market() {
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
   
   echo "market.yandex.ru##article:has-text(/${squashed_keywords}/i)" >> $output_file
+  echo "market.yandex.ru##div[data-zone-name="productCardTitle"]:has-text(/${squashed_keywords}/i):upward(div[data-zone-name="product-page"])" >> $output_file
+
   echo "market.yandex.ru##div[data-schema="productShowPlace"]:has-text(/${squashed_keywords}/i)" >> $output_file # Mobile
+  echo "market.yandex.ru##h1[data-additional-zone="title"]:has-text(/${squashed_keywords}/i):upward(div[data-apiary-widget-name="@mobile/ProductPage"])" >> $output_file # Mobile
 }
 
 exclude_from_vk() {
