@@ -67,7 +67,7 @@ exclude_from_aliexpress() {
   local keywords=("$@")
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
 
-  echo "aliexpress.ru##div[class*="SnowSearchHeading"]:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+  echo "aliexpress.ru##div[class*="ProductSnippet__name"]:has-text(/${squashed_keywords}/i):upward(div[class*="ProductSnippet__container"])" >> $output_file
 }
 
 exclude_from_yandex_market() {
