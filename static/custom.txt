@@ -6,16 +6,14 @@ jsbin.com##.toppanel-logo
 jsbin.com##.toppanel-love
 jsbin.com##.menu:has-text(File)
 
-google.ru##*
-google.com##*
+google.ru###search
+google.com###search
 google.com##.logo
 google.com###footcnt
 google.com###bres
 google.com##.hdtb-mitem:has-text(/News|More/)
 google.com##a[aria-label="Google apps"]
 google.com##ddfddfiv[aria-label="Show side panel"]
-
-dzen.ru##*
 
 imdb.com##.swiper-wrapper:upward(3)
 imdb.com##a[aria-label="Go To IMDb Pro"]
