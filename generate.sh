@@ -63,6 +63,14 @@ exclude_from_avito() {
   echo "avito.ru##div[data-marker='item']:has-text(/${squashed_keywords}/i)" >> $output_file
 }
 
+exclude_from_yandex_market() {
+  local keywords=("$@")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
+  
+  echo "market.yandex.ru##article:has-text(/${squashed_keywords}/i)" >> $output_file
+  echo "market.yandex.ru##div[data-schema="productShowPlace"]:has-text(/${squashed_keywords}/i)" >> $output_file # Mobile
+}
+
 exclude_from_vk() {
   local keywords=("$@")
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
@@ -137,14 +145,15 @@ jq -r '.music[]' $config_file | {
   echo "Music: ${#keywords[@]}"
 }
 
-jq -r '.avito[]' $config_file | {
+jq -r '.market[]' $config_file | {
   while read -r keyword; do
     keywords+=("$keyword")
   done
 
   exclude_from_avito "${keywords[@]}"
+  exclude_from_yandex_market "${keywords[@]}"
 
-  echo "Avito: ${#keywords[@]}"
+  echo "Market: ${#keywords[@]}"
 }
 
 echo "\n"
