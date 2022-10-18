@@ -167,6 +167,6 @@ jq -r '.[]' $local_keywords_file | {
 
 echo "\n"
 
-# git add .
-# git commit -m 'Update filters'
-# git push
+git add .
+git commit -m 'Update filters'
+git push
