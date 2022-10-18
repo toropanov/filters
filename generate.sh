@@ -134,6 +134,8 @@ jq -r '.keywords[]' $config_file | {
   exclude_from_duckduckgo "${keywords[@]}"
   exclude_from_yandex "${keywords[@]}"
   exclude_from_youtube "${keywords[@]}"
+  exclude_from_avito "${keywords[@]}"
+  exclude_from_yandex_market "${keywords[@]}"
 
   echo "Keywords: ${#keywords[@]}"
 }
@@ -154,7 +156,6 @@ jq -r '.market[]' $config_file | {
   done
 
   exclude_from_avito "${keywords[@]}"
-  # exclude_from_yandex_market "${keywords[@]}"
 
   echo "Market: ${#keywords[@]}"
 }
