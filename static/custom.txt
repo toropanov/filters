@@ -6,6 +6,8 @@ jsbin.com##.toppanel-logo
 jsbin.com##.toppanel-love
 jsbin.com##.menu:has-text(File)
 
+google.ru##*
+google.com##*
 google.com##.logo
 google.com###footcnt
 google.com###bres
