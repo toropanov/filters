@@ -82,6 +82,7 @@ youtube=()
 > $output_desktop_file
 > $output_mobile_file
 > $output_hosts_file
+> $output_local_file
 
 jq -r '.domains[]' $config_file | {
   while read -r domain; do
@@ -155,16 +156,17 @@ jq -r '.[]' $local_keywords_file | {
   while read -r keyword; do
     keywords+=("$keyword")
   done
+  squashed_keywords=$(join_arr "|" "${keywords[@]}")
 
-  echo "duckduckgo.com##span:has-text(/${squashed_domains}/i):upward(article)" >> $output_local_file
-  echo "yandex.ru##b:has-text(/${squashed_domains}/i):upward(.serp-item)" >> $output_local_file
-  echo "yandex.ru##.serp-item:has-text(/${squashed_domains}/i)" >> $output_local_file
+  echo "duckduckgo.com##span:has-text(/"${squashed_keywords}"/i):upward(article)" >> $output_local_file
+  echo "yandex.ru##b:has-text(/"${squashed_keywords}"/i):upward(.serp-item)" >> $output_local_file
+  echo "yandex.ru##.serp-item:has-text(/"${squashed_keywords}"/i)" >> $output_local_file
 
   echo "Local keywords: ${#keywords[@]}"
 }
 
 echo "\n"
 
-git add .
-git commit -m 'Update filters'
-git push
+# git add .
+# git commit -m 'Update filters'
+# git push
