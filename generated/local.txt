@@ -1,0 +1,3 @@
+duckduckgo.com##span:has-text(//i):upward(article)
+yandex.ru##b:has-text(//i):upward(.serp-item)
+yandex.ru##.serp-item:has-text(//i)
