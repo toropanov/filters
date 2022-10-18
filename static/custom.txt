@@ -111,6 +111,7 @@ duckduckgo.com##a.header__button--menu
 duckduckgo.com##.js-module--news
 duckduckgo.com##.js-module--videos
 duckduckgo.com##.js-module--maps_places
+duckduckgo.com##.js-zci-link--about
 duckduckgo.com##.feedback-btn
 duckduckgo.com##.related-searches
 duckduckgo.com##.module--images
