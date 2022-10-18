@@ -10,7 +10,7 @@ output_desktop_file=generated/desktop.txt
 output_mobile_file=generated/mobile.txt
 output_hosts_file=generated/hosts
 
-local_keywords_file=~/Projects/ovpn-connect/local_keywords.json
+local_keywords_file=/Users/at/Library/Mobile\ Documents/App\ Settings/AdGuard/keywords.json
 output_local_file=generated/local.txt
 
 join_arr() {

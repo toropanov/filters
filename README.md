@@ -7,3 +7,5 @@ function filters() {
   hosts
   cd ~/Projects
 }
+
+<!-- ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs iCloud -->
