@@ -217,6 +217,7 @@
     "politico.com",
     "engadget.com",
     "mesu.apple.com",
+    "dzen.ru",
     "theverge.com"
   ],
   "domains_only_desktop": [
@@ -230,7 +231,6 @@
     "aliexpress.com"
   ],
   "domains_only_mobile": [
-    "dzen.ru",
     "avito.ru",
     "aliexpress.ru",
     "aliexpress.com"
