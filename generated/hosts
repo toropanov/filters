@@ -7,13 +7,19 @@
 0.0.0.0         rg.ru www.rg.ru
 0.0.0.0         rambler.ru www.rambler.ru
 0.0.0.0         news.rambler.ru www.news.rambler.ru
+0.0.0.0         twitch.tv www.twitch.tv
+0.0.0.0         twitch.com www.twitch.com
+0.0.0.0         steam.com www.steam.com
 0.0.0.0         1tv.ru www.1tv.ru
 0.0.0.0         m24.ru www.m24.ru
 0.0.0.0         news2.ru www.news2.ru
 0.0.0.0         rusonline.org www.rusonline.org
+0.0.0.0         d-cd.net www.d-cd.net
 0.0.0.0         a.d-cd.net www.a.d-cd.net
 0.0.0.0         c.d-cd.net www.c.d-cd.net
 0.0.0.0         i.d-cd.net www.i.d-cd.net
+0.0.0.0         web.snapchat.com www.web.snapchat.com
+0.0.0.0         snapchat.com www.snapchat.com
 0.0.0.0         bfm.ru www.bfm.ru
 0.0.0.0         bipbap.ru www.bipbap.ru
 0.0.0.0         9to5mac.com www.9to5mac.com
@@ -48,6 +54,7 @@
 0.0.0.0         riafan.ru www.riafan.ru
 0.0.0.0         playboyrussia.com www.playboyrussia.com
 0.0.0.0         svoboda.org www.svoboda.org
+0.0.0.0         forbes.ru www.forbes.ru
 0.0.0.0         lafoy.ru www.lafoy.ru
 0.0.0.0         news.ru www.news.ru
 0.0.0.0         tiktok.ru www.tiktok.ru
@@ -74,6 +81,7 @@
 0.0.0.0         kp.ru www.kp.ru
 0.0.0.0         life.ru www.life.ru
 0.0.0.0         zozhnik.ru www.zozhnik.ru
+0.0.0.0         zen.yandex.ru www.zen.yandex.ru
 0.0.0.0         uprostim.com www.uprostim.com
 0.0.0.0         badoo.com www.badoo.com
 0.0.0.0         twitter.com www.twitter.com
@@ -127,6 +135,7 @@
 0.0.0.0         topwar.ru www.topwar.ru
 0.0.0.0         pressa.tv www.pressa.tv
 0.0.0.0         tjournal.ru www.tjournal.ru
+0.0.0.0         varlamov.ru www.varlamov.ru
 0.0.0.0         smotrim.net www.smotrim.net
 0.0.0.0         itmag.pro www.itmag.pro
 0.0.0.0         shutok.ru www.shutok.ru
@@ -175,8 +184,10 @@
 0.0.0.0         ng.ru www.ng.ru
 0.0.0.0         uznayvse.ru www.uznayvse.ru
 0.0.0.0         funik.ru www.funik.ru
+0.0.0.0         pin.it www.pin.it
 0.0.0.0         fb.ru www.fb.ru
 0.0.0.0         aif.ru www.aif.ru
+0.0.0.0         pinimg.com www.pinimg.com
 0.0.0.0         euronews.com www.euronews.com
 0.0.0.0         pinterest.com www.pinterest.com
 0.0.0.0         ru.pinterest.com www.ru.pinterest.com
@@ -184,11 +195,13 @@
 0.0.0.0         vk.ru www.vk.ru
 0.0.0.0         girls-art.ru www.girls-art.ru
 0.0.0.0         vk.com www.vk.com
+0.0.0.0         tinder.com www.tinder.com
 0.0.0.0         facebook.com www.facebook.com
 0.0.0.0         instagram.com www.instagram.com
 0.0.0.0         tomsguide.com www.tomsguide.com
 0.0.0.0         ferra.ru www.ferra.ru
 0.0.0.0         sliv-foto.ru www.sliv-foto.ru
+0.0.0.0         api-stories.tinkoff.ru www.api-stories.tinkoff.ru
 0.0.0.0         uts-api.itunes.apple.com www.uts-api.itunes.apple.com
 0.0.0.0         uts-api-cdn.itunes-apple.com.akadns.net www.uts-api-cdn.itunes-apple.com.akadns.net
 0.0.0.0         dezinfo.net www.dezinfo.net
@@ -203,4 +216,5 @@
 0.0.0.0         webz.telegram.org www.webz.telegram.org
 0.0.0.0         ya.ru www.ya.ru
 0.0.0.0         ok.ru www.ok.ru
+0.0.0.0         m.ok.ru www.m.ok.ru
 0.0.0.0         aliexpress.com www.aliexpress.com
