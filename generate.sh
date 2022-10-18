@@ -156,6 +156,7 @@ jq -r '.market[]' $config_file | {
   done
 
   exclude_from_avito "${keywords[@]}"
+  exclude_from_yandex_market "${keywords[@]}"
 
   echo "Market: ${#keywords[@]}"
 }
