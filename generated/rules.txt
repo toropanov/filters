@@ -28,5 +28,3 @@ market.yandex.ru##article:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 
 market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23/i):upward(div[data-zone-name=product-page])
 market.yandex.ru##div[data-schema=productShowPlace]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23/i)
 market.yandex.ru##h1[data-additional-zone=title]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23/i):upward(div[data-apiary-widget-name=@mobile/ProductPage])
-aliexpress.ru##div[class*=SnowSearchHeading]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23/i):upward(body)
-ozon.ru##div[data-widget=fulltextResultsHeader]:has-text(/mac mini|mac pro|iphone 14|iphone 13|iphone 12|iphone 11|samsung s22|samsung s23/i):upward(body)
