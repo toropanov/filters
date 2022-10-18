@@ -10,9 +10,6 @@ output_desktop_file=generated/desktop.txt
 output_mobile_file=generated/mobile.txt
 output_hosts_file=generated/hosts
 
-local_keywords_file=~/Projects/ovpn-connect/local_keywords.json
-output_local_file=generated/local.txt
-
 join_arr() {
   local IFS="$1"; shift; echo "$*";
 }
@@ -150,19 +147,6 @@ jq -r '.avito[]' $config_file | {
   exclude_from_avito "${keywords[@]}"
 
   echo "Avito: ${#keywords[@]}"
-}
-
-jq -r '.[]' $local_keywords_file | {
-  while read -r keyword; do
-    keywords+=("$keyword")
-  done
-  squashed_keywords=$(join_arr "|" "${keywords[@]}")
-
-  echo "duckduckgo.com##span:has-text(/"${squashed_keywords}"/i):upward(article)" >> $output_local_file
-  echo "yandex.ru##b:has-text(/"${squashed_keywords}"/i):upward(.serp-item)" >> $output_local_file
-  echo "yandex.ru##.serp-item:has-text(/"${squashed_keywords}"/i)" >> $output_local_file
-
-  echo "Local keywords: ${#keywords[@]}"
 }
 
 echo "\n"
