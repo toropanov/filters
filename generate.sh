@@ -63,6 +63,13 @@ exclude_from_avito() {
   echo "avito.ru##div[data-marker='item']:has-text(/${squashed_keywords}/i)" >> $output_file
 }
 
+exclude_from_aliexpress() {
+  local keywords=("$@")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
+
+  echo "aliexpress.ru##div[class*="SnowSearchHeading"]:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
+}
+
 exclude_from_yandex_market() {
   local keywords=("$@")
   local squashed_keywords=$(join_arr "|" "${keywords[@]}")
@@ -72,6 +79,13 @@ exclude_from_yandex_market() {
 
   echo "market.yandex.ru##div[data-schema="productShowPlace"]:has-text(/${squashed_keywords}/i)" >> $output_file # Mobile
   echo "market.yandex.ru##h1[data-additional-zone="title"]:has-text(/${squashed_keywords}/i):upward(div[data-apiary-widget-name="@mobile/ProductPage"])" >> $output_file # Mobile
+}
+
+exclude_from_ozon() {
+  local keywords=("$@")
+  local squashed_keywords=$(join_arr "|" "${keywords[@]}")
+  
+  echo "ozon.ru##div[data-widget="fulltextResultsHeader"]:has-text(/${squashed_keywords}/i):upward(body)" >> $output_file
 }
 
 exclude_from_vk() {
@@ -136,6 +150,8 @@ jq -r '.keywords[]' $config_file | {
   exclude_from_youtube "${keywords[@]}"
   exclude_from_avito "${keywords[@]}"
   exclude_from_yandex_market "${keywords[@]}"
+  exclude_from_ozon "${keywords[@]}"
+  exclude_from_aliexpress "${keywords[@]}"
 
   echo "Keywords: ${#keywords[@]}"
 }
