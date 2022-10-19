@@ -1,4 +1,4 @@
-youtube.com#%#if(location.pathname=='/' || location.pathname.includes('/shorts') || location.pathname.includes('/feed/trending')){location.pathname='/feed/subscriptions'}
+youtube.com#%#if(location.pathname=='/' || location.pathname.includes('/shorts') || location.pathname.includes('/results') || location.pathname.includes('/feed/trending')){location.pathname='/feed/subscriptions'}
 zen.yandex.ru#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 apple.com#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 yandex.ru#%#if(location.pathname=='/images/' || location.pathname=='/video/'){location.href='https://safe.duckduckgo.com'}
