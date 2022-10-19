@@ -460,9 +460,10 @@ reddit.com##a[aria-label="Advertise"]
 reddit.com##img[alt="User avatar"]
 reddit.com##img
 
-lucidchart.com##lucid-message-bar
-lucidchart.com##.integration-buttons
-lucidchart.com##.component-growl-container
+lucid.app##lucid-message-bar
+lucid.app##.integration-buttons
+lucid.app##.component-growl-container
+lucid.app##lucid-chart-dashboard-content:has-text(/ What would you like to do?/)
 
 forum.adguard.com###header
 forum.adguard.com##.p-body-sidebar
