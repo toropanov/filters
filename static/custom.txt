@@ -1146,7 +1146,4 @@ leetcode.com#$#div[role="dialog"] footer { display: block!important }
 leetcode.com##path[d="M7 8v2H6a3 3 0 00-3 3v6a3 3 0 003 3h12a3 3 0 003-3v-6a3 3 0 00-3-3h-1V8A5 5 0 007 8zm8 0v2H9V8a3 3 0 116 0zm-3 6a2 2 0 100 4 2 2 0 000-4z"]:upward(div[role="cell"])
 leetcode.com##div[role="columnheader"]:has-text(Frequency)
 
-##footer
-###footer
-
 ###banner
