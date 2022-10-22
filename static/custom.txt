@@ -60,6 +60,7 @@ youtube.com##button[aria-label="More options"]
 youtube.com##ytm-item-section-renderer[data-content-type="related"]
 youtube.com##ytm-comments-entry-point-header-renderer
 youtube.com##ytm-pivot-bar-renderer
+youtube.com###sponsor-button
 youtube.com##ytm-channel-featured-video-renderer
 youtube.com##ytm-feed-filter-chip-bar-renderer
 youtube.com##div[tab-identifier="FEwhat_to_watch"]
