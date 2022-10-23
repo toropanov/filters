@@ -91,6 +91,9 @@ youtube.com##tp-yt-app-drawer:remove()
 youtube.com##tp-yt-paper-button:has-text(/Subscribe/):upward(ytd-item-section-renderer)
 youtube.com##ytd-video-renderer #description-text
 youtube.com##span[class*="header-subscriber-count"]
+youtube.com##a[href^="/shorts/"]
+youtube.com##a[href^="/shorts/"]:upward(ytd-grid-video-renderer)
+youtube.com##a[href^="/shorts/"]:upward(ytm-compact-video-renderer)
 
 duckduckgo.com###powered_by
 duckduckgo.com##.js-feedback-btn-wrap
