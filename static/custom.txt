@@ -77,6 +77,8 @@ youtube.com###description > yt-formatted-string
 youtube.com##ytd-badge-supported-renderer
 youtube.com##button[aria-label="Autoplay is off"]
 youtube.com##.banner-visible-area
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytm-reel-shelf-renderer
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-endscreen-content
 youtube.com##.ytd-live-chat-frame
