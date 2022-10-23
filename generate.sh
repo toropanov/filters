@@ -46,6 +46,7 @@ exclude_from_youtube() {
 
 exclude_from_avito() {
   echo "avito.ru##div[data-marker='item']:has-text(/$1/i)" >> $output_file
+  echo "avito.ru##div[data-marker='profile-item']:has-text(/$1/i)" >> $output_file
 }
 
 exclude_from_aliexpress() {
