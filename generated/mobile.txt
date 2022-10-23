@@ -1,1 +1,1 @@
-avito.ru,aliexpress.ru,aliexpress.com,market.yandex.ru##*
+avito.ru,aliexpress.ru,market.yandex.ru##*

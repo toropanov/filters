@@ -229,6 +229,7 @@
     "engadget.com",
     "mesu.apple.com",
     "dzen.ru",
+    "aliexpress.com",
     "theverge.com"
   ],
   "domains_only_desktop": [
@@ -238,13 +239,11 @@
     "ya.ru",
     "ok.ru",
     "m.ok.ru",
-    "t.me",
-    "aliexpress.com"
+    "t.me"
   ],
   "domains_only_mobile": [
     "avito.ru",
     "aliexpress.ru",
-    "aliexpress.com",
     "market.yandex.ru"
   ],
   "keywords": [
@@ -492,11 +491,11 @@
     "Rap",
     "Русск"
   ],
-  "vk": [],
   "unblockable_domains": [
     "drive2.ru",
     "yandex.ru",
     "avito.ru",
-    "aliexpress.ru"
+    "aliexpress.ru",
+    "market.yandex.ru"
   ]
 }

@@ -402,7 +402,6 @@ aliexpress.*##div[class*="DiscountProductBanner"]
 aliexpress.*##div[class*="InfoBanner"]
 aliexpress.*##div[class*="SharePanel"]
 aliexpress.*##div[class*="Waterfall"]
-aliexpress.*##div[class*="Footer"]
 aliexpress.*##div[class*="ChannelEntrance"]
 aliexpress.*##div[class*="CategoriesMenu"]
 aliexpress.*##div[class*="FestivalVenue"]
@@ -418,6 +417,7 @@ aliexpress.*##h2[class*="RecommendationFeed"]
 aliexpress.*##div[class*="SimilarSuggestions"]
 aliexpress.*##div[class*="QuestionsAndAnswers"]
 aliexpress.*##div[class*="SearchHeader_ShopCart__counter"]
+aliexpress.*##div[class*="SnowCommonHeader_Dropdown"]
 aliexpress.*##div[exp_page_area="recommended_for_you"]
 aliexpress.*##div[exp_page_area="Top_Selling"]
 aliexpress.*##div[ae_button_type="Seller_Recommendations"]
@@ -465,6 +465,9 @@ reddit.com##img
 lucid.app##lucid-message-bar
 lucid.app##.integration-buttons
 lucid.app##.component-growl-container
+lucid.app##lucid-education-panel
+lucid.app##lucid-marketing-growl
+lucid.app##lucid-chart-dashboard-recommended-templates
 lucid.app##lucid-chart-dashboard-content:has-text(/ What would you like to do?/)
 
 forum.adguard.com###header

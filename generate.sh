@@ -61,10 +61,6 @@ exclude_from_ozon() {
   echo "ozon.ru##div[data-widget="fulltextResultsHeader"]:has-text(/$1/i):upward(body)" >> $output_file
 }
 
-exclude_from_vk() {
-  echo "vk.com##body:has-text(/$1/i)" >> $output_file
-}
-
 domains=()
 keywords=()
 music=()
