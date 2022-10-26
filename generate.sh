@@ -138,18 +138,6 @@ jq -r '.music[]' $config_file | {
   echo "Music: ${#keywords[@]}"
 }
 
-jq -r '.youtube[]' $config_file | {
-  while read -r keyword; do
-    keywords+=("$keyword")
-  done
-
-  squashed=$(join_arr "|" "${keywords[@]}")
-
-  exclude_from_youtube "${squashed}"
-
-  echo "YouTube: ${#keywords[@]}"
-}
-
 jq -r '.market[]' $config_file | {
   while read -r keyword; do
     keywords+=("$keyword")
