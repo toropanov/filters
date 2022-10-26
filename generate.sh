@@ -109,8 +109,8 @@ jq -r '.domains_only_mobile[]' $config_file | {
 }
 
 jq -r '.keywords[]' $config_file | {
-  while read -r keyword; do
-    keywords+=("$keyword")
+  while IFS= read -r keyword; do
+    keywords+=(" $keyword")
   done
 
   squashed=$(join_arr "|" "${keywords[@]}")
@@ -127,8 +127,8 @@ jq -r '.keywords[]' $config_file | {
 }
 
 jq -r '.music[]' $config_file | {
-  while read -r keyword; do
-    keywords+=("$keyword")
+  while IFS= read -r keyword; do
+    keywords+=(" $keyword")
   done
 
   squashed=$(join_arr "|" "${keywords[@]}")
@@ -139,8 +139,8 @@ jq -r '.music[]' $config_file | {
 }
 
 jq -r '.market[]' $config_file | {
-  while read -r keyword; do
-    keywords+=("$keyword")
+  while IFS= read -r keyword; do
+    keywords+=(" $keyword")
   done
 
   squashed=$(join_arr "|" "${keywords[@]}")
