@@ -986,6 +986,7 @@ vk.com##a[href="/feed?section=notifications"]
 vk.com##a[href="/friends"]
 vk.com##a[href="/docs"]
 vk.com##a[data-header="Photos"]
+##iframe[src^="https://vk.com"]
 
 stackoverflow.com###sidebar
 stackoverflow.com##.s-user-card--info
