@@ -1,4 +1,6 @@
 ##a[href^="https://t.me"]
+##a[href^="http://vk.com"]
+##a[href^="https://ok.com"]
 
 jsbin.com###toppanel
 jsbin.com###panels
