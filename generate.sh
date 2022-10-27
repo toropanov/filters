@@ -14,6 +14,10 @@ join_arr() {
   local IFS="$1"; shift; echo "$*";
 }
 
+hide_link() {
+  echo "##a[href^='https://$1/']" >> $output_file
+}
+
 exclude_from_duckduckgo() {
   echo "duckduckgo.com##span:has-text(/$1/i):upward(article)" >> $output_file
 }
@@ -75,6 +79,7 @@ youtube=()
 jq -r '.domains[]' $config_file | {
   while read -r domain; do
     echo "0.0.0.0         ${domain} www.${domain}" >> $output_hosts_file
+    hide_link $domain
     domains+=($domain)
   done
 

@@ -1,3 +1,5 @@
+##a[href^="https://t.me"]
+
 jsbin.com###toppanel
 jsbin.com###panels
 jsbin.com##.help
