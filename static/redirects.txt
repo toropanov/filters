@@ -1,5 +1,4 @@
 youtube.com#%#if(location.pathname=='/' || location.pathname.includes('/shorts') || location.pathname.includes('/results') || location.pathname.includes('/hashtag') || location.pathname.includes('/feed/trending')){location.pathname='/feed/subscriptions'}
-zen.yandex.ru#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 apple.com#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 yandex.ru#%#if(location.pathname=='/images/' || location.pathname=='/video/'){location.href='https://safe.duckduckgo.com'}
 google.com#%#if(location.pathname=='/' && location.host == 'www.google.com'){location.href='https://safe.duckduckgo.com'}
@@ -16,8 +15,6 @@ kino.pub#%#if(location.pathname=='/' || location.pathname=='/movie' || location.
 bing.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 vk.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 mail.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
-ya.ru#%#if(true){location.href='https://yandex.ru/search/?text='}
-dzen.ru#%#if(true){location.href='https://yandex.ru/search/?text='}
 leetcode.com#%#if(location.pathname=='/'){location.pathname='/explore/user/favorite/all/'}
 slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){location.href='https://app.slack.com/client/T53592GTV/CDF0CHQ03/thread/CAY8UCEDU-1653652958.032059'}
 manage.voximplant.com#%#if(location.pathname=='/auth'){location.pathname='/auth/subuser/1714349'}
