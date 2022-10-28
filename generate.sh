@@ -14,6 +14,10 @@ join_arr() {
   local IFS="$1"; shift; echo "$*";
 }
 
+hide_image() {
+  echo "$1##img" >> $output_file
+}
+
 hide_link() {
   echo "##a[href^='https://$1/']" >> $output_file
   echo "##a[href^='https://www.$1/']" >> $output_file
@@ -80,7 +84,6 @@ youtube=()
 jq -r '.domains[]' $config_file | {
   while read -r domain; do
     echo "0.0.0.0         ${domain} www.${domain}" >> $output_hosts_file
-    hide_link $domain
     domains+=($domain)
   done
 
@@ -134,7 +137,7 @@ jq -r '.keywords[]' $config_file | {
 
 jq -r '.music[]' $config_file | {
   while IFS= read -r keyword; do
-    keywords+=(" $keyword")
+    keywords+=("$keyword")
   done
 
   squashed=$(join_arr "|" "${keywords[@]}")
@@ -146,7 +149,7 @@ jq -r '.music[]' $config_file | {
 
 jq -r '.market[]' $config_file | {
   while IFS= read -r keyword; do
-    keywords+=(" $keyword")
+    keywords+=("$keyword")
   done
 
   squashed=$(join_arr "|" "${keywords[@]}")
@@ -155,6 +158,24 @@ jq -r '.market[]' $config_file | {
   exclude_from_yandex_market "${squashed}"
 
   echo "Market: ${#keywords[@]}"
+}
+
+jq -r '.hide_links[]' $config_file | {
+  while read -r domain; do
+    hide_link $domain
+    domains+=($domain)
+  done
+
+  echo "Links: ${#domains[@]}"
+}
+
+jq -r '.hide_images[]' $config_file | {
+  while read -r domain; do
+    hide_image $domain
+    domains+=($domain)
+  done
+
+  echo "Images: ${#domains[@]}"
 }
 
 echo "\n"
