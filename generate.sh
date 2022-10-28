@@ -116,7 +116,7 @@ jq -r '.domains_only_mobile[]' $config_file | {
 
 jq -r '.keywords[]' $config_file | {
   while IFS= read -r keyword; do
-    keywords+=(" $keyword")
+    keywords+=("$keyword")
   done
 
   squashed=$(join_arr "|" "${keywords[@]}")
