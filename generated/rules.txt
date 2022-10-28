@@ -51,6 +51,7 @@ market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pr
 kino.pub##img
 duckduckgo.com##img
 safe.duckduckgo.com##img
+mkze.elm.ovh##img
 yandex.ru##img
 linkedin.com##img
 howtogeek.com##img

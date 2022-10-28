@@ -1,5 +1,4 @@
 youtube.com#%#if(location.pathname=='/' || location.pathname.includes('/shorts') || location.pathname.includes('/results') || location.pathname.includes('/hashtag') || location.pathname.includes('/feed/trending')){location.pathname='/feed/subscriptions'}
-apple.com#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 yandex.ru#%#if(location.pathname=='/images/' || location.pathname=='/video/'){location.href='https://safe.duckduckgo.com'}
 google.com#%#if(location.pathname=='/' && location.host == 'www.google.com'){location.href='https://safe.duckduckgo.com'}
 journal.tinkoff.ru#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
@@ -13,8 +12,6 @@ mkze.elm.ovh#%#if(location.pathname=='/' || location.pathname=='/movie' || locat
 toggl.com#%#if(location.pathname=='/'){location.href='https://track.toggl.com/timer'}
 kino.pub#%#if(location.pathname=='/' || location.pathname=='/movie' || location.pathname=='/popular' || location.pathname=='/serial' || location.pathname=='/sport' || location.pathname=='/selection'){location.pathname='/favorites'}
 bing.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
-vk.com#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
-mail.ru#%#if(location.pathname=='/'){location.hostname='safe.duckduckgo.com'}
 leetcode.com#%#if(location.pathname=='/'){location.pathname='/explore/user/favorite/all/'}
 manage.voximplant.com#%#if(location.pathname=='/auth'){location.pathname='/auth/subuser/1714349'}
 b17.ru#%#if(location.pathname=='/' || location.pathname=='/forum/topic.php'){location.hostname='safe.duckduckgo.com'}
