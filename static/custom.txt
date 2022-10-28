@@ -199,6 +199,9 @@ github.com##.js-repos-container[aria-label="Repositories"]
 github.com##a[href^="/github/feedback/"]
 
 chess.com###main-banner
+chess.com##section.index-suggestion-component
+chess.com##section.index-suggestion-component
+chess.com##section.index-posts-component
 lichess.org###notify-toggle
 
 reactjs.org##header a[href*="fb.com"]:upward(3)
