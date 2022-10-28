@@ -16,6 +16,7 @@ join_arr() {
 
 hide_link() {
   echo "##a[href^='https://$1/']" >> $output_file
+  echo "##a[href^='https://www.$1/']" >> $output_file
 }
 
 exclude_from_duckduckgo() {
