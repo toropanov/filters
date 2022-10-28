@@ -38,12 +38,16 @@ market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pr
 ##a[href^='https://www.instagram.com/']
 ##a[href^='https://tiktok.com/']
 ##a[href^='https://www.tiktok.com/']
+##a[href^='https://twitter.com/']
+##a[href^='https://www.twitter.com/']
 ##a[href^='https://twitch.tv/']
 ##a[href^='https://www.twitch.tv/']
 ##a[href^='https://twitch.com/']
 ##a[href^='https://www.twitch.com/']
 ##a[href^='https://facebook.com/']
 ##a[href^='https://www.facebook.com/']
+##a[href^='https://play.google.com/']
+##a[href^='https://www.play.google.com/']
 kino.pub##img
 duckduckgo.com##img
 safe.duckduckgo.com##img
@@ -66,3 +70,4 @@ digitaltrends.com##img
 techradar.com##img
 makeuseof.com##img
 lifehacker.com##img
+apple.com##img

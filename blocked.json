@@ -555,9 +555,11 @@
     "ok.ru",
     "instagram.com",
     "tiktok.com",
+    "twitter.com",
     "twitch.tv",
     "twitch.com",
-    "facebook.com"
+    "facebook.com",
+    "play.google.com"
   ],
   "hide_images": [
     "kino.pub",
@@ -581,7 +583,8 @@
     "digitaltrends.com",
     "techradar.com",
     "makeuseof.com",
-    "lifehacker.com"
+    "lifehacker.com",
+    "apple.com"
   ],
   "unblockable_domains": [
     "drive2.ru",
