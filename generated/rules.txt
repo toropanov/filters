@@ -54,7 +54,12 @@ safe.duckduckgo.com##img
 mkze.elm.ovh##img
 yandex.ru##img
 linkedin.com##img
+gsmarena.com##img
+amazom.com##img
+mashable.com##img
+imore.com##img
 howtogeek.com##img
+trustedreviews.com##img
 osxdaily.com##img
 gadgethacks.com##img
 android.gadgethacks.com##img
