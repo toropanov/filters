@@ -40,7 +40,6 @@ youtube.com###top-level-buttons-computed ytd-toggle-button-renderer
 youtube.com###subscriber-count
 youtube.com###chat
 youtube.com###description
-youtube.com###ytm-single-column-watch-next-results-renderer
 youtube.com##ytd-video-primary-info-renderer .title
 youtube.com###endpoint[title="Home"]
 youtube.com###endpoint[title="Trending"]
@@ -62,7 +61,9 @@ youtube.com##button[aria-label="Notifications"]
 youtube.com##ytd-notification-topbar-button-renderer
 youtube.com##button[aria-label="More options"]
 youtube.com##ytm-item-section-renderer[data-content-type="related"]
+youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 youtube.com##ytm-comments-entry-point-header-renderer
+youtube.com##ytm-segmented-like-dislike-button-renderer
 youtube.com##ytm-pivot-bar-renderer
 youtube.com###sponsor-button
 youtube.com##ytm-channel-featured-video-renderer
