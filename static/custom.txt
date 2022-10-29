@@ -1,6 +1,4 @@
-##a[href^="https://t.me"]
-##a[href^="http://vk.com"]
-##a[href^="https://ok.ru"]
+##a[href^="tg://"]
 
 jsbin.com###toppanel
 jsbin.com###panels
@@ -237,9 +235,9 @@ avito.ru##button[data-marker="navigation/more-button"]
 avito.ru##a[data-marker="menu/nc"]
 avito.ru##a[data-marker="menu/business"]
 avito.ru##a[href="/paid-services/listing-fees"]
-avito.ru##a[href="/profile/notifications"]
+avito.ru##a[href="/profile/notifications"]:upward(1)
 avito.ru##a[href="/shops/moskva"]
-avito.ru##a[href="/favorites"] i
+avito.ru##[data-marker="header/favorites"]
 avito.ru##a[href="/profile/safety?srcRef=lk"]
 avito.ru##div[data-marker="header/notifications"]
 avito.ru##div[data-marker="header/username-tooltip/favorites/count"]
@@ -273,9 +271,10 @@ avito.ru##ul[class*="index-nav-inner"]
 avito.ru##span[class*="index-nav-tab-notify"]
 avito.ru##a[href="/business"]
 avito.ru##a[href="/shops/moskva_i_mo"]
-avito.ru##div[data-marker="header/navbar"]
+avito.ru##[data-marker="header/username-button"]
 avito.ru##div[class*="page-title"]
 avito.ru##.l-footer
+avito.ru##[data-maker="profile-sidebar"]
 avito.ru##div[class*="index-suggest_background"]
 avito.ru##div[data-marker="rubricator"]
 avito.ru##span[class*="price-highlight"]:upward(div[data-marker="item"])
