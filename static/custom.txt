@@ -680,6 +680,9 @@ wylsa.com##.marketWidgetWrapper
 wylsa.com##.relatedPosts
 jsfiddle.net###hello-bar
 
+figma.com##div[class*="new_file_creation_topbar"]
+figma.com##div[class*="upgrade_section"]
+
 habr.com##header
 habr.com##.layout__row_services
 habr.com##.layout__row_navbar
