@@ -39,6 +39,8 @@ youtube.com##button.slim-video-metadata-header
 youtube.com###top-level-buttons-computed ytd-toggle-button-renderer
 youtube.com###subscriber-count
 youtube.com###chat
+youtube.com###description
+youtube.com###ytm-single-column-watch-next-results-renderer
 youtube.com##ytd-video-primary-info-renderer .title
 youtube.com###endpoint[title="Home"]
 youtube.com###endpoint[title="Trending"]
