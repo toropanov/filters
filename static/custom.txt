@@ -274,6 +274,7 @@ avito.ru##a[href="/shops/moskva_i_mo"]
 avito.ru##[data-marker="header/username-button"]
 avito.ru##div[class*="page-title"]
 avito.ru##.l-footer
+avito.ru##[data-maker="profile-sidebar"]
 avito.ru##div[class*="index-suggest_background"]
 avito.ru##div[data-marker="rubricator"]
 avito.ru##span[class*="price-highlight"]:upward(div[data-marker="item"])
