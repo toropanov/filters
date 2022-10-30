@@ -28,6 +28,7 @@ market.yandex.ru##article:has-text(/mac mini|mac pro|iphone 14|iphone 12|iphone 
 market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pro|iphone 14|iphone 12|iphone 11|samsung s22|samsung s23/i):upward(div[data-zone-name=product-page])
 ##a[href*='vk.ru']
 ##a[href*='vk.com']
+##a[href*='vb.me']
 ##a[href*='vkontakte.ru']
 ##a[href*='vkontakte.com']
 ##a[href*='fb.com']
