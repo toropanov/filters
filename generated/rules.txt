@@ -44,6 +44,7 @@ market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pr
 ##a[href*='twitter.com']
 ##a[href*='appgallery.huawei.com']
 ##a[href*='twitch.tv']
+##a[href*='viber.com']
 ##a[href*='twitch.com']
 ##a[href*='facebook.com']
 ##a[href*='play.google.com']
