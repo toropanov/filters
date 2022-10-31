@@ -837,6 +837,7 @@ w.level.*#$#.v-main { padding-left: 0 !important; }
 w.level.*##.v-speed-dial
 
 slack.com###morePages
+slack.com###Pdrafts
 slack.com###C6QL61SLV
 slack.com###CGRJXN55H
 slack.com###CP9RH2H0W
