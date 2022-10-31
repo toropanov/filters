@@ -457,6 +457,7 @@ ebay.com##.hl-atf-module-js
 ebay.com##.hl-cat-nav
 
 reddit.com###COIN_PURCHASE_DROPDOWN_ID
+reddit.com###USER_DROPDOWN_ID
 reddit.com###SHORTCUT_FOCUSABLE_DIV:has-text(Sorry, we couldn't load posts for this page.)
 reddit.com##.scrollerItem:has-text("Top livestream")
 reddit.com##div[data-testid="frontpage-sidebar"]
