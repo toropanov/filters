@@ -75,6 +75,7 @@ pcmag.com##img
 androidauthority.com##img
 androidcentral.com##img
 androidpolice.com##img
+reddit.com##img
 androidheadlines.com##img
 pcmag.com##img
 computerworld.com##img
