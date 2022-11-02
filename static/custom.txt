@@ -30,7 +30,6 @@ youtube.com###guide-wrapper
 youtube.com###guide-button
 youtube.com###masthead-skeleton-icons
 youtube.com###home-page-skeleton
-youtube.com##ytd-rich-grid-renderer
 youtube.com###owner-sub-count
 youtube.com###notification-preference-button
 youtube.com###related
