@@ -5,6 +5,7 @@
 ##[alt*="avatar"]
 ##[alt*="Avatar"]
 ##ytm-profile-icon
+##.userpic
 
 ##iframe[src*=disqus\.com\/embed\/comments]
 ##div#disqus_thread

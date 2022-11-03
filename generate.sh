@@ -19,7 +19,8 @@ hide_image() {
 }
 
 hide_link() {
-  echo "##a[href*='$1']" >> $output_file
+  echo "##a[href^='https://$1']" >> $output_file
+  echo "##a[href^='https://www.$1']" >> $output_file
 }
 
 exclude_from_duckduckgo() {
@@ -44,12 +45,14 @@ exclude_from_youtube() {
   echo "youtube.com##.watch-active-metadata ytd-channel-name:has-text(/$1/i):upward(body):remove()" >> $output_file # Video page
 
   echo "youtube.com##ytd-grid-video-renderer:has-text(/$1/i)" >> $output_file # Subscription page item
+  echo "youtube.com##ytd-rich-item-renderer:has-text(/$1/i)" >> $output_file # Subscription page item
 
   #Mobile
   echo "youtube.com##h1.c4-tabbed-header-title:has-text(/$1/i):upward(body)" >> $output_file # Channel page
   echo "youtube.com##ytm-slim-video-metadata-section-renderer:has-text(/$1/i):upward(body):remove()" >> $output_file # Video page
 
   echo "youtube.com##ytm-item-section-renderer:has-text(/$1/i)" >> $output_file # Subscription page item
+  echo "youtube.com##ytm-rich-grid-renderer:has-text(/$1/i)" >> $output_file # Subscription page item
 }
 
 exclude_from_avito() {
