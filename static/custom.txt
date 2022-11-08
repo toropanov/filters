@@ -199,6 +199,7 @@ github.com##notification-indicator
 github.com##.js-repos-container[aria-label="Repositories"]
 github.com##a[href^="/github/feedback/"]
 github.com##a[href*="/toropanov/filters"]
+github.com##summary[data-hydro-click*="//github.com/toropanov/filters"]:upward(get-repo)
 
 chess.com###main-banner
 chess.com##section.index-suggestion-component
