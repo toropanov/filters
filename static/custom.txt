@@ -451,6 +451,10 @@ w3schools.com##a[title="Go Pro"]
 w3schools.com##a[title="Courses"]
 w3schools.com##a[title="Get Your Own Website With W3Schools Spaces"]
 
+whereby.com##header[class*="RoomHeader"]
+whereby.com##[class*="RoomBackground"]
+whereby.com##[class*="helpButtonContainer"]
+
 ebay.com###hlGlobalFooter
 ebay.com##.hl-banner-carousel
 ebay.com##.hl-popular-destinations
