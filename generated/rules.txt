@@ -24,10 +24,10 @@ music.yandex.ru##.d-track:has-text(/Leningrad|Ленинград|Хаски|Russ
 music.yandex.ru##.playlist:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
 music.yandex.ru##.album:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
 music.yandex.ru##.artist:has-text(/Leningrad|Ленинград|Хаски|Russian|Rap|Русск/i)
-avito.ru##div[data-marker='item']:has-text(/mac mini|mac pro/i)
-avito.ru##div[data-marker='profile-item']:has-text(/mac mini|mac pro/i)
-market.yandex.ru##article:has-text(/mac mini|mac pro/i)
-market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pro/i):upward(div[data-zone-name=product-page])
+avito.ru##div[data-marker='item']:has-text(/mac mini|mac pro|концерт|выступление|билет|шоу |клуб /i)
+avito.ru##div[data-marker='profile-item']:has-text(/mac mini|mac pro|концерт|выступление|билет|шоу |клуб /i)
+market.yandex.ru##article:has-text(/mac mini|mac pro|концерт|выступление|билет|шоу |клуб /i)
+market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pro|концерт|выступление|билет|шоу |клуб /i):upward(div[data-zone-name=product-page])
 ##a[href^='https://vk.ru']
 ##a[href^='https://www.vk.ru']
 ##a[href^='https://vk.com']
