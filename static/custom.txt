@@ -71,6 +71,8 @@ youtube.com##div[tab-identifier="FEwhat_to_watch"]
 youtube.com##ytm-slim-video-action-bar-renderer ytm-slim-metadata-toggle-button-renderer
 youtube.com##ytd-searchbox
 youtube.com###metadata-line
+youtube.com##ytd-rich-grid-slim-media
+youtube.com##ytm-rich-grid-slim-media
 youtube.com##ytd-download-button-renderer
 youtube.com###hover-overlays
 youtube.com###mouseover-overlay
