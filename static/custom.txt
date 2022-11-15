@@ -103,6 +103,9 @@ youtube.com##a[href^="/shorts/"]
 youtube.com##a[href^="/shorts/"]:upward(ytd-grid-video-renderer)
 youtube.com##a[href^="/shorts/"]:upward(ytm-compact-video-renderer)
 
+youtube.com##ytd-section-list-renderer[page-subtype="subscriptions"]
+youtube.com##[tab-identifier="FEsubscriptions"]
+
 duckduckgo.com###powered_by
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.badge-link
