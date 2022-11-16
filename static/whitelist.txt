@@ -4,3 +4,4 @@
 @@||teamcity.*.me^$document
 @@||volleyplay.ru^$document
 @@||forum.obsidian.md^$document
+@@||localhost

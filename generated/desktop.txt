@@ -1,1 +1,2 @@
 appldnld.apple.com,webk.telegram.org,webz.telegram.org,ya.ru,ok.ru,m.ok.ru,t.me##*
+youtube.com##ytd-section-list-renderer[page-subtype="subscriptions"]

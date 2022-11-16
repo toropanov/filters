@@ -103,8 +103,6 @@ youtube.com##a[href^="/shorts/"]
 youtube.com##a[href^="/shorts/"]:upward(ytd-grid-video-renderer)
 youtube.com##a[href^="/shorts/"]:upward(ytm-compact-video-renderer)
 
-youtube.com##ytd-section-list-renderer[page-subtype="subscriptions"]
-
 duckduckgo.com###powered_by
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.badge-link
@@ -668,6 +666,8 @@ ya.ru##.search3__voice
 ya.ru##.alice-promo
 ya.ru##.services-pinned
 yandex.ru#$#.document:not(.document_dark_yes) .rows:after { height: 100vh !important; }
+
+practicum.yandex.ru##.popup-help
 
 music.yandex.ru##.deco-teaser
 market.yandex.ru##.n-review-poll

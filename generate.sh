@@ -5,6 +5,9 @@ git pull origin master
 echo 'TOTAL GENERATED'
 
 config_file=blocked.json
+static_desktop_file=static/desktop.txt
+static_mobile_file=static/mobile.txt
+
 output_file=generated/rules.txt
 output_desktop_file=generated/desktop.txt
 output_mobile_file=generated/mobile.txt
@@ -107,6 +110,8 @@ jq -r '.domains_only_desktop[]' $config_file | {
 
   squashed_with_comma=$(join_arr , "${domains[@]}")
   echo "${squashed_with_comma}##*" >> $output_desktop_file
+  
+  cat $static_desktop_file >> $output_desktop_file
 }
 
 jq -r '.domains_only_mobile[]' $config_file | {
@@ -117,6 +122,8 @@ jq -r '.domains_only_mobile[]' $config_file | {
   squashed_with_comma=$(join_arr , "${domains[@]}")
 
   echo "${squashed_with_comma}##*" >> $output_mobile_file
+
+  cat $static_mobile_file >> $output_mobile_file
 }
 
 jq -r '.keywords[]' $config_file | {
