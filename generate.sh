@@ -6,10 +6,12 @@ echo 'TOTAL GENERATED'
 
 config_file=blocked.json
 static_desktop_file=static/desktop.txt
+static_tablet_file=static/tablet.txt
 static_mobile_file=static/mobile.txt
 
 output_file=generated/rules.txt
 output_desktop_file=generated/desktop.txt
+output_tablet_file=generated/tablet.txt
 output_mobile_file=generated/mobile.txt
 output_hosts_file=generated/hosts
 
@@ -84,6 +86,7 @@ youtube=()
 > $output_file
 > $output_desktop_file
 > $output_mobile_file
+> $output_tablet_file
 > $output_hosts_file
 
 jq -r '.domains[]' $config_file | {
@@ -124,6 +127,18 @@ jq -r '.domains_only_mobile[]' $config_file | {
   echo "${squashed_with_comma}##*" >> $output_mobile_file
 
   cat $static_mobile_file >> $output_mobile_file
+}
+
+jq -r '.domains_only_tablet[]' $config_file | {
+  while read -r domain; do
+    domains+=($domain)
+  done
+
+  squashed_with_comma=$(join_arr , "${domains[@]}")
+
+  echo "${squashed_with_comma}##*" >> $output_tablet_file
+
+  cat $static_tablet_file >> $output_tablet_file
 }
 
 jq -r '.keywords[]' $config_file | {
