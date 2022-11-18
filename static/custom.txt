@@ -1,4 +1,5 @@
 ##a[href^="tg://"]
+##a[href^='http://vk.ru']
 
 jsbin.com###toppanel
 jsbin.com###panels
