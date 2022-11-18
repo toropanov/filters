@@ -2,6 +2,7 @@ youtube.com#%#if(location.pathname=='/' || location.pathname.includes('/shorts')
 yandex.ru#%#if(location.pathname=='/images/' || location.pathname=='/video/'){location.href='https://safe.duckduckgo.com'}
 google.com#%#if(location.pathname=='/' && location.host == 'www.google.com'){location.href='https://safe.duckduckgo.com'}
 journal.tinkoff.ru#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
+medium.com#%#if(location.pathname=='/'){location.href='https://safe.duckduckgo.com'}
 drive2.ru#%#if(location.pathname=='/'){location.pathname='/search/'}
 habr.com#%#if(location.pathname=='/' || location.pathname == '/ru/all/'){location.href='https://www.w3schools.com/'}
 4pda.to#%#if(location.pathname=='/' || location.search == '?act=idx' || location.search.includes('showforum')){ location.href = 'https://safe.duckduckgo.com' }
