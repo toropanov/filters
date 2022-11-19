@@ -18,5 +18,5 @@ manage.voximplant.com#%#if(location.pathname=='/auth'){location.pathname='/auth/
 b17.ru#%#if(location.pathname=='/' || location.pathname=='/forum/topic.php'){location.hostname='safe.duckduckgo.com'}
 music.yandex.ru#%#if(location.pathname=='/'){location.pathname='/users/toropanov/playlists/'}
 javascript.ru#%#if(location.host=='javascript.ru'){location.href='https://learn.javascript.ru/'}
-reddit.com#%#if(location.pathname=='/' || location.pathname=='/r/all/' || location.pathname=='/r/popular/'){location.pathname='/user/umEyGBccsNqt2/submitted/'}
+reddit.com#%#if(location.pathname=='/' || location.pathname=='/r/all/' || location.pathname=='/r/popular/'){ location.href = 'https://safe.duckduckgo.com' }
 slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){location.href='https://app.slack.com/client/T53592GTV/CDF0CHQ03/thread/CAY8UCEDU-1653652958.032059'}
