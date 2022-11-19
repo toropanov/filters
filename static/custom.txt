@@ -147,6 +147,7 @@ duckduckgo.com##a[href*="vk.com/video"]:upward(article)
 duckduckgo.com##a[href*="apps.apple.com/"]:upward(article)
 duckduckgo.com##img[src*="external-content.duckduckgo.com"]
 duckduckgo.com##img
+duckduckgo.com##.header--text_promo
 
 raindrop.io##a[href="https://raindrop.io/pro/buy"]
 
