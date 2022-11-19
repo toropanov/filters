@@ -925,6 +925,7 @@ slack.com#$#.c-virtual_list__scroll_container { height: auto!important; }
 feedly.com##button[-ext-contains="Upgrade"]
 
 medium.com##p:has-text(/Member-only/):upward(article)
+medium.com##a[href^="/plans?"]
 
 telegram.org#%#if(location.pathname=='/'){ setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 750); setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 1000); }
 
