@@ -928,6 +928,7 @@ feedly.com##button[-ext-contains="Upgrade"]
 medium.com##a[href^="/plans?"]
 medium.com##a[href*="/m/signin"]
 medium.com##a[href*="/?source="]
+medium.com##figure
 medium.com##buttom:has-text(/Member-only|Sign up/)
 medium.com##p:has-text(/Member-only/):upward(button)
 medium.com##button[aria-label^="Share on "]
