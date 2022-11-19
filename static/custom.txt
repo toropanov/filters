@@ -928,11 +928,11 @@ feedly.com##button[-ext-contains="Upgrade"]
 medium.com##a[href^="/plans?"]
 medium.com##a[href*="/m/signin"]
 medium.com##a[href*="/?source="]
-medium.com##buttom:has-text(/Member-only/)
+medium.com##buttom:has-text(/Member-only|Sign up/)
 medium.com##p:has-text(/Member-only/):upward(button)
 medium.com##button[aria-label^="Share on "]
 medium.com##button:has-text(/Follow/)
-medium.com##p:has-text(/member-only):upward(div)
+medium.com##p:has-text(/free member-only/):upward(2)
 medium.com##a[href*="/m/signin"]:upward(p)
 medium.com##header.pw-post-byline-header
 medium.com##input[aria-controls="searchResults"]:upward(div)
