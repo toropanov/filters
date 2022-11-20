@@ -78,6 +78,8 @@ market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pr
 ##a[href^='https://www.twitch.com']
 ##a[href^='https://facebook.com']
 ##a[href^='https://www.facebook.com']
+##a[href^='https://app.appsflyer.com']
+##a[href^='https://www.app.appsflyer.com']
 ##a[href^='https://play.google.com']
 ##a[href^='https://www.play.google.com']
 kino.pub##img
