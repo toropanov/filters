@@ -104,6 +104,8 @@ youtube.com##a[href^="/shorts/"]
 youtube.com##a[href^="/shorts/"]:upward(ytd-grid-video-renderer)
 youtube.com##a[href^="/shorts/"]:upward(ytm-compact-video-renderer)
 
+youtube.com#$#img { filter: blur(50px); }
+
 duckduckgo.com###powered_by
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.badge-link
