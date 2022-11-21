@@ -93,7 +93,7 @@ youtube.com##.compact-media-item-stats
 youtube.com##ytm-paid-content-overlay-renderer
 youtube.com##.ytp-paid-content-overlay
 youtube.com##a.ytp-next-button
-youtube.com##tp-yt-paper-tab:has-text(/Community|Channels|About|Live|Playlists/)
+youtube.com##tp-yt-paper-tab:has-text(/Community|Channels|About|Shorts|Live|Playlists/)
 youtube.com##tp-yt-paper-button:has-text(/Play all/)
 youtube.com#$#ytd-page-manager { margin-left: 0!important; }
 youtube.com##tp-yt-app-drawer:remove()
