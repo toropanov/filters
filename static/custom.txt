@@ -1,5 +1,3 @@
-#$#img { text-indent: -10000px; }
-
 ##a[href^="tg://"]
 ##a[href^='http://vk.ru']
 
