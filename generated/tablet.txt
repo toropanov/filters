@@ -1,1 +1,2 @@
 aliexpress.ru,market.yandex.ru##*
+##img

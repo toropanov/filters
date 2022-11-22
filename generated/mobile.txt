@@ -1,2 +1,3 @@
 avito.ru,aliexpress.ru,market.yandex.ru##*
 youtube.com##[tab-identifier="FEsubscriptions"]
+##img
