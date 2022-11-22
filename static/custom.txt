@@ -487,6 +487,8 @@ reddit.com##a[aria-label="Advertise"]
 reddit.com##img[alt="User avatar"]
 reddit.com##img
 
+alternativeto.net##div[class*="PageIntroWrapper"]
+
 lucid.app##lucid-message-bar
 lucid.app##.integration-buttons
 lucid.app##.component-growl-container
