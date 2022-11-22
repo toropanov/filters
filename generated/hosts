@@ -206,6 +206,7 @@
 0.0.0.0         teamo.ru www.teamo.ru
 0.0.0.0         mylitta.ru www.mylitta.ru
 0.0.0.0         art-assorty.ru www.art-assorty.ru
+0.0.0.0         reuters.com www.reuters.com
 0.0.0.0         basetop.ru www.basetop.ru
 0.0.0.0         womensflower.ru www.womensflower.ru
 0.0.0.0         gq.ru www.gq.ru
@@ -263,6 +264,15 @@
 0.0.0.0         dzen.ru www.dzen.ru
 0.0.0.0         aliexpress.com www.aliexpress.com
 0.0.0.0         theverge.com www.theverge.com
+0.0.0.0         eg.ru www.eg.ru
+0.0.0.0         apple.com www.apple.com
+0.0.0.0         appldnld.apple.com www.appldnld.apple.com
+0.0.0.0         webk.telegram.org www.webk.telegram.org
+0.0.0.0         webz.telegram.org www.webz.telegram.org
+0.0.0.0         ya.ru www.ya.ru
+0.0.0.0         ok.ru www.ok.ru
+0.0.0.0         m.ok.ru www.m.ok.ru
+0.0.0.0         t.me www.t.me
 0.0.0.0         appldnld.apple.com www.appldnld.apple.com
 0.0.0.0         webk.telegram.org www.webk.telegram.org
 0.0.0.0         webz.telegram.org www.webz.telegram.org
