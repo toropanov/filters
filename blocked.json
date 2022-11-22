@@ -920,6 +920,7 @@
     "market.yandex.ru"
   ],
   "only_hosts": [
-    "eg.ru"
+    "eg.ru",
+    "apple.com"
   ]
 }
