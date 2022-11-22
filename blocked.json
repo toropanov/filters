@@ -278,10 +278,12 @@
   "domains_only_mobile": [
     "avito.ru",
     "aliexpress.ru",
+    "bitbucket.org",
     "market.yandex.ru"
   ],
   "domains_only_tablet": [
     "aliexpress.ru",
+    "bitbucket.org",
     "market.yandex.ru"
   ],
   "keywords": [

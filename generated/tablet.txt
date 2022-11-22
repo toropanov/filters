@@ -1,2 +1,2 @@
-aliexpress.ru,market.yandex.ru##*
+aliexpress.ru,bitbucket.org,market.yandex.ru##*
 ##img
