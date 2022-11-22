@@ -898,6 +898,7 @@ slack.com###sectionHeading-L01JBDP0LDC
 slack.com###sectionHeading-LT7P0GRDF
 slack.com###sectionHeading-L031P8A3NCX
 slack.com##.c-presence
+slack.com##.c-avatar
 slack.com##.c-custom_status
 slack.com##.p-bookmarks_bar_container
 slack.com##.c-search_autocomplete__footer_feeedback_help_container
