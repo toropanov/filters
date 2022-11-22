@@ -916,5 +916,8 @@
     "avito.ru",
     "aliexpress.ru",
     "market.yandex.ru"
+  ],
+  "only_hosts": [
+    "eg.ru"
   ]
 }
