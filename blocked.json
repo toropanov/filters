@@ -921,6 +921,13 @@
   ],
   "only_hosts": [
     "eg.ru",
-    "apple.com"
+    "apple.com",
+    "appldnld.apple.com",
+    "webk.telegram.org",
+    "webz.telegram.org",
+    "ya.ru",
+    "ok.ru",
+    "m.ok.ru",
+    "t.me"
   ]
 }
