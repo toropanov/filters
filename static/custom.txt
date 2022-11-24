@@ -218,8 +218,8 @@ lichess.org###notify-toggle
 reactjs.org##header a[href*="fb.com"]:upward(3)
 
 aviasales.ru##div[data-selene-widget="main_content"]
-aviasales.ru##div[data-test-id="blog-item"]
-aviasales.ru##div[data-test-id="add-something-more-button"]
+aviasales.ru##li[data-test-id="blog-item"]
+aviasales.ru##button[data-test-id="add-something-more-button"]
 
 avito.ru##.main-page-flex-container
 avito.ru##.footer-extended
