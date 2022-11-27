@@ -20,3 +20,4 @@ music.yandex.ru#%#if(location.pathname=='/'){location.pathname='/users/toropanov
 javascript.ru#%#if(location.host=='javascript.ru'){location.href='https://learn.javascript.ru/'}
 reddit.com#%#if(location.pathname=='/' || location.pathname=='/r/all/' || location.pathname=='/r/popular/'){ location.href = 'https://safe.duckduckgo.com' }
 slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){location.href='https://app.slack.com/client/T53592GTV/CDF0CHQ03/thread/CAY8UCEDU-1653652958.032059'}
+practicum.yandex.ru#%#if(location.pathname=='/'){location.pathname='/profile/middle-frontend/'}
