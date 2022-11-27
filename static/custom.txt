@@ -992,3 +992,5 @@ leetcode.com##path[d="M7 8v2H6a3 3 0 00-3 3v6a3 3 0 003 3h12a3 3 0 003-3v-6a3 3 
 leetcode.com##div[role="columnheader"]:has-text(Frequency)
 
 ###banner
+footer###footer
+footer##.footer
