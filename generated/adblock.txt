@@ -8,7 +8,6 @@ mkze.elm.ovh##img
 google.com##img
 google.ru##img
 yandex.ru##img
-bing.com##img
 drive2.ru##img
 yahoo.com##img
 linkedin.com##img
