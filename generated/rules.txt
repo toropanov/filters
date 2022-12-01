@@ -98,6 +98,7 @@ yahoo.com##img
 linkedin.com##img
 gsmarena.com##img
 amazon.com##img
+youtube.com##img
 mashable.com##img
 imore.com##img
 howtogeek.com##img
