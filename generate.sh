@@ -5,11 +5,13 @@ git pull origin master
 echo 'TOTAL GENERATED'
 
 config_file=blocked.json
+static_adblock_file=static/adblock.txt
 static_desktop_file=static/desktop.txt
 static_tablet_file=static/tablet.txt
 static_mobile_file=static/mobile.txt
 
 output_file=generated/rules.txt
+output_adblock=generated/adblock.txt
 output_desktop_file=generated/desktop.txt
 output_tablet_file=generated/tablet.txt
 output_mobile_file=generated/mobile.txt
@@ -21,6 +23,7 @@ join_arr() {
 
 hide_image() {
   echo "$1##img" >> $output_file
+  echo "$1##img" >> $output_adblock
 }
 
 hide_link() {
@@ -84,6 +87,7 @@ music=()
 youtube=()
 
 > $output_file
+> $output_adblock
 > $output_desktop_file
 > $output_mobile_file
 > $output_tablet_file
@@ -124,6 +128,7 @@ jq -r '.domains_only_desktop[]' $config_file | {
   echo "${squashed_with_comma}##*" >> $output_desktop_file
   
   cat $static_desktop_file >> $output_desktop_file
+  cat $static_adblock_file >> $output_adblock_file
 }
 
 jq -r '.domains_only_mobile[]' $config_file | {
