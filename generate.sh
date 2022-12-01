@@ -26,9 +26,17 @@ hide_image() {
   echo "$1##img" >> $output_adblock
 }
 
-hide_link() {
+hide_link_by_url() {
   echo "##a[href^='https://$1']" >> $output_file
   echo "##a[href^='https://www.$1']" >> $output_file
+}
+
+hide_link_by_keyword() {
+  echo "##a:has-text(/$1/i)" >> $output_file
+}
+
+hide_article_by_header() {
+  echo "##h1:has-text(/$1/i):upward(body)" >> $output_file
 }
 
 exclude_from_duckduckgo() {
@@ -170,6 +178,10 @@ jq -r '.keywords[]' $config_file | {
   exclude_from_ozon "${squashed}"
   exclude_from_aliexpress "${squashed}"
 
+  # Experimental
+  hide_article_by_header "${squashed}"
+  hide_link_by_keyword "${squashed}"
+
   echo "Keywords: ${#keywords[@]}"
 }
 
@@ -200,7 +212,7 @@ jq -r '.market[]' $config_file | {
 
 jq -r '.hide_links[]' $config_file | {
   while read -r domain; do
-    hide_link $domain
+    hide_link_by_url $domain
     domains+=($domain)
   done
 
