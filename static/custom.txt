@@ -729,6 +729,8 @@ habr.com##.tm-base-layout__header
 habr.com##.tm-article-presenter__footer
 habr.com##.tm-footer-menu
 habr.com##.tm-footer
+habr.com##.tm-article-snippet__cover_cover
+habr.com##.tm-article-presenter__meta
 
 tproger.ru##.single__header
 tproger.ru##.container-header

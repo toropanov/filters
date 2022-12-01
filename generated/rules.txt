@@ -86,6 +86,8 @@ market.yandex.ru##div[data-zone-name=productCardTitle]:has-text(/mac mini|mac pr
 ##a[href^='https://www.play.google.com']
 kino.pub##img
 duckduckgo.com##img
+habr.ru##img
+habr.com##img
 safe.duckduckgo.com##img
 medium.com##img
 mkze.elm.ovh##img

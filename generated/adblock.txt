@@ -1,5 +1,7 @@
 kino.pub##img
 duckduckgo.com##img
+habr.ru##img
+habr.com##img
 safe.duckduckgo.com##img
 medium.com##img
 mkze.elm.ovh##img
