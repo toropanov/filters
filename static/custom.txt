@@ -492,6 +492,7 @@ reddit.com##div[id*="vote-arrows"]
 reddit.com##span:has-text(Log in or sign up to leave a comment):upward(1)
 reddit.com##a[aria-label="Advertise"]
 reddit.com##img[alt="User avatar"]
+reddit.com##button:has-text(/Shop avatar/ig)
 reddit.com##img
 
 alternativeto.net##div[class*="PageIntroWrapper"]
@@ -681,6 +682,7 @@ ya.ru##.services-pinned
 yandex.ru#$#.document:not(.document_dark_yes) .rows:after { height: 100vh !important; }
 
 practicum.yandex.ru##.popup-help
+practicum.yandex.ru##footer
 
 music.yandex.ru##.deco-teaser
 market.yandex.ru##.n-review-poll
