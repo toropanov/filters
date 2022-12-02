@@ -28,7 +28,7 @@ hide_image() {
 }
 
 allow_domain() {
-  echo "@@||$1" + '^$document' >> $output_allow_file
+  echo "@@||$1"'^$document' >> $output_allow_file
 }
 
 hide_link_by_url() {
@@ -101,7 +101,7 @@ youtube=()
 
 > $output_file
 > $output_adblock
-> $output_allow_files
+> $output_allow_file
 > $output_desktop_file
 > $output_mobile_file
 > $output_tablet_file

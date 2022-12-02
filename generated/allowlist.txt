@@ -1,27 +1,9 @@
-@@||app.pachca.com^
-@@||drive.google.com^
-@@||*.dev^
-@@||*.travel^
-@@||*.*.travel^
-@@||teamcity.*.me^
-@@||volleyplay.ru^
-@@||forum.obsidian.md^
-@@||localhost^
-
-
+@@||app.pachca.com^$document
+@@||drive.google.com^$document
 @@||*.dev^$document
 @@||*.travel^$document
 @@||*.*.travel^$document
 @@||teamcity.*.me^$document
 @@||volleyplay.ru^$document
 @@||forum.obsidian.md^$document
-@@||localhost
-@@||app.pachca.com + ^$document
-@@||drive.google.com + ^$document
-@@||*.dev + ^$document
-@@||*.travel + ^$document
-@@||*.*.travel + ^$document
-@@||teamcity.*.me + ^$document
-@@||volleyplay.ru + ^$document
-@@||forum.obsidian.md + ^$document
-@@||localhost + ^$document
+@@||localhost^$document
