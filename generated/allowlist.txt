@@ -7,3 +7,21 @@
 @@||volleyplay.ru^
 @@||forum.obsidian.md^
 @@||localhost^
+
+
+@@||*.dev^$document
+@@||*.travel^$document
+@@||*.*.travel^$document
+@@||teamcity.*.me^$document
+@@||volleyplay.ru^$document
+@@||forum.obsidian.md^$document
+@@||localhost
+@@||app.pachca.com + ^$document
+@@||drive.google.com + ^$document
+@@||*.dev + ^$document
+@@||*.travel + ^$document
+@@||*.*.travel + ^$document
+@@||teamcity.*.me + ^$document
+@@||volleyplay.ru + ^$document
+@@||forum.obsidian.md + ^$document
+@@||localhost + ^$document

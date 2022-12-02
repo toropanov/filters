@@ -28,7 +28,7 @@ hide_image() {
 }
 
 allow_domain() {
-  echo "@@||$1^$document" >> $output_allow_file
+  echo "@@||$1" + '^$document' >> $output_allow_file
 }
 
 hide_link_by_url() {
