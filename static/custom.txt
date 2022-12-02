@@ -848,6 +848,7 @@ ozon.ru##a[href^="/product/kupalnik"]:upward(1)
 spormaster.ru##.up-header-banner
 
 ##iframe[src^="https://vk.com"]
+##a[src^="http://vk.com"]
 
 stackoverflow.com###sidebar
 stackoverflow.com##.s-user-card--info
