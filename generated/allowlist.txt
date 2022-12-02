@@ -1,0 +1,9 @@
+@@||app.pachca.com^
+@@||drive.google.com^
+@@||*.dev^
+@@||*.travel^
+@@||*.*.travel^
+@@||teamcity.*.me^
+@@||volleyplay.ru^
+@@||forum.obsidian.md^
+@@||localhost^

@@ -15,6 +15,7 @@ output_adblock=generated/adblock.txt
 output_desktop_file=generated/desktop.txt
 output_tablet_file=generated/tablet.txt
 output_mobile_file=generated/mobile.txt
+output_allow_file=generated/allowlist.txt
 output_hosts_file=generated/hosts
 
 join_arr() {
@@ -24,6 +25,10 @@ join_arr() {
 hide_image() {
   echo "$1##img" >> $output_file
   echo "$1##img" >> $output_adblock
+}
+
+allow_domain() {
+  echo "@@||$1^$document" >> $output_allow_file
 }
 
 hide_link_by_url() {
@@ -96,6 +101,7 @@ youtube=()
 
 > $output_file
 > $output_adblock
+> $output_allow_files
 > $output_desktop_file
 > $output_mobile_file
 > $output_tablet_file
@@ -183,6 +189,16 @@ jq -r '.keywords[]' $config_file | {
   hide_link_by_keyword "${squashed}"
 
   echo "Keywords: ${#keywords[@]}"
+}
+
+
+jq -r '.allowlist[]' $config_file | {
+  while read -r domain; do
+    allow_domain $domain
+    domains+=($domain)
+  done
+
+  echo "Allowed: ${#domains[@]}"
 }
 
 jq -r '.music[]' $config_file | {
