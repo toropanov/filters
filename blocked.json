@@ -17,7 +17,6 @@
     "twitch.tv",
     "lovelama.ru",
     "yobte.ru",
-    "yandex.ru",
     "kosmetologs.ru",
     "wsj.com",
     "m.vk.com",
@@ -1214,6 +1213,7 @@
   "only_hosts": [
     "eg.ru",
     "apple.com",
+    "yandex.ru",
     "appldnld.apple.com",
     "webk.telegram.org",
     "webz.telegram.org",
