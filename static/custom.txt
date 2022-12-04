@@ -495,6 +495,10 @@ reddit.com##img[alt="User avatar"]
 reddit.com##button:has-text(/Shop avatar/ig)
 reddit.com##img
 
+geeksforgeeks.org##.shell
+geeksforgeeks.org##.header-main__wrapper
+geeksforgeeks.org##.darkMode-wrap
+
 alternativeto.net##div[class*="PageIntroWrapper"]
 
 lucid.app##lucid-message-bar
