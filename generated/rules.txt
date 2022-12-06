@@ -105,7 +105,7 @@ google.com##img
 google.ru##img
 yandex.ru##img
 drive2.ru##img
-spotify.com##img
+open.spotify.com##img
 yahoo.com##img
 linkedin.com##img
 gsmarena.com##img
