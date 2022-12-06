@@ -974,6 +974,13 @@ medium.com##a[href*="/m/signin"]:upward(p)
 medium.com##header.pw-post-byline-header
 medium.com##input[aria-controls="searchResults"]:upward(div)
 
+spotify.com##a[href="/download"]
+spotify.com##a[href="/collection/tracks"]
+spotify.com##button[data-testid="user-widget-link"]
+spotify.com##input[data-testid="search-input"]
+spotify.com##input[role="searchbox"]
+spotify.com##.main-view-container__mh-footer-container
+
 telegram.org#%#if(location.pathname=='/'){ setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 750); setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 1000); }
 
 telegram.org##.input-search:upward(.sidebar-header).remove()
