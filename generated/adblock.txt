@@ -3,6 +3,7 @@ duckduckgo.com##img
 habr.ru##img
 habr.com##img
 safe.duckduckgo.com##img
+price.ru##img
 medium.com##img
 mkze.elm.ovh##img
 google.com##img
