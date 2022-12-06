@@ -22,3 +22,4 @@ reddit.com#%#if(location.pathname=='/' || location.pathname=='/r/all/' || locati
 slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){location.href='https://app.slack.com/client/T53592GTV/CDF0CHQ03/thread/CAY8UCEDU-1653652958.032059'}
 practicum.yandex.ru#%#if(location.pathname=='/'){location.pathname='/profile/middle-frontend/'}
 codepen.io#%#if(location.pathname=='/'){location.href='https://jsbin.com/?js,console'}
+spotify.com#%#if(location.pathname=='/'){location.pathname='https://open.spotify.com'}
