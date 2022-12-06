@@ -978,7 +978,7 @@ spotify.com##a[href="/download"]
 spotify.com##a[href="/collection/tracks"]
 spotify.com##button[data-testid="user-widget-link"]
 spotify.com##input[data-testid="search-input"]
-spotify.com##input[role="searchbox"]
+spotify.com##div[role="search"]
 spotify.com##.main-view-container__mh-footer-container
 
 telegram.org#%#if(location.pathname=='/'){ setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 750); setTimeout(() => { document.querySelectorAll('#folders-tabs > .menu-horizontal-div-item')[1].click(); }, 1000); }
