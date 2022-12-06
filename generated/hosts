@@ -532,6 +532,15 @@
 0.0.0.0         ok.ru www.ok.ru
 0.0.0.0         m.ok.ru www.m.ok.ru
 0.0.0.0         t.me www.t.me
+0.0.0.0         seed-mix-image.spotifycdn.com www.seed-mix-image.spotifycdn.com
+0.0.0.0         newjams-images.scdn.co www.newjams-images.scdn.co
+0.0.0.0         i.scdn.co www.i.scdn.co
+0.0.0.0         daily-mix.scdn.co www.daily-mix.scdn.co
+0.0.0.0         seeded-session-images.scdn.co www.seeded-session-images.scdn.co
+0.0.0.0         misc.scdn.co www.misc.scdn.co
+0.0.0.0         dailymix-images.scdn.co www.dailymix-images.scdn.co
+0.0.0.0         charts-images.scdn.co www.charts-images.scdn.co
+0.0.0.0         wrapped-images.spotifycdn.com www.wrapped-images.spotifycdn.com
 0.0.0.0         appldnld.apple.com www.appldnld.apple.com
 0.0.0.0         webk.telegram.org www.webk.telegram.org
 0.0.0.0         webz.telegram.org www.webz.telegram.org
