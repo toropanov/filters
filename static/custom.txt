@@ -505,6 +505,7 @@ price.ru##.history.section
 price.ru##.logo
 price.ru##.search-result
 price.ru##.catalog-btn
+price.ru##.p-card__slider
 
 geeksforgeeks.org##.shell
 geeksforgeeks.org##.header-main__wrapper
