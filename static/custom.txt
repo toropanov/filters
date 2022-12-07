@@ -137,6 +137,7 @@ duckduckgo.com##.footer--mobile
 duckduckgo.com###zci-images
 duckduckgo.com###zci-videos
 duckduckgo.com##.vertical--news
+duckduckgo.com##.header--aside
 duckduckgo.com##.vertical--map
 duckduckgo.com##a[href*="b17.ru/forum/"]:upward(article)
 duckduckgo.com##a[href*="zen.yandex.ru/video/"]:upward(article)
