@@ -256,7 +256,6 @@ avito.ru##a[data-marker="menu/business"]
 avito.ru##a[href="/paid-services/listing-fees"]
 avito.ru##a[href="/profile/notifications"]:upward(1)
 avito.ru##a[href="/shops/moskva"]
-avito.ru##[data-marker="header/favorites"]
 avito.ru##a[href="/profile/safety?srcRef=lk"]
 avito.ru##div[data-marker="header/notifications"]
 avito.ru##div[data-marker="header/username-tooltip/favorites/count"]
