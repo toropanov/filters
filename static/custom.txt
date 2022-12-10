@@ -507,6 +507,7 @@ price.ru##.search-result
 price.ru##.catalog-btn
 price.ru##.image-picker
 price.ru##.slider
+price.ru##.modal
 price.ru##.model-history
 
 geeksforgeeks.org##.shell
