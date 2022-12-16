@@ -55,9 +55,10 @@ const replaceDenylist  = ({ id, key, body }) => new Promise((resolve, reject) =>
 });
 
 accounts.forEach(({ id, key, device }) => {
-  fetchDenylist().then(({ domains: commonDomains, domains_only_mobile, domains_only_tablet }) => {
+  fetchDenylist().then(({ domains: commonDomains, domains_only_mobile, domains_only_tablet, unblockable_domains }) => {
     const domains = [...new Set([
       ...commonDomains,
+      ...unblockable_domains,
       ...(
         device === 'iPhone'
           ? domains_only_mobile

@@ -1,3 +1,3 @@
-avito.ru,aliexpress.ru,bitbucket.org,nextdns.io,market.yandex.ru,mzstatic.com,c.media-amazon.com,m.media-amazon.com,associates-amazon.com,kca.amazon.com,msh.amazon.com,kars-ats.amazon.com,kindle.amazon.com,lifestyle.tinkoff.ru,tmsg.tinkoff.ru,app-site-association.cdn-apple.com,amp-api-edge.apps.apple.com,ap-gew1.spotify.com,scdnco.spotify.map.fastly.net,api.music.yandex.net,avito.st,static.avito.ru,avito.cdnvideo.ru##*
+nextdns.io,api.music.yandex.net,c.media-amazon.com,m.media-amazon.com,associates-amazon.com,kca.amazon.com,msh.amazon.com,kars-ats.amazon.com,kindle.amazon.com##*
 youtube.com##[tab-identifier="FEsubscriptions"]
 ##img
