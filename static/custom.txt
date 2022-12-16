@@ -202,13 +202,9 @@ github.com##.footer
 github.com##img.avatar
 github.com##a:has-text(/Add a README/):upward(.flash)
 github.com##a[href="/account/choose?action=upgrade"]
-github.com##a[href="/toropanov/adguard-filter"]:upward(li.source)
-github.com###jump-to-suggestion-repository-462241140
 github.com##notification-indicator
 github.com##.js-repos-container[aria-label="Repositories"]
 github.com##a[href^="/github/feedback/"]
-github.com##a[href*="/toropanov/filters"]
-github.com##summary[data-hydro-click*="//github.com/toropanov/filters"]:upward(get-repo)
 
 chess.com###main-banner
 chess.com##section.index-suggestion-component
