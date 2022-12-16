@@ -1,4 +1,4 @@
-appldnld.apple.com,webk.telegram.org,webz.telegram.org,ya.ru##*
+appldnld.apple.com,webk.telegram.org,webz.telegram.org,ya.ru,apple.com,yandex.ru,m.yandex.ru##*
 youtube.com##ytd-section-list-renderer[page-subtype="subscriptions"]
 bitbucket.org##*
 #$#img { text-indent: -10000px; }

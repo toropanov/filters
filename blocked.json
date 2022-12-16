@@ -252,6 +252,16 @@
     "opera.news",
     "indianexpress.com",
     "gulfnews.com",
+    "seed-mix-image.spotifycdn.com",
+    "newjams-images.scdn.co",
+    "i.scdn.co",
+    "daily-mix.scdn.co",
+    "seeded-session-images.scdn.co",
+    "misc.scdn.co",
+    "thisis-images.scdn.co",
+    "dailymix-images.scdn.co",
+    "charts-images.scdn.co",
+    "wrapped-images.spotifycdn.com",
     "malaysiakini.com",
     "news.abs-cbn.com",
     "risnews.com",
@@ -311,6 +321,7 @@
     "weekend.rambler.ru",
     "ru.axar.az",
     "regnum.ru",
+    "eg.ru",
     "zvezdaweekly.ru",
     "regionorel.ru",
     "ptoday.ru",
@@ -572,7 +583,10 @@
     "appldnld.apple.com",
     "webk.telegram.org",
     "webz.telegram.org",
-    "ya.ru"
+    "ya.ru",
+    "apple.com",
+    "yandex.ru",
+    "m.yandex.ru"
   ],
   "domains_only_mobile": [
     "api.music.yandex.net",
@@ -1266,24 +1280,5 @@
     "bitbucket.org",
     "market.yandex.ru"
   ],
-  "only_hosts": [
-    "eg.ru",
-    "apple.com",
-    "yandex.ru",
-    "m.yandex.ru",
-    "appldnld.apple.com",
-    "webk.telegram.org",
-    "webz.telegram.org",
-    "ya.ru",
-    "seed-mix-image.spotifycdn.com",
-    "newjams-images.scdn.co",
-    "i.scdn.co",
-    "daily-mix.scdn.co",
-    "seeded-session-images.scdn.co",
-    "misc.scdn.co",
-    "thisis-images.scdn.co",
-    "dailymix-images.scdn.co",
-    "charts-images.scdn.co",
-    "wrapped-images.spotifycdn.com"
-  ]
+  "only_hosts": []
 }
