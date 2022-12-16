@@ -167,7 +167,6 @@
 0.0.0.0         economist.com www.economist.com
 0.0.0.0         m24.ru www.m24.ru
 0.0.0.0         news.day.az www.news.day.az
-0.0.0.0         pbs.org www.pbs.org
 0.0.0.0         dan-news.info www.dan-news.info
 0.0.0.0         mc.yandex.ru www.mc.yandex.ru
 0.0.0.0         an.yandex.ru www.an.yandex.ru
@@ -430,7 +429,6 @@
 0.0.0.0         today.com www.today.com
 0.0.0.0         usnews.com www.usnews.com
 0.0.0.0         cbsnews.com www.cbsnews.com
-0.0.0.0         rbc.ru www.rbc.ru
 0.0.0.0         usatoday.com www.usatoday.com
 0.0.0.0         news.sky.com www.news.sky.com
 0.0.0.0         starhit.ru www.starhit.ru
@@ -513,7 +511,6 @@
 0.0.0.0         funik.ru www.funik.ru
 0.0.0.0         pin.it www.pin.it
 0.0.0.0         news.israelinfo.co.il www.news.israelinfo.co.il
-0.0.0.0         mirror.co.uk www.mirror.co.uk
 0.0.0.0         fb.ru www.fb.ru
 0.0.0.0         aif.ru www.aif.ru
 0.0.0.0         pinimg.com www.pinimg.com
@@ -547,8 +544,6 @@
 0.0.0.0         sliv-foto.ru www.sliv-foto.ru
 0.0.0.0         flipboard.com www.flipboard.com
 0.0.0.0         api-stories.tinkoff.ru www.api-stories.tinkoff.ru
-0.0.0.0         uts-api.itunes.apple.com www.uts-api.itunes.apple.com
-0.0.0.0         uts-api-cdn.itunes-apple.com.akadns.net www.uts-api-cdn.itunes-apple.com.akadns.net
 0.0.0.0         dezinfo.net www.dezinfo.net
 0.0.0.0         plus.google.com www.plus.google.com
 0.0.0.0         appleinsider.com www.appleinsider.com
@@ -566,7 +561,6 @@
 0.0.0.0         theverge.com www.theverge.com
 0.0.0.0         lifestyle.tinkoff.ru www.lifestyle.tinkoff.ru
 0.0.0.0         ok.ru www.ok.ru
-0.0.0.0         m.ok.ru www.m.ok.ru
 0.0.0.0         t.me www.t.me
 0.0.0.0         eg.ru www.eg.ru
 0.0.0.0         apple.com www.apple.com
