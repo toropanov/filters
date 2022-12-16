@@ -1,5 +1,7 @@
 # #!/bin/sh
 
+source .env
+
 git pull origin master
 
 echo 'TOTAL GENERATED'
@@ -11,7 +13,7 @@ static_tablet_file=static/tablet.txt
 static_mobile_file=static/mobile.txt
 
 output_file=generated/rules.txt
-output_adblock=generated/adblock.txt
+output_adblock_file=generated/adblock.txt
 output_desktop_file=generated/desktop.txt
 output_tablet_file=generated/tablet.txt
 output_mobile_file=generated/mobile.txt
@@ -22,9 +24,13 @@ join_arr() {
   local IFS="$1"; shift; echo "$*";
 }
 
+update_nextdns() {
+  node nextdns/update.js
+}
+
 hide_image() {
   echo "$1##img" >> $output_file
-  echo "$1##img" >> $output_adblock
+  echo "$1##img" >> $output_adblock_file
 }
 
 allow_domain() {
@@ -100,7 +106,7 @@ music=()
 youtube=()
 
 > $output_file
-> $output_adblock
+> $output_adblock_file
 > $output_allow_file
 > $output_desktop_file
 > $output_mobile_file
@@ -249,3 +255,5 @@ echo "\n"
 git add .
 git commit -m 'Update filters'
 git push
+
+if $NEXTDNS_ENABLE ; then sleep 3 && update_nextdns; fi

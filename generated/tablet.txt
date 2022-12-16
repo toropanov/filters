@@ -1,2 +1,2 @@
-aliexpress.ru,bitbucket.org,market.yandex.ru##*
+aliexpress.ru,bitbucket.org,market.yandex.ru,mzstatic.com,api.music.yandex.net,app-site-association.cdn-apple.com,amp-api-edge.apps.apple.com,avito.st,static.avito.ru,avito.cdnvideo.ru##*
 ##img
