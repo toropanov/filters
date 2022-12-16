@@ -1246,6 +1246,8 @@
     "*.travel",
     "*.*.travel",
     "teamcity.*.me",
+    "practicum.yandex.ru",
+    "passport.yandex.ru",
     "volleyplay.ru",
     "forum.obsidian.md",
     "localhost"

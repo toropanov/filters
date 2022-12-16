@@ -4,6 +4,8 @@
 @@||*.travel^$document
 @@||*.*.travel^$document
 @@||teamcity.*.me^$document
+@@||practicum.yandex.ru^$document
+@@||passport.yandex.ru^$document
 @@||volleyplay.ru^$document
 @@||forum.obsidian.md^$document
 @@||localhost^$document
