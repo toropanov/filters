@@ -388,7 +388,6 @@
 0.0.0.0         appleinsider.ru www.appleinsider.ru
 0.0.0.0         coub.com www.coub.com
 0.0.0.0         dayonline.ru www.dayonline.ru
-0.0.0.0         apps.apple.com www.apps.apple.com
 0.0.0.0         yuga.ru www.yuga.ru
 0.0.0.0         ladiesofburlesque.com www.ladiesofburlesque.com
 0.0.0.0         androidinsider.ru www.androidinsider.ru
@@ -566,7 +565,6 @@
 0.0.0.0         engadget.com www.engadget.com
 0.0.0.0         ap-gew1.spotify.com www.ap-gew1.spotify.com
 0.0.0.0         scdnco.spotify.map.fastly.net www.scdnco.spotify.map.fastly.net
-0.0.0.0         mesu.apple.com www.mesu.apple.com
 0.0.0.0         dzen.ru www.dzen.ru
 0.0.0.0         tmsg.tinkoff.ru www.tmsg.tinkoff.ru
 0.0.0.0         aliexpress.com www.aliexpress.com
@@ -576,10 +574,10 @@
 0.0.0.0         lifestyle.tinkoff.ru www.lifestyle.tinkoff.ru
 0.0.0.0         ok.ru www.ok.ru
 0.0.0.0         t.me www.t.me
+0.0.0.0         apple.com www.apple.com
 0.0.0.0         appldnld.apple.com www.appldnld.apple.com
 0.0.0.0         webk.telegram.org www.webk.telegram.org
 0.0.0.0         webz.telegram.org www.webz.telegram.org
 0.0.0.0         ya.ru www.ya.ru
-0.0.0.0         apple.com www.apple.com
 0.0.0.0         yandex.ru www.yandex.ru
 0.0.0.0         m.yandex.ru www.m.yandex.ru

@@ -390,7 +390,6 @@
     "appleinsider.ru",
     "coub.com",
     "dayonline.ru",
-    "apps.apple.com",
     "yuga.ru",
     "ladiesofburlesque.com",
     "androidinsider.ru",
@@ -568,7 +567,6 @@
     "engadget.com",
     "ap-gew1.spotify.com",
     "scdnco.spotify.map.fastly.net",
-    "mesu.apple.com",
     "dzen.ru",
     "tmsg.tinkoff.ru",
     "aliexpress.com",
@@ -584,7 +582,6 @@
     "webk.telegram.org",
     "webz.telegram.org",
     "ya.ru",
-    "apple.com",
     "yandex.ru",
     "m.yandex.ru"
   ],
@@ -1282,5 +1279,7 @@
     "bitbucket.org",
     "market.yandex.ru"
   ],
-  "only_hosts": []
+  "only_hosts": [
+    "apple.com"
+  ]
 }
