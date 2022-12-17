@@ -25,7 +25,9 @@ join_arr() {
 }
 
 update_nextdns() {
-  node nextdns/update.js
+  yarn add request dotenv
+  sleep 3 && node nextdns.js
+  rm -rf yarn.lock node_modules package.json
 }
 
 hide_image() {
@@ -256,4 +258,4 @@ git add .
 git commit -m 'Update filters'
 git push
 
-if $NEXTDNS_ENABLE ; then sleep 3 && update_nextdns; fi
+if $NEXTDNS_ENABLE ; then update_nextdns; fi
