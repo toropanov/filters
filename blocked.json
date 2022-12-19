@@ -579,9 +579,7 @@
     "appldnld.apple.com",
     "webk.telegram.org",
     "webz.telegram.org",
-    "ya.ru",
-    "yandex.ru",
-    "m.yandex.ru"
+    "ya.ru"
   ],
   "domains_only_mobile": [
     "api.music.yandex.net",
@@ -1278,6 +1276,8 @@
     "market.yandex.ru"
   ],
   "only_hosts": [
-    "apple.com"
+    "apple.com",
+    "yandex.ru",
+    "m.yandex.ru"
   ]
 }
