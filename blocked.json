@@ -589,9 +589,7 @@
     "kca.amazon.com",
     "msh.amazon.com",
     "kars-ats.amazon.com",
-    "kindle.amazon.com",
-    "avito.st",
-    "avito.ru"
+    "kindle.amazon.com"
   ],
   "domains_only_tablet": [
     "api.music.yandex.net",
@@ -601,9 +599,7 @@
     "kca.amazon.com",
     "msh.amazon.com",
     "kars-ats.amazon.com",
-    "kindle.amazon.com",
-    "avito.st",
-    "avito.ru"
+    "kindle.amazon.com"
   ],
   "keywords": [
     "Тукитук",
