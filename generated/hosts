@@ -250,16 +250,6 @@
 0.0.0.0         opera.news www.opera.news
 0.0.0.0         indianexpress.com www.indianexpress.com
 0.0.0.0         gulfnews.com www.gulfnews.com
-0.0.0.0         seed-mix-image.spotifycdn.com www.seed-mix-image.spotifycdn.com
-0.0.0.0         newjams-images.scdn.co www.newjams-images.scdn.co
-0.0.0.0         i.scdn.co www.i.scdn.co
-0.0.0.0         daily-mix.scdn.co www.daily-mix.scdn.co
-0.0.0.0         seeded-session-images.scdn.co www.seeded-session-images.scdn.co
-0.0.0.0         misc.scdn.co www.misc.scdn.co
-0.0.0.0         thisis-images.scdn.co www.thisis-images.scdn.co
-0.0.0.0         dailymix-images.scdn.co www.dailymix-images.scdn.co
-0.0.0.0         charts-images.scdn.co www.charts-images.scdn.co
-0.0.0.0         wrapped-images.spotifycdn.com www.wrapped-images.spotifycdn.com
 0.0.0.0         malaysiakini.com www.malaysiakini.com
 0.0.0.0         news.abs-cbn.com www.news.abs-cbn.com
 0.0.0.0         risnews.com www.risnews.com
@@ -563,8 +553,6 @@
 0.0.0.0         brands-prod.cdn-tinkoff.ru www.brands-prod.cdn-tinkoff.ru
 0.0.0.0         politico.com www.politico.com
 0.0.0.0         engadget.com www.engadget.com
-0.0.0.0         ap-gew1.spotify.com www.ap-gew1.spotify.com
-0.0.0.0         scdnco.spotify.map.fastly.net www.scdnco.spotify.map.fastly.net
 0.0.0.0         dzen.ru www.dzen.ru
 0.0.0.0         tmsg.tinkoff.ru www.tmsg.tinkoff.ru
 0.0.0.0         aliexpress.com www.aliexpress.com
