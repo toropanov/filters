@@ -579,6 +579,7 @@
     "appldnld.apple.com",
     "webk.telegram.org",
     "webz.telegram.org",
+    "avito.ru",
     "ya.ru"
   ],
   "domains_only_mobile": [
@@ -1270,7 +1271,6 @@
   ],
   "unblockable_domains": [
     "drive2.ru",
-    "avito.ru",
     "aliexpress.ru",
     "bitbucket.org",
     "market.yandex.ru"
