@@ -585,6 +585,9 @@
     "webk.telegram.org",
     "webz.telegram.org",
     "avito.ru",
+    "avito.st",
+    "market.yandex.ru",
+    "price.ru",
     "ya.ru"
   ],
   "domains_only_mobile": [
@@ -1277,8 +1280,7 @@
   "unblockable_domains": [
     "drive2.ru",
     "aliexpress.ru",
-    "bitbucket.org",
-    "market.yandex.ru"
+    "bitbucket.org"
   ],
   "only_hosts": [
     "apple.com",
