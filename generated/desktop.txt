@@ -1,4 +1,4 @@
-appldnld.apple.com,webk.telegram.org,webz.telegram.org,music.yandex.net,avito.ru,avito.st,market.yandex.ru,price.ru,ya.ru,gbstore.ru,store77.net,amazon.com,amazon.de##*
+appldnld.apple.com,webk.telegram.org,webz.telegram.org,music.yandex.ru,avito.ru,avito.st,market.yandex.ru,price.ru,ya.ru,gbstore.ru,store77.net,amazon.com,amazon.de##*
 youtube.com##ytd-section-list-renderer[page-subtype="subscriptions"]
 bitbucket.org##*
 #$#img { text-indent: -10000px; }
