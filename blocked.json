@@ -594,7 +594,9 @@
     "gbstore.ru",
     "store77.net",
     "amazon.com",
-    "amazon.de"
+    "amazon.de",
+    "aliexpress.ru",
+    "ozon.ru"
   ],
   "domains_only_mobile": [
     "api.music.yandex.net",
@@ -611,7 +613,9 @@
     "price.ru",
     "ya.ru",
     "gbstore.ru",
-    "store77.net"
+    "store77.net",
+    "aliexpress.ru",
+    "ozon.ru"
   ],
   "domains_only_tablet": [
     "api.music.yandex.net",
@@ -1292,7 +1296,6 @@
   ],
   "unblockable_domains": [
     "drive2.ru",
-    "aliexpress.ru",
     "bitbucket.org"
   ],
   "only_hosts": [
