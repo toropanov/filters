@@ -1002,6 +1002,15 @@ telegram.org##.search-group__name:contains(/Global/)
 telegram.org##.search-group-recent
 telegram.org##.search-super-tabs-scrollable
 telegram.org##.search-group-contacts
+telegram.org##a.btn-menu-footer
+telegram.org##.btn-menu-item.tgico-bug
+telegram.org##.btn-menu-item.tgico-help
+telegram.org##.btn-menu-item.tgico-settings
+telegram.org##.btn-menu-item.tgico-savedmessages
+telegram.org##.btn-menu-item.tgico-darkmode
+telegram.org##.btn-menu-item.tgico-animations
+telegram.org##.chat-info .bottom
+
 
 t.me##.tgme_background_wrap
 t.me##.tgme_widget_message_user
