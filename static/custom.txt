@@ -984,7 +984,6 @@ telegram.org##.input-search:upward(.sidebar-header).remove()
 telegram.org##.connection-status:remove()
 telegram.org##.bubble use[href="#message-tail-filled"]
 telegram.org##.chat use[href="#message-tail-filled"]
-telegram.org##avatar-element
 telegram.org##.bubble .name
 telegram.org##reactions-element
 telegram.org##.verified-icon
@@ -993,13 +992,16 @@ telegram.org##.chatlist-chat:contains(/Telegram|Meduza|Истра/)
 telegram.org##.bubble-hover-reaction
 telegram.org###new-menu
 telegram.org##.premium-icon
-telegram.org##.input-search
 telegram.org##.chatlist-parts[data-filter-id="0"] .chatlist
 telegram.org##.chatlist-parts[data-filter-id="193"] .chatlist
 telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
 telegram.org##div[data-filter-id="193"]
 telegram.org##.media-sticker-wrapper:upward(.bubble)
 telegram.org##button.emoji-tabs-stickers
+telegram.org##.search-group__name:contains(/Global/)
+telegram.org##.search-group-recent
+telegram.org##.search-super-tabs-scrollable
+telegram.org##.search-group-contacts
 
 t.me##.tgme_background_wrap
 t.me##.tgme_widget_message_user
