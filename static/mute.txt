@@ -1,6 +1,7 @@
 ##[aria-label*="Comment"]
 ##[aria-label*="Leave a comment"]
 
+##[class*="avatar"]
 ##[alt*="avatar"]
 ##[alt*="Avatar"]
 ##ytm-profile-icon
