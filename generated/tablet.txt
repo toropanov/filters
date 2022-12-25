@@ -1,2 +1,1 @@
 api.music.yandex.net,c.media-amazon.com,m.media-amazon.com,associates-amazon.com,kca.amazon.com,msh.amazon.com,kars-ats.amazon.com,kindle.amazon.com##*
-##img
