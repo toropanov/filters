@@ -23,3 +23,4 @@ slack.com#%#if(location.pathname=='/' || location.pathname=='/intl/en-ie/'){loca
 practicum.yandex.ru#%#if(location.pathname=='/'){location.pathname='/profile/middle-frontend/'}
 codepen.io#%#if(location.pathname=='/'){location.href='https://jsbin.com/?js,console'}
 spotify.com#%#if(location.host == 'www.spotify.com'){ location.pathname = '/'; location.href='https://open.spotify.com';}
+practicum.yandex.ru#%#if(location.pathname=='/'){location.pathname='/profile'}
