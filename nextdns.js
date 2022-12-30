@@ -54,8 +54,23 @@ const replaceDenylist  = ({ id, key, body }) => new Promise((resolve, reject) =>
   });
 });
 
+const replaceAllowlist  = ({ id, key, body }) => new Promise((resolve, reject) => {
+  apiRequest({
+    url: `https://api.nextdns.io/profiles/${id}/allowlist`,
+    method: 'PUT',
+    body,
+    headers: {
+      'X-Api-Key': key
+    }
+  }).then((response) => {
+    resolve(response);
+  }, (error) => {
+    reject(error);
+  });
+});
+
 accounts.forEach(({ id, key, device }) => {
-  fetchDenylist().then(({ domains: commonDomains, domains_only_mobile, domains_only_tablet, unblockable_domains }) => {
+  fetchDenylist().then(({ domains: commonDomains, domains_only_mobile, domains_only_tablet, unblockable_domains, allowlist }) => {
     const domains = [...new Set([
       ...commonDomains,
       ...unblockable_domains,
@@ -66,14 +81,25 @@ accounts.forEach(({ id, key, device }) => {
       )
     ])];
 
-    const body = domains.map(id => ({ active: true, id }));
+    const deniedDomains = domains.map(id => ({ active: true, id }));
+    const allowedDomains = allowlist.map(id => ({ active: true, id }));
 
     replaceDenylist({
       id,
       key,
-      body,
+      body: deniedDomains,
     }).then(() => {
       console.log(`${device} | Added ${body.length} domains`)
+    }, (error) => {
+      console.log(`${device} | ${error}`);
+    });
+
+    replaceAllowlist({
+      id,
+      key,
+      body: allowedDomains,
+    }).then(() => {
+      console.log(`${device} | Allowed ${body.length} domains`)
     }, (error) => {
       console.log(`${device} | ${error}`);
     });
