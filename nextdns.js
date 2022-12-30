@@ -89,7 +89,7 @@ accounts.forEach(({ id, key, device }) => {
       key,
       body: deniedDomains,
     }).then(() => {
-      console.log(`${device} | Added ${body.length} domains`)
+      console.log(`${device} | Added ${deniedDomains.length} domains`)
     }, (error) => {
       console.log(`${device} | ${error}`);
     });
@@ -99,7 +99,7 @@ accounts.forEach(({ id, key, device }) => {
       key,
       body: allowedDomains,
     }).then(() => {
-      console.log(`${device} | Allowed ${body.length} domains`)
+      console.log(`${device} | Allowed ${allowedDomains.length} domains`)
     }, (error) => {
       console.log(`${device} | ${error}`);
     });
