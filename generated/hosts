@@ -1,5 +1,14 @@
 0.0.0.0         apps.itunes-nocookie.com www.apps.itunes-nocookie.com
 0.0.0.0         mzstatic.com www.mzstatic.com
+0.0.0.0         is1-ssl.mzstatic.com www.is1-ssl.mzstatic.com
+0.0.0.0         is2-ssl.mzstatic.com www.is2-ssl.mzstatic.com
+0.0.0.0         is3-ssl.mzstatic.com www.is3-ssl.mzstatic.com
+0.0.0.0         is4-ssl.mzstatic.com www.is4-ssl.mzstatic.com
+0.0.0.0         is5-ssl.mzstatic.com www.is5-ssl.mzstatic.com
+0.0.0.0         is6-ssl.mzstatic.com www.is6-ssl.mzstatic.com
+0.0.0.0         is7-ssl.mzstatic.com www.is7-ssl.mzstatic.com
+0.0.0.0         is8-ssl.mzstatic.com www.is8-ssl.mzstatic.com
+0.0.0.0         is9-ssl.mzstatic.com www.is9-ssl.mzstatic.com
 0.0.0.0         silverbullet-external-ats.itunes.apple.com www.silverbullet-external-ats.itunes.apple.com
 0.0.0.0         kod.ru www.kod.ru
 0.0.0.0         9gag.com www.9gag.com
