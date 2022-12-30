@@ -82,7 +82,7 @@ accounts.forEach(({ id, key, device }) => {
     ])];
 
     const deniedDomains = domains.map(id => ({ active: true, id }));
-    const allowedDomains = allowlist.filter(id => id.includes('*')).map(id => ({ active: true, id }));
+    const allowedDomains = allowlist.filter(id => !id.includes('*')).map(id => ({ active: true, id }));
 
     replaceDenylist({
       id,
