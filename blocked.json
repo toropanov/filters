@@ -1,17 +1,5 @@
 {
   "domains": [
-    "apps.itunes-nocookie.com",
-    "mzstatic.com",
-    "is1-ssl.mzstatic.com",
-    "is2-ssl.mzstatic.com",
-    "is3-ssl.mzstatic.com",
-    "is4-ssl.mzstatic.com",
-    "is5-ssl.mzstatic.com",
-    "is6-ssl.mzstatic.com",
-    "is7-ssl.mzstatic.com",
-    "is8-ssl.mzstatic.com",
-    "is9-ssl.mzstatic.com",
-    "silverbullet-external-ats.itunes.apple.com",
     "kod.ru",
     "9gag.com",
     "my.mail.ru",
@@ -631,7 +619,10 @@
     "gbstore.ru",
     "store77.net",
     "aliexpress.ru",
-    "ozon.ru"
+    "ozon.ru",
+    "apps.itunes-nocookie.com",
+    "mzstatic.com",
+    "silverbullet-external-ats.itunes.apple.com"
   ],
   "domains_only_tablet": [
     "api.music.yandex.net",
@@ -641,7 +632,10 @@
     "kca.amazon.com",
     "msh.amazon.com",
     "kars-ats.amazon.com",
-    "kindle.amazon.com"
+    "kindle.amazon.com",
+    "apps.itunes-nocookie.com",
+    "mzstatic.com",
+    "silverbullet-external-ats.itunes.apple.com"
   ],
   "keywords": [
     "Тукитук",
