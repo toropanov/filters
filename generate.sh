@@ -21,9 +21,7 @@ output_allow_file=generated/allowlist.txt
 output_hosts_file=generated/hosts
 
 update_chrome_policy() {
-  defaults write com.google.chrome IncognitoModeAvailability -integer 1
   defaults write com.google.chrome SafeSitesFilterBehavior -integer 1
-  defaults write com.google.chrome ForceGoogleSafeSearch -bool true
 }
 
 join_arr() {
@@ -264,6 +262,6 @@ git add .
 git commit -m 'Update filters'
 git push
 
-# update_chrome_policy
+update_chrome_policy
 
 if $NEXTDNS_ENABLE ; then update_nextdns; fi
