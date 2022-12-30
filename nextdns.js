@@ -84,15 +84,15 @@ accounts.forEach(({ id, key, device }) => {
     const deniedDomains = domains.map(id => ({ active: true, id }));
     const allowedDomains = allowlist.map(id => ({ active: true, id }));
 
-    replaceDenylist({
-      id,
-      key,
-      body: deniedDomains,
-    }).then(() => {
-      console.log(`${device} | Added ${deniedDomains.length} domains`)
-    }, (error) => {
-      console.log(`${device} | ${error}`);
-    });
+    // replaceDenylist({
+    //   id,
+    //   key,
+    //   body: deniedDomains,
+    // }).then(() => {
+    //   console.log(`${device} | Added ${deniedDomains.length} domains`)
+    // }, (error) => {
+    //   console.log(`${device} | ${error}`);
+    // });
 
     replaceAllowlist({
       id,
