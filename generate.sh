@@ -264,6 +264,6 @@ git add .
 git commit -m 'Update filters'
 git push
 
-update_chrome_policy
+# update_chrome_policy
 
 if $NEXTDNS_ENABLE ; then update_nextdns; fi
