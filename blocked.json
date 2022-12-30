@@ -1279,7 +1279,12 @@
     "passport.yandex.ru",
     "volleyplay.ru",
     "forum.obsidian.md",
-    "localhost"
+    "localhost",
+    "apps.mzstatic.com",
+    "*.socket.avito.ru",
+    "amp-api-search-edge.apps.apple.com",
+    "amp-api-edge.apps.apple.com",
+    "login5.spotify.com"
   ],
   "hide_images": [
     "kino.pub",
