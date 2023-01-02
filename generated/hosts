@@ -132,6 +132,7 @@
 0.0.0.0         nz.news.yahoo.com www.nz.news.yahoo.com
 0.0.0.0         sk.news-front.info www.sk.news-front.info
 0.0.0.0         steam.com www.steam.com
+0.0.0.0         maggnum2018.wordpress.com www.maggnum2018.wordpress.com
 0.0.0.0         nydailynews.com www.nydailynews.com
 0.0.0.0         flirt.jofo.me www.flirt.jofo.me
 0.0.0.0         anna-news.info www.anna-news.info
@@ -139,9 +140,11 @@
 0.0.0.0         foxnews.com www.foxnews.com
 0.0.0.0         irishtimes.com www.irishtimes.com
 0.0.0.0         1news.co.nz www.1news.co.nz
+0.0.0.0         telegra.ph www.telegra.ph
 0.0.0.0         news.ykt.ru www.news.ykt.ru
 0.0.0.0         news-front.info www.news-front.info
 0.0.0.0         donetsk.kp.ru www.donetsk.kp.ru
+0.0.0.0         veryhappy.ru www.veryhappy.ru
 0.0.0.0         gorod-lugansk.com www.gorod-lugansk.com
 0.0.0.0         doneck-news.com www.doneck-news.com
 0.0.0.0         appgallery.huawei.com www.appgallery.huawei.com
@@ -510,8 +513,11 @@
 0.0.0.0         incrussia.ru www.incrussia.ru
 0.0.0.0         tinder.com www.tinder.com
 0.0.0.0         demotivation.ru www.demotivation.ru
+0.0.0.0         sovsport.ru www.sovsport.ru
 0.0.0.0         fotostrana.ru www.fotostrana.ru
+0.0.0.0         milashki.su www.milashki.su
 0.0.0.0         livejournal.com www.livejournal.com
+0.0.0.0         milanac.ru www.milanac.ru
 0.0.0.0         demotos.ru www.demotos.ru
 0.0.0.0         pixmafia.ru www.pixmafia.ru
 0.0.0.0         medialike.ru www.medialike.ru

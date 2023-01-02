@@ -2,6 +2,8 @@ import fs from 'fs';
 import cheerio from 'cheerio';
 import phantom from "phantom";
 
+import { exec } from 'child_process';
+
 const hosts = fs.readFileSync('/etc/hosts');
 // const query = 'красивая девушка';
 // const parseURL = encodeURIComponent(`https://safe.duckduckgo.com/?q=${query}&kae=-1&kp=1&iax=images&ia=images`);
@@ -35,15 +37,22 @@ async function scrollPage(instance, page) {
 function parseContent(content) {
   const $ = cheerio.load(content);
   const links = $('span.tile--img__domain');
-  console.log(links.count)
+  const notBlockedLinks = [];
+  const handledDomains = [];
 
-  $(links).each(async function(i, linkEl){
-    const pageURL = await $(linkEl).attr('title');
-    const siteURL = await $(linkEl).text();
+  $(links).each(function(i, linkEl){
+    const pageURL = $(linkEl).attr('title');
+    const siteURL = $(linkEl).text();
 
-    const isBlocked = hosts.includes(siteURL);
-    console.log(`${pageURL} is blocked - ${isBlocked}`);
+    if (!hosts.includes(siteURL) && !handledDomains.includes(siteURL)) {
+      console.log('PUSH', pageURL);
+      notBlockedLinks.push(pageURL);
+      const command = `open -a "Google Chrome" ${pageURL}`;
+      
+      exec(command);
+      
+      handledDomains.push(siteURL);
+    }
   });
+  console.log('NOT BLOCKED', notBlockedLinks);
 }
-// var uSet = new Set(array);
-// console.log([...uSet]); // Back to array

@@ -3,6 +3,7 @@
   "dependencies": {
     "axios": "^1.2.2",
     "cheerio": "^1.0.0-rc.12",
+    "child_process": "^1.0.2",
     "duckduckgo-images-api": "^1.0.5",
     "fs": "^0.0.1-security",
     "got": "^12.5.3",
@@ -10,6 +11,7 @@
     "jsdom": "^20.0.3",
     "node-fetch": "^3.3.0",
     "node-phantom": "^0.2.5",
+    "os": "^0.1.2",
     "phantom": "^6.3.0",
     "ping": "^0.4.2",
     "request": "^2.88.2",
