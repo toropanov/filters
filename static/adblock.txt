@@ -1,0 +1,3 @@
+safe.duckduckgo.com##img
+safe.duckduckgo.com/i.js
+safe.duckduckgo.com/v.js

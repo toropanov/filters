@@ -1,3 +1,6 @@
+safe.duckduckgo.com##img
+safe.duckduckgo.com/i.js
+safe.duckduckgo.com/v.js
 kino.pub##img
 duckduckgo.com##img
 habr.ru##img
