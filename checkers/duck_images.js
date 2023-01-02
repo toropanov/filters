@@ -5,14 +5,14 @@ import phantom from "phantom";
 import { exec } from 'child_process';
 
 const hosts = fs.readFileSync('/etc/hosts');
-// const query = 'красивая девушка';
-// const parseURL = encodeURIComponent(`https://safe.duckduckgo.com/?q=${query}&kae=-1&kp=1&iax=images&ia=images`);
+const query = encodeURIComponent('');
+const parseURL = `https://safe.duckduckgo.com/?q=${query}&kae=-1&kp=1&iax=images&ia=images`;
 
 (async function() {
     const instance = await phantom.create();
     const page = await instance.createPage();
 
-    const status = await page.open('https://safe.duckduckgo.com/?q=%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B0+%D0%B4%D0%BD%D1%8F&kae=-1&kp=1&iax=images&ia=images&pn=8');
+    const status = await page.open(parseURL);
 
     if (status == "success") {
       console.log('Page is loaded');
