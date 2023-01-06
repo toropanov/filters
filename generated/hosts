@@ -62,6 +62,9 @@
 0.0.0.0         smi2.ru www.smi2.ru
 0.0.0.0         apnews.com www.apnews.com
 0.0.0.0         vgtimes.ru www.vgtimes.ru
+0.0.0.0         vkuser.net www.vkuser.net
+0.0.0.0         vkuserphoto.ru www.vkuserphoto.ru
+0.0.0.0         mycdn.me www.mycdn.me
 0.0.0.0         ground.news www.ground.news
 0.0.0.0         nationworldnews.com www.nationworldnews.com
 0.0.0.0         cgtn.com www.cgtn.com
@@ -582,11 +585,12 @@
 0.0.0.0         appleinsider.com www.appleinsider.com
 0.0.0.0         brands-prod.cdn-tinkoff.ru www.brands-prod.cdn-tinkoff.ru
 0.0.0.0         politico.com www.politico.com
+0.0.0.0         lencr.org www.lencr.org
+0.0.0.0         content.24ttl.stream www.content.24ttl.stream
 0.0.0.0         engadget.com www.engadget.com
 0.0.0.0         ap-gew1.spotify.com www.ap-gew1.spotify.com
 0.0.0.0         scdnco.spotify.map.fastly.net www.scdnco.spotify.map.fastly.net
 0.0.0.0         dzen.ru www.dzen.ru
-0.0.0.0         tmsg.tinkoff.ru www.tmsg.tinkoff.ru
 0.0.0.0         aliexpress.com www.aliexpress.com
 0.0.0.0         theverge.com www.theverge.com
 0.0.0.0         lifestyle.tinkoff.ru www.lifestyle.tinkoff.ru

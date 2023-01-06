@@ -64,6 +64,9 @@
     "smi2.ru",
     "apnews.com",
     "vgtimes.ru",
+    "vkuser.net",
+    "vkuserphoto.ru",
+    "mycdn.me",
     "ground.news",
     "nationworldnews.com",
     "cgtn.com",
@@ -584,16 +587,20 @@
     "appleinsider.com",
     "brands-prod.cdn-tinkoff.ru",
     "politico.com",
+    "lencr.org",
+    "content.24ttl.stream",
     "engadget.com",
     "ap-gew1.spotify.com",
     "scdnco.spotify.map.fastly.net",
     "dzen.ru",
-    "tmsg.tinkoff.ru",
     "aliexpress.com",
     "theverge.com",
     "lifestyle.tinkoff.ru",
     "ok.ru",
     "t.me"
+  ],
+  "experimental": [
+
   ],
   "domains_only_desktop": [
     "appldnld.apple.com",
