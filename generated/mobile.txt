@@ -1,3 +1,3 @@
-api.music.yandex.net,c.media-amazon.com,m.media-amazon.com,associates-amazon.com,kca.amazon.com,msh.amazon.com,kars-ats.amazon.com,kindle.amazon.com,avito.cdnvideo.ru,market.yandex.ru,img.avito.st,price.ru,ya.ru,gbstore.ru,store77.net,aliexpress.ru,cdn1.ozone.ru,cdn1.ozonusercontent.com,apps.itunes-nocookie.com,mzstatic.com,silverbullet-external-ats.itunes.apple.com##*
+api.music.yandex.net,c.media-amazon.com,m.media-amazon.com,associates-amazon.com,kca.amazon.com,msh.amazon.com,kars-ats.amazon.com,kindle.amazon.com,avito.cdnvideo.ru,market.yandex.ru,img.avito.st,price.ru,ya.ru,nextdns.io,gbstore.ru,store77.net,aliexpress.ru,cdn1.ozone.ru,cdn1.ozonusercontent.com,apps.itunes-nocookie.com,mzstatic.com,silverbullet-external-ats.itunes.apple.com##*
 avito.ru##*
 youtube.com##[tab-identifier="FEsubscriptions"]
