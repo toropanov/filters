@@ -1338,7 +1338,6 @@
     "bitbucket.org"
   ],
   "only_hosts": [
-    "apple.com",
     "yandex.ru",
     "m.yandex.ru"
   ]
