@@ -12,6 +12,7 @@
 @@||apps.mzstatic.com^$document
 @@||socket.avito.ru^$document
 @@||pochta.ru^$document
+@@||oauth.vk.com^$document
 @@||amp-api-search-edge.apps.apple.com^$document
 @@||amp-api-edge.apps.apple.com^$document
 @@||login5.spotify.com^$document
