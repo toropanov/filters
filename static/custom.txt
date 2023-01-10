@@ -998,7 +998,6 @@ telegram.org###folders-tabs > .menu-horizontal-div-item:nth-child(1)
 telegram.org##div[data-filter-id="193"]
 telegram.org##.media-sticker-wrapper:upward(.bubble)
 telegram.org##.bubble.service
-telegram.org##.bubble.avoid-selection
 telegram.org##.pinned-container
 telegram.org##button.emoji-tabs-stickers
 telegram.org##.search-group__name:contains(/Global/)
