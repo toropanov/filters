@@ -984,7 +984,6 @@ telegram.org##.input-search:upward(.sidebar-header).remove()
 telegram.org##.connection-status:remove()
 telegram.org##.bubble use[href="#message-tail-filled"]
 telegram.org##.chat use[href="#message-tail-filled"]
-telegram.org##.bubble .name
 telegram.org##reactions-element
 telegram.org##.verified-icon
 telegram.org##.chat-info .bottom:has-text(/subscribers/)
