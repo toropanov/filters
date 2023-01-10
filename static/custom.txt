@@ -987,7 +987,7 @@ telegram.org##.chat use[href="#message-tail-filled"]
 telegram.org##reactions-element
 telegram.org##.verified-icon
 telegram.org##.chat-info .bottom:has-text(/subscribers/)
-telegram.org##.chatlist-chat:contains(/Telegram|Meduza|Истра/)
+telegram.org##.chatlist-chat:contains(/Telegram|Meduza/)
 telegram.org##.bubble-hover-reaction
 telegram.org###new-menu
 telegram.org##.premium-icon
