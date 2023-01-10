@@ -1005,10 +1005,11 @@ telegram.org##.search-group-contacts
 telegram.org##a.btn-menu-footer
 telegram.org##.btn-menu-item.tgico-bug
 telegram.org##.btn-menu-item.tgico-help
-telegram.org##.btn-menu-item.tgico-settings
 telegram.org##.btn-menu-item.tgico-savedmessages
 telegram.org##.btn-menu-item.tgico-darkmode
 telegram.org##.btn-menu-item.tgico-animations
+telegram.org##.btn-menu-item.tgico-char.w
+telegram.org##.btn-menu-item.tgico-char.z
 telegram.org##.chat-info .bottom
 
 
